@@ -1,0 +1,7 @@
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\obj\Debug\dice-features.csproj.AssemblyReference.cache
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\obj\Debug\dice-features.csproj.CoreCompileInputs.cache
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
