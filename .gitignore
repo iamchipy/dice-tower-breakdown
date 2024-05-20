@@ -50,5 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-/ConsoleApp1/.vs/dice-tower/FileContentIndex/5cf5bd3f-3616-4d7d-946a-1b7b92aeb258.vsidx
-.vs/
+/ConsoleApp1/.vs/
+/.vs/
+
