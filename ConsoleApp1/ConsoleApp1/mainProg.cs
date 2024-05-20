@@ -97,7 +97,7 @@ namespace ConsoleApp1
                 diceIndividualRolls.AddRange(b);
 
                 // display progress for reporting
-                Console.WriteLine("DiceString: " + individualDiceRolls[i] + " >> " + diceRollResult);
+                Console.WriteLine($"DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
             }
 
             // drop the List<T> into an array as we are done with dynamics here
