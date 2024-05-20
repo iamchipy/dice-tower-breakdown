@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -10,10 +11,14 @@ namespace ConsoleApp1
     
     internal class mainProg
     {
+        // logging with Stack for speed instead of heap
+        struct DiceRollLog
+        {
+            public string inputString;
+            public int[] resultParts;
+            public int result;
+        }
 
-        
-
-  
         // Roll a single dice
         // Accepts int for number of dice sides
         // Returns int result
@@ -34,7 +39,7 @@ namespace ConsoleApp1
         // Roll for dice format
         // Accepts input string in dice format #d##
         // Returns int value of roll 
-        static public int diceRollString(string diceFormatString = "2d20")
+        static public (int, int[]) diceRollString(string diceFormatString = "2d20")
         {
             int runningTotal = 0;
 
@@ -52,6 +57,9 @@ namespace ConsoleApp1
                 throw new Exception("InvalidNumberOfDice");
             }
 
+            // Create array to log each roll now that we know the number of rolls/dice
+            int[] rolls = new int[numberOfDice];
+            
             // now we call roll for each dice that needs rolled
             for (int i = 0; i < numberOfDice; i++)
             {
@@ -59,18 +67,23 @@ namespace ConsoleApp1
                 int roll = diceRollD(numberOfSides);
                 Console.WriteLine("Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
                 runningTotal += roll;
+                rolls[i] = roll;
             }
 
-            return runningTotal;
+            return (runningTotal, rolls);
         }
 
         // Decodes user input
         // Accepts string formatted like 2d20+d6+3 (Foundry Virtual Table Top format)
-        // Returns total result for requested role
-        static public int decodeDiceString(string userInputString = "d20", bool showYourWork=false)
+        // Returns a touple with the data
+        //  Int - total result for requested role
+        //  Int[] - array to represent the individual rolls that were created
+        //  String - copy of the initial input value for later cross checking
+        static public (int, int[], string) decodeDiceString(string userInputString = "d20", bool showYourWork=false)
         {
+            // Using a List<T> here to test it's performance as well as keeping the code simple
+            List<int> diceIndividualRolls = new List<int>();
             int diceRollResult = 0;
-            //int parsedInt;
 
             // deconstruct the string to determine how many dice to throw
             var individualDiceRolls = userInputString.ToLower().Split('+');
@@ -78,12 +91,20 @@ namespace ConsoleApp1
             // Loop for each entry in the input string
             for (int i = 0;i< individualDiceRolls.Length; i++)
             {
-                Console.WriteLine("DiceString: " + individualDiceRolls[i]);
-                Console.WriteLine(diceRollString(individualDiceRolls[i]));
+                // add the results and log
+                var (a,b) = diceRollString(individualDiceRolls[i]);
+                diceRollResult += a;
+                diceIndividualRolls.AddRange(b);
+
+                // display progress for reporting
+                Console.WriteLine("DiceString: " + individualDiceRolls[i] + " >> " + diceRollResult);
             }
 
+            // drop the List<T> into an array as we are done with dynamics here
+            int[] diceIndividualRollsCast = diceIndividualRolls.ToArray();
+
             // Be default we just return the value of the requested string
-            return diceRollResult;
+            return (diceRollResult, diceIndividualRollsCast, userInputString);
         }
 
         static void Main(string[] args)
@@ -95,10 +116,17 @@ namespace ConsoleApp1
                 string usersRollRequest = Console.ReadLine();
 
                 // Make the requested rolls
-                int finalRoll = decodeDiceString(usersRollRequest);
+                var (a,b,c) = decodeDiceString(usersRollRequest);
+
+                // Build logging entry instance
+                DiceRollLog diceLog = new DiceRollLog();
+                diceLog.result = a;
+                diceLog.resultParts = b;
+                diceLog.inputString = c;
+                //debug Console.WriteLine(string.Join(",",b) + b.Length);
 
                 // Report to the user
-                Console.WriteLine("You rolled a " + finalRoll + "[" + "PARTS" + "]");
+                Console.WriteLine("You rolled a " + diceLog.result + " [" + diceLog.inputString + " >> " + string.Join(",", diceLog.resultParts) + "]");
 
             } while(true);
         }
