@@ -18,6 +18,8 @@ for testing C# structure storage speeds and Random's seed options
 - [x] Create roll logging feature
 
 ### Sprint 4
+- [ ] Primary input validation
+- - [ ] Handle flat modifiers to the value
 - [ ] Create timing benchmark system
 - [ ] Compare collections types
 
@@ -30,3 +32,4 @@ for testing C# structure storage speeds and Random's seed options
 
 ### Sprint 7
 - [ ] Add custom errors for dice exceptions
+- [ ] Add edge case validations for RegEx
