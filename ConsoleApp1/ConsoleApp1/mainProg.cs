@@ -13,12 +13,42 @@ namespace ConsoleApp1
     
     internal class mainProg
     {
+
         // logging with Stack for speed instead of heap
         struct DiceRollLog
         {
             public string inputString;
             public int[] resultParts;
             public int result;
+        }
+
+        // Manage the reporting and ConsoleWriting
+        // Accepts 
+        //  String - value to log
+        //  String - fully qualified path or simply file name 
+        //  Int - level to be currently logging
+        //  Int - level to be currently reporting
+        static public void report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 1)
+        {
+            // base variables
+            int instanceLevel = 10;
+            DateTime timeStamp = DateTime.Now;
+            string ts = DateTime.Now.ToString("HHmmss:fff");
+            string[] reportStrings = reportString.Split(new char[] { ':' },2).ToArray();
+
+            // try parse current instance level
+            if (int.TryParse(reportStrings[0], out instanceLevel))
+            {
+                // here we know we were given a level for this instance so we compare and report if threshold met
+                if(instanceLevel >= reportThreshold)
+                {
+                    Console.WriteLine($"{ts}: {reportStrings[1]}");
+                }
+            }
+            else
+            {   // since we don't know what to do with this we'll report it in console only to be sure it's not ignored
+                Console.WriteLine($"{ts}:NoThreshold!! {reportStrings[1]}");
+            }
         }
 
         // Roll a single dice
@@ -76,7 +106,7 @@ namespace ConsoleApp1
             {
                 // TODO build in logging Sprint 3
                 int roll = diceRollD(numberOfSides);
-                Console.WriteLine("Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
+                report("4:Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
                 runningTotal += roll;
                 rolls[i] = roll;
             }
@@ -108,7 +138,7 @@ namespace ConsoleApp1
                 diceIndividualRolls.AddRange(b);
 
                 // display progress for reporting
-                Console.WriteLine($"DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
+                report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
             }
 
             // drop the List<T> into an array as we are done with dynamics here
@@ -138,7 +168,7 @@ namespace ConsoleApp1
                 // if invalid we skip to the next loop
                 if (!isValid)
                 {
-                    Console.WriteLine($"Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
+                    report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
                     continue;
                 }
 
@@ -153,9 +183,9 @@ namespace ConsoleApp1
                 //debug Console.WriteLine(string.Join(",",b) + b.Length);
 
                 // Report to the user
-                Console.WriteLine("You rolled a {0} [{1} >> {2}]", diceLog.result, diceLog.inputString, string.Join(",", diceLog.resultParts));
+                report($"9:You rolled a {diceLog.result} [{diceLog.inputString} >> {string.Join(",", diceLog.resultParts)}]");
                 runTimer.Stop();
-                Console.WriteLine("runTimer: >> {0:0,000}ms", runTimer.ElapsedMilliseconds);
+                report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
 
             } while(true);
         }
