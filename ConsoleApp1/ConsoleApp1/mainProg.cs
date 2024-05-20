@@ -126,7 +126,7 @@ namespace ConsoleApp1
                 //debug Console.WriteLine(string.Join(",",b) + b.Length);
 
                 // Report to the user
-                Console.WriteLine("You rolled a " + diceLog.result + " [" + diceLog.inputString + " >> " + string.Join(",", diceLog.resultParts) + "]");
+                Console.WriteLine("You rolled a {0} [{1} >> {2}]", diceLog.result, diceLog.inputString, string.Join(",", diceLog.resultParts));
 
             } while(true);
         }
