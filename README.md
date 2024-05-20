@@ -10,14 +10,12 @@ for testing C# structure storage speeds and Random's seed options
 - [x] Build solution folder structure 
 
 ### Sprint 2
-- [ ] Create initial Roll function
-- - [ ] Build into an interface 
-- - [ ] Create class to house it
-- - [ ] Create output interface to latter use for logging
+- [x] Create initial Roll function
+- - [x] Create output for logging
 
 ### Sprint 3
-- [ ] Create storage collections
-- [ ] Create roll logging feature
+- [x] Create storage collections
+- [x] Create roll logging feature
 
 ### Sprint 4
 - [ ] Create timing benchmark system
@@ -27,7 +25,8 @@ for testing C# structure storage speeds and Random's seed options
 - [ ] SQL bridge interface
 
 ### Sprint 6
-- [ ] 
+- [ ] Build into an interface
+- [ ] Create class to house it
 
 ### Sprint 7
 - [ ] Add custom errors for dice exceptions
