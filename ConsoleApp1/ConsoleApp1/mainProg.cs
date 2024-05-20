@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -41,17 +42,26 @@ namespace ConsoleApp1
         // Returns int value of roll 
         static public (int, int[]) diceRollString(string diceFormatString = "2d20")
         {
-            int runningTotal = 0;
+            int runningTotal = 0, numberOfSides, numberOfDice;
 
             // Check for "d" in string as we expect dice-format
-            int indexOfDelimiter = diceFormatString.ToLower().IndexOf('d');  // TODO duplicate check of "d" in string remove to lower BigO
-            // Deconstruct for validation
-            int numberOfSides = Convert.ToInt32(diceFormatString.Substring(indexOfDelimiter + 1));
-            // Check if we even have an index for D and if not assume 1
-            int numberOfDice = indexOfDelimiter == 0 ? 1: Convert.ToInt32(diceFormatString.Substring(0, indexOfDelimiter));
+            int indexOfDelimiter = diceFormatString.ToLower().IndexOf('d'); 
+            // Handle case of missing 'd' element in string
+            if (indexOfDelimiter < 0) 
+            {
+                numberOfSides = Convert.ToInt32(diceFormatString);
+                return (numberOfSides, new int[] { numberOfSides});
+            }
+            else
+            { // if it's not missing continue as before
+                // Deconstruct for validation
+                numberOfSides = Convert.ToInt32(diceFormatString.Substring(indexOfDelimiter + 1));
+                // Check if we even have an index for 'd' and if not assume 1
+                numberOfDice = indexOfDelimiter == 0 ? 1 : Convert.ToInt32(diceFormatString.Substring(0, indexOfDelimiter));
+            }
 
             // validate input
-            if (numberOfDice < 1 )
+            if (numberOfDice < 1)
             {
                 // TODO build exception possibly Sprint 7
                 throw new Exception("InvalidNumberOfDice");
@@ -114,6 +124,17 @@ namespace ConsoleApp1
                 // Get user's input string
                 Console.Write("Dice Roll Input String: ");
                 string usersRollRequest = Console.ReadLine();
+
+                // Validate inpute from user
+                string pattern = @"^[\d|d|\+]{1,}$";  // TODO add catch for edge cases single letter entry "d" || numbers with "d" Sprint 7
+                bool isValid = Regex.IsMatch(usersRollRequest, pattern);
+
+                // if invalid we skip to the next loop
+                if (!isValid)
+                {
+                    Console.WriteLine($"Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
+                    continue;
+                }
 
                 // Make the requested rolls
                 var (a,b,c) = decodeDiceString(usersRollRequest);
