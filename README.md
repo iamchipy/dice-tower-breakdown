@@ -18,13 +18,14 @@ for testing C# structure storage speeds and Random's seed options
 - [x] Create roll logging feature
 
 ### Sprint 4
-- [ ] Primary input validation
-- - [ ] Handle flat modifiers to the value
-- [ ] Create timing benchmark system
-- [ ] Compare collections types
+- [x] Primary input validation
+- - [x] Handle flat modifiers to the value
+- [x] Create timing benchmark system
 
 ### Sprint 5
 - [ ] SQL bridge interface
+- [ ] Add verbosity levels to increase speed
+- [ ] Compare collections types
 
 ### Sprint 6
 - [ ] Build into an interface

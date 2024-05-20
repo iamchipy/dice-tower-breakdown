@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Diagnostics;  //stopwatch
 
 namespace ConsoleApp1
 {
@@ -121,9 +122,14 @@ namespace ConsoleApp1
         {
             do
             {
+
                 // Get user's input string
                 Console.Write("Dice Roll Input String: ");
                 string usersRollRequest = Console.ReadLine();
+
+                // Declare timer and start 
+                Stopwatch runTimer = new Stopwatch();
+                runTimer.Start();
 
                 // Validate inpute from user
                 string pattern = @"^[\d|d|\+]{1,}$";  // TODO add catch for edge cases single letter entry "d" || numbers with "d" Sprint 7
@@ -148,6 +154,8 @@ namespace ConsoleApp1
 
                 // Report to the user
                 Console.WriteLine("You rolled a {0} [{1} >> {2}]", diceLog.result, diceLog.inputString, string.Join(",", diceLog.resultParts));
+                runTimer.Stop();
+                Console.WriteLine("runTimer: >> {0:0,000}ms", runTimer.ElapsedMilliseconds);
 
             } while(true);
         }
