@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;  //use to validate dice format
 using System.Threading;
 using System.Threading.Tasks;
 using System.Diagnostics;  //stopwatch
@@ -151,8 +151,7 @@ namespace ConsoleApp1
         }
         
         // wrapper to read console input and try int32 convert
-        // accepts string
-        // returns -1 if fails or int value
+          // returns -1 if fails or int value
         static public int ReadIntInput()
         {
             string inputString = Console.ReadLine();
@@ -164,6 +163,8 @@ namespace ConsoleApp1
             return -1;
         }
 
+        // Prmpts user for a dice format string
+        // returns String validated to be diceFormat or "invalid"
         static string GetDiceInput()
         {
             // Get user's input string
@@ -190,7 +191,10 @@ namespace ConsoleApp1
             return usersRollRequest;
         }
 
-        static bool GetReadEvaluateLoopInput(out int userChoice)
+        // Prompts user to select from a list of modes/functions for REPL loop
+        // Accepts Int var to store user's choice
+        // Returns Bool on success/valid option
+        static bool REPLPrompt(out int userChoice)
         {
             // set default per requirement of using "out" type
             userChoice = -1;
@@ -221,7 +225,7 @@ namespace ConsoleApp1
             do
             {
                 // Get user input
-                if(!GetReadEvaluateLoopInput(out currentAction))
+                if(!REPLPrompt(out currentAction))
                 {
                     Log.Report("9: Invalid choice! (please try again)");
                     continue;
