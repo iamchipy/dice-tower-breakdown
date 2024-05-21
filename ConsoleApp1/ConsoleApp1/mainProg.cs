@@ -151,7 +151,7 @@ namespace ConsoleApp1
         }
         
         // wrapper to read console input and try int32 convert
-          // returns -1 if fails or int value
+        // returns -1 if fails or int value
         static public int ReadIntInput()
         {
             string inputString = Console.ReadLine();
@@ -168,7 +168,7 @@ namespace ConsoleApp1
         static string GetDiceInput()
         {
             // Get user's input string
-            Console.Write("Dice Roll Input String: ");
+            Console.Write("Dice Roll Input String (blank to exit): ");
             string usersRollRequest = Console.ReadLine().ToLower();
 
             // Check escape/cancel route
@@ -264,7 +264,7 @@ namespace ConsoleApp1
                             Log.Report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
                             Log.Report($"9:LogLength {diceRollLog.Count}");
                             
-                        } while (string.IsNullOrEmpty(diceRequestString));
+                        } while (true);
                         // reset
                         currentAction = -1;
                         break;
