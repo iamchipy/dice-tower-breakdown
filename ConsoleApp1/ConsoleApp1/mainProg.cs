@@ -15,7 +15,7 @@ namespace ConsoleApp1
     {
 
         // logging with Stack for speed instead of heap
-        struct DiceRollLog
+        struct DiceRollEntry
         {
             public string inputString;
             public int[] resultParts;
@@ -28,7 +28,7 @@ namespace ConsoleApp1
         //  String - fully qualified path or simply file name 
         //  Int - level to be currently logging
         //  Int - level to be currently reporting
-        static public void report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 1)
+        static public void report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 5)
         {
             // base variables
             int instanceLevel = 10;
@@ -148,46 +148,57 @@ namespace ConsoleApp1
             return (diceRollResult, diceIndividualRollsCast, userInputString);
         }
 
+        static string GetUserInput()
+        {
+            // Get user's input string
+            Console.Write("Dice Roll Input String: ");
+            string usersRollRequest = Console.ReadLine();
+
+            // Validate inpute from user
+            string pattern = @"^[\d|d|\+]{1,}$";  // TODO add catch for edge cases single letter entry "d" || numbers with "d" Sprint 7
+            bool isValid = Regex.IsMatch(usersRollRequest, pattern);
+
+            // if invalid we skip to the next loop
+            if (!isValid)
+            {
+                report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
+                return "invalid";
+            }
+
+            return usersRollRequest;
+        }
+
         static void Main(string[] args)
         {
+            // Rename console window for QoL
+            Console.Title = "Dice Tower v1";
+            // Create a running log of each roll
+            List<DiceRollEntry> diceRollLog = new List<DiceRollEntry>();
+
             do
             {
-
-                // Get user's input string
-                Console.Write("Dice Roll Input String: ");
-                string usersRollRequest = Console.ReadLine();
+                string userInput = GetUserInput();
+                if (userInput == "invalid") continue;
 
                 // Declare timer and start 
                 Stopwatch runTimer = new Stopwatch();
                 runTimer.Start();
 
-                // Validate inpute from user
-                string pattern = @"^[\d|d|\+]{1,}$";  // TODO add catch for edge cases single letter entry "d" || numbers with "d" Sprint 7
-                bool isValid = Regex.IsMatch(usersRollRequest, pattern);
-
-                // if invalid we skip to the next loop
-                if (!isValid)
-                {
-                    report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
-                    continue;
-                }
-
                 // Make the requested rolls
-                var (a,b,c) = decodeDiceString(usersRollRequest);
+                var (a,b,c) = decodeDiceString(userInput);
 
                 // Build logging entry instance
-                DiceRollLog diceLog = new DiceRollLog();
-                diceLog.result = a;
-                diceLog.resultParts = b;
-                diceLog.inputString = c;
-                //debug Console.WriteLine(string.Join(",",b) + b.Length);
+                diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
+                DiceRollEntry diceLog = new DiceRollEntry() { result = a, resultParts = b, inputString = c };
 
                 // Report to the user
                 report($"9:You rolled a {diceLog.result} [{diceLog.inputString} >> {string.Join(",", diceLog.resultParts)}]");
                 runTimer.Stop();
                 report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
+                report($"9:LogLength {diceRollLog.Count}");
 
-            } while(true);
+
+            } while (true);
         }
     }
 }
