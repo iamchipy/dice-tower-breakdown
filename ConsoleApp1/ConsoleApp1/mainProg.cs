@@ -10,37 +10,27 @@ using System.Diagnostics;  //stopwatch
 
 namespace ConsoleApp1
 {
-    
-    internal class mainProg
+    class Log
     {
-
-        // logging with Stack for speed instead of heap
-        struct DiceRollEntry
-        {
-            public string inputString;
-            public int[] resultParts;
-            public int result;
-        }
-
         // Manage the reporting and ConsoleWriting
         // Accepts 
         //  String - value to log
         //  String - fully qualified path or simply file name 
         //  Int - level to be currently logging
         //  Int - level to be currently reporting
-        static public void report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 5)
+        public static void report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 5)
         {
             // base variables
             int instanceLevel = 10;
             DateTime timeStamp = DateTime.Now;
             string ts = DateTime.Now.ToString("HHmmss:fff");
-            string[] reportStrings = reportString.Split(new char[] { ':' },2).ToArray();
+            string[] reportStrings = reportString.Split(new char[] { ':' }, 2).ToArray();
 
             // try parse current instance level
             if (int.TryParse(reportStrings[0], out instanceLevel))
             {
                 // here we know we were given a level for this instance so we compare and report if threshold met
-                if(instanceLevel >= reportThreshold)
+                if (instanceLevel >= reportThreshold)
                 {
                     Console.WriteLine($"{ts}: {reportStrings[1]}");
                 }
@@ -49,6 +39,18 @@ namespace ConsoleApp1
             {   // since we don't know what to do with this we'll report it in console only to be sure it's not ignored
                 Console.WriteLine($"{ts}:NoThreshold!! {reportStrings[1]}");
             }
+        }
+    }
+
+    class mainProg
+    {
+
+        // logging with Stack for speed instead of heap
+        struct DiceRollEntry
+        {
+            public string inputString;
+            public int[] resultParts;
+            public int result;
         }
 
         // Roll a single dice
@@ -106,7 +108,7 @@ namespace ConsoleApp1
             {
                 // TODO build in logging Sprint 3
                 int roll = diceRollD(numberOfSides);
-                report("4:Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
+                Log.report("4:Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
                 runningTotal += roll;
                 rolls[i] = roll;
             }
@@ -138,7 +140,7 @@ namespace ConsoleApp1
                 diceIndividualRolls.AddRange(b);
 
                 // display progress for reporting
-                report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
+                Log.report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
             }
 
             // drop the List<T> into an array as we are done with dynamics here
@@ -161,7 +163,7 @@ namespace ConsoleApp1
             // if invalid we skip to the next loop
             if (!isValid)
             {
-                report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
+                Log.report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
                 return "invalid";
             }
 
@@ -181,7 +183,7 @@ namespace ConsoleApp1
                 if (userInput == "invalid") continue;
 
                 // Declare timer and start 
-                Stopwatch runTimer = new Stopwatch();
+                Stopwatch runTimer = new Stopwatch();  // TODO add separate stopwatches for sub-steps
                 runTimer.Start();
 
                 // Make the requested rolls
@@ -190,11 +192,13 @@ namespace ConsoleApp1
                 // Build logging entry instance
                 diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
 
-                // Report to the user
-                report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
+                // Stop timer 
                 runTimer.Stop();
-                report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
-                report($"9:LogLength {diceRollLog.Count}");
+
+                // Report to the user
+                Log.report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
+                Log.report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
+                Log.report($"9:LogLength {diceRollLog.Count}");
 
 
             } while (true);

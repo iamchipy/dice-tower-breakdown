@@ -26,6 +26,7 @@ for testing C# structure storage speeds and Random's seed options
 - [ ] Create output/save feature
 - [ ] Create input/load feature
 - [x] Add verbosity levels to increase speed
+- - [x] Refactor report to be class 
 - [ ] Compare collections types
 
 ### Sprint 6
