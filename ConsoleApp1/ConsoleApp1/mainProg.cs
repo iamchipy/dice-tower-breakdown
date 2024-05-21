@@ -149,14 +149,34 @@ namespace ConsoleApp1
             // Be default we just return the value of the requested string
             return (diceRollResult, diceIndividualRollsCast, userInputString);
         }
+        
+        // wrapper to read console input and try int32 convert
+        // accepts string
+        // returns -1 if fails or int value
+        static public int ReadIntInput()
+        {
+            string inputString = Console.ReadLine();
+            int parsedInt = -1;
+            if(int.TryParse(inputString, out parsedInt))
+            {
+                return parsedInt;
+            }
+            return -1;
+        }
 
-        static string GetUserInput()
+        static string GetDiceInput()
         {
             // Get user's input string
             Console.Write("Dice Roll Input String: ");
-            string usersRollRequest = Console.ReadLine();
+            string usersRollRequest = Console.ReadLine().ToLower();
 
-            // Validate inpute from user
+            // Check escape/cancel route
+            if (string.IsNullOrEmpty(usersRollRequest)) {
+                Log.report("8: Exiting Dice Roll Mode");
+                return usersRollRequest; 
+            }
+
+            // Validate input from user
             string pattern = @"^[\d|d|\+]{1,}$";  // TODO add catch for edge cases single letter entry "d" || numbers with "d" Sprint 7
             bool isValid = Regex.IsMatch(usersRollRequest, pattern);
 
@@ -170,38 +190,95 @@ namespace ConsoleApp1
             return usersRollRequest;
         }
 
+        static int GetReadEvaluateLoopInput()
+        {
+            // Validate input from user
+            bool isValid = false;
+            int userChoice;
+
+            do
+            {
+                // Display to the user the options
+                Console.WriteLine();
+                Console.WriteLine("1 - Roll Dice");
+                Console.WriteLine("2 - Save History");
+                Console.WriteLine("3 - Load History");
+                Console.WriteLine("0 - Exit");
+                Console.Write("Select action[0-3]: ");
+                // Capture user input
+                userChoice = ReadIntInput();
+                // Check for valid input
+                isValid = (0 <= userChoice && userChoice <= 3);
+            } while (!isValid);
+
+            return userChoice;
+        }
+
         static void Main(string[] args)
         {
+            int currentAction = -1;
+            string diceRequestString;
             // Rename console window for QoL
             Console.Title = "Dice Tower v1";
+
             // Create a running log of each roll
             List<DiceRollEntry> diceRollLog = new List<DiceRollEntry>();
 
             do
             {
-                string userInput = GetUserInput();
-                if (userInput == "invalid") continue;
+                // Get user input
+                if (currentAction < 0) currentAction = GetReadEvaluateLoopInput();
 
-                // Declare timer and start 
-                Stopwatch runTimer = new Stopwatch();  // TODO add separate stopwatches for sub-steps
-                runTimer.Start();
+                // select action
+                switch (currentAction)
+                {
+                    case 0:
+                        // let script end
+                        break;
+                    case 1:
+                        do
+                        {
+                            // ask for dice string
+                            diceRequestString = GetDiceInput();
+                            if (diceRequestString == "invalid") continue;
+                            if (string.IsNullOrEmpty(diceRequestString)) break;
 
-                // Make the requested rolls
-                var (a,b,c) = decodeDiceString(userInput);
+                            // Declare timer and start 
+                            Stopwatch runTimer = new Stopwatch();  // TODO add separate stopwatches for sub-steps
+                            runTimer.Start();
 
-                // Build logging entry instance
-                diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
+                            // Make the requested rolls
+                            var (a, b, c) = decodeDiceString(diceRequestString);
 
-                // Stop timer 
-                runTimer.Stop();
+                            // Build logging entry instance
+                            diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
 
-                // Report to the user
-                Log.report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
-                Log.report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
-                Log.report($"9:LogLength {diceRollLog.Count}");
+                            // Stop timer 
+                            runTimer.Stop();
 
+                            // Report to the user
+                            Log.report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
+                            Log.report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
+                            Log.report($"9:LogLength {diceRollLog.Count}");
+                            
+                        } while (string.IsNullOrEmpty(diceRequestString));
+                        // reset
+                        currentAction = -1;
+                        break;
 
-            } while (true);
+                    default:
+                        // Report that we received something unexpect
+                        Log.report($"9:UNEXPECTED currentAction: {currentAction}");
+                        // reset
+                        currentAction = -1;
+                        break;
+
+                }
+            } while (currentAction != 0);
+
+            // Goodbye confirmation
+            Log.report("9:REPL Complete, thanks for testing!");
+            Console.ReadLine();
         }
     }
 }
