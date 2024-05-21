@@ -18,7 +18,7 @@ namespace ConsoleApp1
         //  String - fully qualified path or simply file name 
         //  Int - level to be currently logging
         //  Int - level to be currently reporting
-        public static void report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 5)
+        public static void Report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 5)
         {
             // base variables
             int instanceLevel = 10;
@@ -108,7 +108,7 @@ namespace ConsoleApp1
             {
                 // TODO build in logging Sprint 3
                 int roll = diceRollD(numberOfSides);
-                Log.report("4:Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
+                Log.Report("4:Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
                 runningTotal += roll;
                 rolls[i] = roll;
             }
@@ -140,7 +140,7 @@ namespace ConsoleApp1
                 diceIndividualRolls.AddRange(b);
 
                 // display progress for reporting
-                Log.report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
+                Log.Report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
             }
 
             // drop the List<T> into an array as we are done with dynamics here
@@ -172,7 +172,7 @@ namespace ConsoleApp1
 
             // Check escape/cancel route
             if (string.IsNullOrEmpty(usersRollRequest)) {
-                Log.report("8: Exiting Dice Roll Mode");
+                Log.Report("8: Exiting Dice Roll Mode");
                 return usersRollRequest; 
             }
 
@@ -183,7 +183,7 @@ namespace ConsoleApp1
             // if invalid we skip to the next loop
             if (!isValid)
             {
-                Log.report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
+                Log.Report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
                 return "invalid";
             }
 
@@ -223,7 +223,7 @@ namespace ConsoleApp1
                 // Get user input
                 if(!GetReadEvaluateLoopInput(out currentAction))
                 {
-                    Log.report("9: Invalid choice! (please try again)");
+                    Log.Report("9: Invalid choice! (please try again)");
                     continue;
                 }
    
@@ -256,9 +256,9 @@ namespace ConsoleApp1
                             runTimer.Stop();
 
                             // Report to the user
-                            Log.report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
-                            Log.report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
-                            Log.report($"9:LogLength {diceRollLog.Count}");
+                            Log.Report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
+                            Log.Report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
+                            Log.Report($"9:LogLength {diceRollLog.Count}");
                             
                         } while (string.IsNullOrEmpty(diceRequestString));
                         // reset
@@ -267,7 +267,7 @@ namespace ConsoleApp1
 
                     default:
                         // Report that we received something unexpect
-                        Log.report($"9:UNEXPECTED currentAction: {currentAction}");
+                        Log.Report($"9:UNEXPECTED currentAction: {currentAction}");
                         // reset
                         currentAction = -1;
                         break;
@@ -276,7 +276,7 @@ namespace ConsoleApp1
             } while (currentAction != 0);
 
             // Goodbye confirmation
-            Log.report("9:REPL Complete, thanks for testing!");
+            Log.Report("9:REPL Complete, thanks for testing!");
             Console.ReadLine();
         }
     }
