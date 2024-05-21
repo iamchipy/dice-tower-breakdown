@@ -190,28 +190,22 @@ namespace ConsoleApp1
             return usersRollRequest;
         }
 
-        static int GetReadEvaluateLoopInput()
+        static bool GetReadEvaluateLoopInput(out int userChoice)
         {
-            // Validate input from user
-            bool isValid = false;
-            int userChoice;
+            // set default per requirement of using "out" type
+            userChoice = -1;
 
-            do
-            {
-                // Display to the user the options
-                Console.WriteLine();
-                Console.WriteLine("1 - Roll Dice");
-                Console.WriteLine("2 - Save History");
-                Console.WriteLine("3 - Load History");
-                Console.WriteLine("0 - Exit");
-                Console.Write("Select action[0-3]: ");
-                // Capture user input
-                userChoice = ReadIntInput();
-                // Check for valid input
-                isValid = (0 <= userChoice && userChoice <= 3);
-            } while (!isValid);
+            // Display to the user the options
+            Console.WriteLine();
+            Console.WriteLine("1 - Roll Dice");
+            Console.WriteLine("2 - Save History");
+            Console.WriteLine("3 - Load History");
+            Console.WriteLine("0 - Exit");
+            Console.Write("Select action[0-3]: ");
+            // Capture user input
+            userChoice = ReadIntInput();
 
-            return userChoice;
+            return (0 <= userChoice && userChoice <= 3);
         }
 
         static void Main(string[] args)
@@ -227,7 +221,12 @@ namespace ConsoleApp1
             do
             {
                 // Get user input
-                if (currentAction < 0) currentAction = GetReadEvaluateLoopInput();
+                if(!GetReadEvaluateLoopInput(out currentAction))
+                {
+                    Log.report("9: Invalid choice! (please try again)");
+                    continue;
+                }
+   
 
                 // select action
                 switch (currentAction)
