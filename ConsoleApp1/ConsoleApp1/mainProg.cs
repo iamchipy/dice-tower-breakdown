@@ -189,10 +189,9 @@ namespace ConsoleApp1
 
                 // Build logging entry instance
                 diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
-                DiceRollEntry diceLog = new DiceRollEntry() { result = a, resultParts = b, inputString = c };
 
                 // Report to the user
-                report($"9:You rolled a {diceLog.result} [{diceLog.inputString} >> {string.Join(",", diceLog.resultParts)}]");
+                report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
                 runTimer.Stop();
                 report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
                 report($"9:LogLength {diceRollLog.Count}");
