@@ -22,7 +22,7 @@ namespace DiceTowerPractice
         public class LoggingTool
         {
             public int logThreshold = 1;  // The threshold for something to be logged
-            public int reportThreshold = 5;  // The threshold for something to be reported to use
+            public int reportThreshold = 1;  // The threshold for something to be reported to use
             public string dataPath = "rolls.csv"; // Export/Import filename assuming working dir
             public string logPath = "rolls.log"; // Logging filename assuming working dir
             public List<DiceRollEntry> rollHistory = new List<DiceRollEntry>();  // Create a running log of each roll
@@ -124,16 +124,28 @@ namespace DiceTowerPractice
                 // Loads the history from datafile
                 try
                 {
+                    // start timer
+                    Stopwatch sw = Stopwatch.StartNew();
+                    sw.Start();
+                    int entryCount = 0;
+
+                    // open datastream dreader
                     using (StreamReader reader = new StreamReader(this.dataPath))
                     {
+                        // create the line var and then loop for each new line from the stream
                         string line;
                         while ((line = reader.ReadLine()) != null)
                         {
+                            // increment our line counter
+                            entryCount++;
+                            // split the CSV for read in
                             string[] parts = line.Split(',');
+                            // Add CSV data back into the List<DiceRollEntry> type
                             this.rollHistory.Add(new DiceRollEntry { inputString = parts[0], result = Convert.ToInt32(parts[1]), resultParts = this.ConvertToIntArray(parts[2]) });
                         }
                     }
                     this.Report($"9: Dice history loaded successfully from {Directory.GetCurrentDirectory()}\\{this.dataPath}");
+                    this.Report($"3: Reading in {entryCount} lines too {sw.ElapsedMilliseconds}ms");
                     return true;
                 }
                 catch (Exception ex)
