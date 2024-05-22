@@ -8,62 +8,63 @@ using System.Threading;
 
 namespace DiceTowerPractice
 {
-    public static class Log
-    {
-
-        // Manage the reporting and ConsoleWriting
-        // Accepts 
-        //  String - value to log
-        //  String - fully qualified path or simply file name 
-        //  Int - level to be currently logging
-        //  Int - level to be currently reporting
-        public static void Report(string reportString, string logPath = "rolls.log")
-        {
-            // base variables
-            int logThreshold = 10;
-            int reportThreshold = 5;
-            int instanceLevel = 10;
-            DateTime timeStamp = DateTime.Now;
-            string ts = DateTime.Now.ToString("HHmmss:fff");
-            string[] reportStrings = reportString.Split(new char[] { ':' }, 2).ToArray();
-
-            // try parse current instance level
-            if (int.TryParse(reportStrings[0], out instanceLevel))
-            {
-                // here we know we were given a level for this instance so we compare and report if threshold met
-                if (instanceLevel >= reportThreshold)
-                {
-                    Console.WriteLine($"{ts}: {reportStrings[1]}");
-                }
-            }
-            else
-            {   // since we don't know what to do with this we'll report it in console only to be sure it's not ignored
-                Console.WriteLine($"{ts}:NoThreshold!! {reportStrings[1]}");
-            }
-        }
-
-        public static bool Save(List<Program.DiceRollEntry> data)
-        {
-            // save
-            return true;
-        }
-
-        public static bool Load(List<Program.DiceRollEntry> data)
-        {
-            return true;
-        }
-
-        public static void Display(List<Program.DiceRollEntry> data){
-            Report($"9:Reporting current DiceDATA: {data.Count} entries...");
-            for (int i = 0; i < data.Count; i++)
-            {
-                Console.WriteLine($"Roll: {data[i].inputString} \t=> {data[i].result} \t[{string.Join(",", data[i].resultParts) }]");
-            }
-        }
-    }
-
     public class Program
     {
+        public class Log
+        {
+            public int logThreshold = 10;
+            public int reportThreshold = 5;
+
+            // Manage the reporting and ConsoleWriting
+            // Accepts 
+            //  String - value to log
+            //  String - fully qualified path or simply file name 
+            //  Int - level to be currently logging
+            //  Int - level to be currently reporting
+            public void Report(string reportString, string logPath = "rolls.log")
+            {
+                // base variables
+                int instanceLevel = 10;
+                DateTime timeStamp = DateTime.Now;
+                string ts = DateTime.Now.ToString("HHmmss:fff");
+                string[] reportStrings = reportString.Split(new char[] { ':' }, 2).ToArray();
+
+                // try parse current instance level
+                if (int.TryParse(reportStrings[0], out instanceLevel))
+                {
+                    // here we know we were given a level for this instance so we compare and report if threshold met
+                    if (instanceLevel >= this.reportThreshold)
+                    {
+                        Console.WriteLine($"{ts}: {reportStrings[1]}");
+                    }
+                }
+                else
+                {   // since we don't know what to do with this we'll report it in console only to be sure it's not ignored
+                    Console.WriteLine($"{ts}:NoThreshold!! {reportStrings[1]}");
+                }
+            }
+
+            public static bool Save(List<Program.DiceRollEntry> data)
+            {
+                //File.WriteAllText()
+                return true;
+            }
+
+            public static bool Load(List<Program.DiceRollEntry> data)
+            {
+                return true;
+            }
+
+            public void Display(List<Program.DiceRollEntry> data)
+            {
+                this.Report($"9:Reporting current DiceDATA: {data.Count} entries...");
+                for (int i = 0; i < data.Count; i++)
+                {
+                    Console.WriteLine($"Roll: {data[i].inputString} \t=> {data[i].result} \t[{string.Join(",", data[i].resultParts)}]");
+                }
+            }
+        }
+
         // logging with Stack for speed instead of heap
         public struct DiceRollEntry
         {
@@ -92,7 +93,7 @@ namespace DiceTowerPractice
         // Roll for dice format
         // Accepts input string in dice format #d##
         // Returns int value of roll 
-        static public (int, int[]) diceRollString(string diceFormatString = "2d20")
+        static public (int, int[]) diceRollString(Log log, string diceFormatString = "2d20")
         {
             int runningTotal = 0, numberOfSides, numberOfDice;
 
@@ -127,7 +128,7 @@ namespace DiceTowerPractice
             {
                 // TODO build in logging Sprint 3
                 int roll = diceRollD(numberOfSides);
-                Log.Report("4:Roll[" + (i + 1) + "] was: " + roll + "     >" + runningTotal);
+                log.Report("4:Roll[" + (i + 1) + "] was: " + roll + "     >" + runningTotal);
                 runningTotal += roll;
                 rolls[i] = roll;
             }
@@ -141,7 +142,7 @@ namespace DiceTowerPractice
         //  Int - total result for requested role
         //  Int[] - array to represent the individual rolls that were created
         //  String - copy of the initial input value for later cross checking
-        static public (int, int[], string) decodeDiceString(string userInputString = "d20", bool showYourWork = false)
+        static public (int, int[], string) decodeDiceString(Log log, string userInputString = "d20", bool showYourWork = false)
         {
             // Using a List<T> here to test it's performance as well as keeping the code simple
             List<int> diceIndividualRolls = new List<int>();
@@ -154,12 +155,12 @@ namespace DiceTowerPractice
             for (int i = 0; i < individualDiceRolls.Length; i++)
             {
                 // add the results and log
-                var (a, b) = diceRollString(individualDiceRolls[i]);
+                var (a, b) = diceRollString(log, individualDiceRolls[i]);
                 diceRollResult += a;
                 diceIndividualRolls.AddRange(b);
 
                 // display progress for reporting
-                Log.Report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
+                log.Report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
             }
 
             // drop the List<T> into an array as we are done with dynamics here
@@ -184,7 +185,7 @@ namespace DiceTowerPractice
 
         // Prmpts user for a dice format string
         // returns String validated to be diceFormat or "invalid"
-        static string GetDiceInput()
+        static string GetDiceInput(Log log)
         {
             // Get user's input string
             Console.Write("Dice Roll Input String (blank to exit): ");
@@ -193,7 +194,7 @@ namespace DiceTowerPractice
             // Check escape/cancel route
             if (string.IsNullOrEmpty(usersRollRequest))
             {
-                Log.Report("8: Exiting Dice Roll Mode");
+                log.Report("8: Exiting Dice Roll Mode");
                 return usersRollRequest;
             }
 
@@ -204,7 +205,7 @@ namespace DiceTowerPractice
             // if invalid we skip to the next loop
             if (!isValid)
             {
-                Log.Report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
+                log.Report($"9:Invalid input [{usersRollRequest}] Please try again in FVTT dice format");
                 return "invalid";
             }
 
@@ -237,6 +238,7 @@ namespace DiceTowerPractice
 
         static void Main(string[] args)
         {
+            var log = new Log();
             int currentAction = -1;
             string diceRequestString;
 
@@ -251,7 +253,7 @@ namespace DiceTowerPractice
                 // Get user input
                 if (!REPLPrompt(out currentAction))
                 {
-                    Log.Report("9: Invalid choice! (please try again)");
+                    log.Report("9: Invalid choice! (please try again)");
                     continue;
                 }
 
@@ -266,7 +268,7 @@ namespace DiceTowerPractice
                         do
                         {
                             // ask for dice string
-                            diceRequestString = GetDiceInput();
+                            diceRequestString = GetDiceInput(log);
                             if (diceRequestString == "invalid") continue;
                             if (string.IsNullOrEmpty(diceRequestString)) break;
 
@@ -275,7 +277,7 @@ namespace DiceTowerPractice
                             runTimer.Start();
 
                             // Make the requested rolls
-                            var (a, b, c) = decodeDiceString(diceRequestString);
+                            var (a, b, c) = decodeDiceString(log, diceRequestString);
 
                             // Build logging entry instance
                             diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
@@ -284,9 +286,9 @@ namespace DiceTowerPractice
                             runTimer.Stop();
 
                             // Report to the user
-                            Log.Report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
-                            Log.Report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
-                            Log.Report($"9:LogLength {diceRollLog.Count}");
+                            log.Report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
+                            log.Report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
+                            log.Report($"9:LogLength {diceRollLog.Count}");
 
                         } while (true);
                         // reset
@@ -297,12 +299,12 @@ namespace DiceTowerPractice
                     case 3:
                         break;
                     case 4:
-                        Log.Display(diceRollLog);
+                        log.Display(diceRollLog);
                         break;
 
                     default:
                         // Report that we received something unexpect
-                        Log.Report($"9:UNEXPECTED currentAction: {currentAction}");
+                        log.Report($"9:UNEXPECTED currentAction: {currentAction}");
                         // reset
                         currentAction = -1;
                         break;
@@ -311,7 +313,7 @@ namespace DiceTowerPractice
             } while (currentAction != 0);
 
             // Goodbye confirmation
-            Log.Report("9:REPL Complete, thanks for testing!");
+            log.Report("9:REPL Complete, thanks for testing!");
             Console.ReadLine();
         }
     }
