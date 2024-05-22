@@ -23,11 +23,16 @@ for testing C# structure storage speeds and Random's seed options
 - [x] Create timing benchmark system
 
 ### Sprint 5
-- [ ] SQL bridge interface
-- [ ] Add verbosity levels to increase speed
-- [ ] Compare collections types
+- [x] Create RELP for other options
+- [x] Add verbosity levels to increase speed
+- - [x] Refactor report to be class 
+- [x] Correct project structure
 
 ### Sprint 6
+- [ ] Create output/save feature
+- [ ] Create input/load feature
+- [ ] Compare collections types
+- [ ] SQL bridge interface
 - [ ] Build into an interface
 - [ ] Create class to house it
 

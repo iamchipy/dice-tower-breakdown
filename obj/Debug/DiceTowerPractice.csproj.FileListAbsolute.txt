@@ -1,0 +1,14 @@
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\bin\Debug\DiceTowerPractice.exe.config
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\bin\Debug\DiceTowerPractice.exe
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\bin\Debug\DiceTowerPractice.pdb
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\obj\Debug\DiceTowerPractice.csproj.AssemblyReference.cache
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\obj\Debug\DiceTowerPractice.csproj.CoreCompileInputs.cache
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\obj\Debug\DiceTowerPractice.exe
+C:\Dropbox\_SCRIPTS\CSharpTraining\DiceTowerPractice\obj\Debug\DiceTowerPractice.pdb
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\DiceTowerPractice.exe.config
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\DiceTowerPractice.exe
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\DiceTowerPractice.pdb
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\obj\Debug\DiceTowerPractice.csproj.AssemblyReference.cache
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\obj\Debug\DiceTowerPractice.csproj.CoreCompileInputs.cache
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\obj\Debug\DiceTowerPractice.exe
+C:\Dropbox\_SCRIPTS\dice-tower-breakdown\obj\Debug\DiceTowerPractice.pdb
