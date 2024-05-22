@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
-
+using System.IO;
 
 namespace DiceTowerPractice
 {
@@ -21,8 +21,10 @@ namespace DiceTowerPractice
         // Logging tool that assists with keeping track of rolls and outputing th data
         public class LoggingTool
         {
-            public int logThreshold = 10;  // The threshold for something to be logged
+            public int logThreshold = 1;  // The threshold for something to be logged
             public int reportThreshold = 5;  // The threshold for something to be reported to use
+            public string dataPath = "rolls.csv"; // Export/Import filename assuming working dir
+            public string logPath = "rolls.log"; // Logging filename assuming working dir
             public List<DiceRollEntry> rollHistory = new List<DiceRollEntry>();  // Create a running log of each roll
 
             // Manage the reporting and ConsoleWriting
@@ -31,7 +33,7 @@ namespace DiceTowerPractice
             //  String - fully qualified path or simply file name 
             //  Int - level to be currently logging
             //  Int - level to be currently reporting
-            public void Report(string reportString, string logPath = "rolls.log")
+            public void Report(string reportString)
             {
                 // base variables
                 int instanceLevel = 10;
@@ -42,22 +44,51 @@ namespace DiceTowerPractice
                 // try parse current instance level
                 if (int.TryParse(reportStrings[0], out instanceLevel))
                 {
-                    // here we know we were given a level for this instance so we compare and report if threshold met
-                    if (instanceLevel >= this.reportThreshold)
-                    {
-                        Console.WriteLine($"{ts}: {reportStrings[1]}");
-                    }
+                    // here we know we were given a level for this instance so we compare and report/log if thresholds are met
+                    string str = $"{ts}: {reportStrings[1]}";
+                    if (instanceLevel >= this.reportThreshold) Console.WriteLine(str);
+                    if (instanceLevel >= this.logThreshold) logToFile(str);
                 }
                 else
                 {   // since we don't know what to do with this we'll report it in console only to be sure it's not ignored
-                    Console.WriteLine($"{ts}:NoThreshold!! {reportStrings[1]}");
+                    string str = $"{ts}:NoThreshold!! {reportStrings[1]}";
+                    Console.WriteLine(str);
+                    logToFile(str);
+                }
+
+                void logToFile(string stringToLog)
+                {
+                    // Save string to the log file
+                    try
+                    {
+                        using (StreamWriter writer = new StreamWriter(this.dataPath, append: true)) writer.WriteLine(stringToLog);
+                    } // Report to user if there is some issue
+                    catch (Exception ex)
+                    {
+                        this.Report($"ERROR LOGGING: {ex.Message}");
+                    }
                 }
             }
 
-            public static bool Save()
+            public bool Save()
             {
-                //File.WriteAllText()
-                return true;
+                try
+                {
+
+                    using (StreamWriter writer = new StreamWriter(this.dataPath, append: true))
+                    {
+                        foreach (DiceRollEntry roll in this.rollHistory.ToArray())
+                        {
+                            writer.WriteLine($"Roll: {roll.inputString} \t=> {roll.result} \t[{string.Join(",", roll.resultParts)}]");
+                        }
+                    }
+                    this.Report($"9: Dice history saved successfully to {Directory.GetCurrentDirectory()}\\{this.dataPath}");
+                    return true;
+                }catch (Exception ex)
+                {
+                    this.Report($"ERROR SAVING: {ex.Message}");
+                    return false;
+                }
             }
 
             public static bool Load()
@@ -290,13 +321,13 @@ namespace DiceTowerPractice
                             // Report to the user
                             log.Report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
                             log.Report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
-                            log.Report($"9:LogLength {diceRollLog.Count}");
 
                         } while (true);
                         // reset
                         currentAction = -1;
                         break;
                     case 2:
+                        log.Save();
                         break;
                     case 3:
                         break;
