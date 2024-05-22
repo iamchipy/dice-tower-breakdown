@@ -29,6 +29,7 @@ for testing C# structure storage speeds and Random's seed options
 - [x] Correct project structure
 
 ### Sprint 6
+- [x] Create display feature
 - [ ] Create output/save feature
 - [ ] Create input/load feature
 - [ ] Compare collections types
