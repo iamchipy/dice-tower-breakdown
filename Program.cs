@@ -12,8 +12,9 @@ namespace DiceTowerPractice
     {
         public class Log
         {
-            public int logThreshold = 10;
-            public int reportThreshold = 5;
+            public int logThreshold = 10;  // The threshold for something to be logged
+            public int reportThreshold = 5;  // The threshold for something to be reported to use
+            public List<DiceRollEntry> rollHistory = new List<DiceRollEntry>();  // Create a running log of each roll
 
             // Manage the reporting and ConsoleWriting
             // Accepts 
@@ -44,23 +45,23 @@ namespace DiceTowerPractice
                 }
             }
 
-            public static bool Save(List<Program.DiceRollEntry> data)
+            public static bool Save()
             {
                 //File.WriteAllText()
                 return true;
             }
 
-            public static bool Load(List<Program.DiceRollEntry> data)
+            public static bool Load()
             {
                 return true;
             }
 
-            public void Display(List<Program.DiceRollEntry> data)
+            public void Display()
             {
-                this.Report($"9:Reporting current DiceDATA: {data.Count} entries...");
-                for (int i = 0; i < data.Count; i++)
+                this.Report($"9:Reporting current DiceDATA: {this.rollHistory.Count} entries...");
+                for (int i = 0; i < this.rollHistory.Count; i++)
                 {
-                    Console.WriteLine($"Roll: {data[i].inputString} \t=> {data[i].result} \t[{string.Join(",", data[i].resultParts)}]");
+                    Console.WriteLine($"Roll: {this.rollHistory[i].inputString} \t=> {this.rollHistory[i].result} \t[{string.Join(",", this.rollHistory[i].resultParts)}]");
                 }
             }
         }
@@ -280,7 +281,7 @@ namespace DiceTowerPractice
                             var (a, b, c) = decodeDiceString(log, diceRequestString);
 
                             // Build logging entry instance
-                            diceRollLog.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
+                            log.rollHistory.Add(new DiceRollEntry() { result = a, resultParts = b, inputString = c });
 
                             // Stop timer 
                             runTimer.Stop();
@@ -299,7 +300,7 @@ namespace DiceTowerPractice
                     case 3:
                         break;
                     case 4:
-                        log.Display(diceRollLog);
+                        log.Display();
                         break;
 
                     default:
