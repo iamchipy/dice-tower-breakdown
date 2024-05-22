@@ -1,444 +1,3481 @@
-235538:497: Roll[1] was: 4     >0
-235538:504: Roll[2] was: 1     >4
-235538:505: DiceString: 2d20 >> 5
-235538:507: You rolled a 5 [2d20 >> 4,1]
-235538:508: runTimer: >> 0,032ms
-235702:893: Roll[1] was: 4     >0
-235702:900: Roll[2] was: 46     >4
-235702:901: DiceString: 2d50 >> 50
-235702:903: You rolled a 50 [2d50 >> 4,46]
-235702:904: runTimer: >> 0,022ms
-235748:967:  Exiting Dice Roll Mode
-235749:519: Reporting current DiceDATA: 1 entries...
-001541:246:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-001545:460: Reporting current DiceDATA: 0 entries...
-001549:700: Roll[1] was: 10     >0
-001549:715: Roll[2] was: 6     >10
-001549:716: DiceString: 2d22 >> 16
-001549:718: You rolled a 16 [2d22 >> 10,6]
-001549:720: runTimer: >> 0,031ms
-001550:732:  Exiting Dice Roll Mode
-001553:085:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-001555:372: Reporting current DiceDATA: 1 entries...
-001558:244: REPL Complete, thanks for testing!
-001604:406:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-001606:444: Reporting current DiceDATA: 1 entries...
-002317:750:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-002319:732: Reporting current DiceDATA: 1 entries...
-002326:955:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-002328:261:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-002328:797:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-002329:844: Reporting current DiceDATA: 4 entries...
-105715:442: Reporting current DiceDATA: 0 entries...
-105725:674:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-105725:675:  Reading in 1 lines too 2ms
-105802:659:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-105802:662:  Reading in 1 lines in 0,013ms
-110022:285: REPL Complete, thanks for testing!
-112220:621: Roll[1] was: 20     >0
-112220:623: DiceString: d20 >> 20
-112220:626: You rolled a 20 [d20 >> 20]
-112220:627: runTimer: >> 0,026ms
-112222:146: Roll[1] was: 1     >0
-112222:147: DiceString: d20 >> 1
-112222:149: You rolled a 1 [d20 >> 1]
-112222:150: runTimer: >> 0,014ms
-112222:870:  Exiting Dice Roll Mode
-112228:124: Roll[1] was: 11     >0
-112228:125: DiceString: d20 >> 11
-112228:127: You rolled a 11 [d20 >> 11]
-112228:128: runTimer: >> 0,017ms
-112231:314: Roll[1] was: 16     >0
-112231:315: DiceString: d20 >> 16
-112231:317: You rolled a 16 [d20 >> 16]
-112231:319: runTimer: >> 0,015ms
-112232:303: Roll[1] was: 1     >0
-112232:304: DiceString: d20 >> 1
-112232:306: You rolled a 1 [d20 >> 1]
-112232:307: runTimer: >> 0,012ms
-112233:245: Roll[1] was: 15     >0
-112233:246: DiceString: d20 >> 15
-112233:248: You rolled a 15 [d20 >> 15]
-112233:249: runTimer: >> 0,017ms
-112234:229: Roll[1] was: 8     >0
-112234:231: DiceString: d20 >> 8
-112234:233: You rolled a 8 [d20 >> 8]
-112234:234: runTimer: >> 0,018ms
-112235:142: Roll[1] was: 19     >0
-112235:144: DiceString: d20 >> 19
-112235:145: You rolled a 19 [d20 >> 19]
-112235:147: runTimer: >> 0,019ms
-112236:018: Roll[1] was: 3     >0
-112236:020: DiceString: d20 >> 3
-112236:021: You rolled a 3 [d20 >> 3]
-112236:022: runTimer: >> 0,007ms
-112236:882: Roll[1] was: 11     >0
-112236:883: DiceString: d20 >> 11
-112236:885: You rolled a 11 [d20 >> 11]
-112236:886: runTimer: >> 0,007ms
-112237:797:  Exiting Dice Roll Mode
-112239:494: Reporting current DiceDATA: 10 entries...
-112253:968:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-112253:969:  Wrote 10 lines in 0,003ms
-112427:204: REPL Complete, thanks for testing!
-112432:702:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-112432:704:  Reading in 10 lines in 0,011ms
-112502:125:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-112502:126:  Wrote 10 lines in 0,003ms
-112555:443: Reporting current DiceDATA: 10 entries...
-131448:976: Roll[1] was: 9     >0
-131448:984: Roll[2] was: 16     >9
-131448:999: Roll[3] was: 13     >25
-131449:015: Roll[4] was: 12     >38
-131449:031: Roll[5] was: 19     >50
-131449:046: Roll[6] was: 16     >69
-131449:061: Roll[7] was: 12     >85
-131449:077: Roll[8] was: 20     >97
-131449:092: Roll[9] was: 16     >117
-131449:108: Roll[10] was: 3     >133
-131449:109: DiceString: 10d20 >> 136
-131449:112: You rolled a 136 [10d20 >> 9,16,13,12,19,16,12,20,16,3]
-131449:113: runTimer: >> 0,146ms
-131450:464: Roll[1] was: 3     >0
-131450:479: Roll[2] was: 20     >3
-131450:495: Roll[3] was: 7     >23
-131450:510: Roll[4] was: 4     >30
-131450:524: Roll[5] was: 10     >34
-131450:539: Roll[6] was: 7     >44
-131450:554: Roll[7] was: 3     >51
-131450:661: Roll[8] was: 1     >54
-131450:677: Roll[9] was: 9     >55
-131450:692: Roll[10] was: 5     >64
-131450:693: DiceString: 10d20 >> 69
-131450:694: You rolled a 69 [10d20 >> 3,20,7,4,10,7,3,1,9,5]
-131450:696: runTimer: >> 0,235ms
-131451:662: Roll[1] was: 12     >0
-131451:678: Roll[2] was: 19     >12
-131451:693: Roll[3] was: 16     >31
-131451:708: Roll[4] was: 13     >47
-131451:723: Roll[5] was: 9     >60
-131451:738: Roll[6] was: 6     >69
-131451:754: Roll[7] was: 13     >75
-131451:769: Roll[8] was: 10     >88
-131451:784: Roll[9] was: 7     >98
-131451:799: Roll[10] was: 3     >105
-131451:801: DiceString: 10d20 >> 108
-131451:802: You rolled a 108 [10d20 >> 12,19,16,13,9,6,13,10,7,3]
-131451:803: runTimer: >> 0,142ms
-131455:231: Roll[1] was: 9     >0
-131455:247: Roll[2] was: 16     >9
-131455:261: Roll[3] was: 2     >25
-131455:276: Roll[4] was: 19     >27
-131455:291: Roll[5] was: 16     >46
-131455:307: Roll[6] was: 3     >62
-131455:322: Roll[7] was: 19     >65
-131455:338: Roll[8] was: 7     >84
-131455:353: Roll[9] was: 3     >91
-131455:369: Roll[10] was: 11     >94
-131455:370: DiceString: 10d20 >> 105
-131455:371: You rolled a 105 [10d20 >> 9,16,2,19,16,3,19,7,3,11]
-131455:372: runTimer: >> 0,152ms
-131458:131: Roll[1] was: 4     >0
-131458:145: Roll[2] was: 10     >4
-131458:161: Roll[3] was: 17     >14
-131458:175: Roll[4] was: 4     >31
-131458:190: Roll[5] was: 20     >35
-131458:205: Roll[6] was: 17     >55
-131458:221: Roll[7] was: 4     >72
-131458:236: Roll[8] was: 1     >76
-131458:251: Roll[9] was: 18     >77
-131458:267: Roll[10] was: 5     >95
-131458:269: DiceString: 10d20 >> 100
-131458:269: You rolled a 100 [10d20 >> 4,10,17,4,20,17,4,1,18,5]
-131458:271: runTimer: >> 0,146ms
-131459:076: Roll[1] was: 9     >0
-131459:092: Roll[2] was: 16     >9
-131459:107: Roll[3] was: 13     >25
-131459:122: Roll[4] was: 10     >38
-131459:137: Roll[5] was: 6     >48
-131459:153: Roll[6] was: 14     >54
-131459:169: Roll[7] was: 1     >68
-131459:183: Roll[8] was: 7     >69
-131459:199: Roll[9] was: 14     >76
-131459:213: Roll[10] was: 1     >90
-131459:214: DiceString: 10d20 >> 91
-131459:216: You rolled a 91 [10d20 >> 9,16,13,10,6,14,1,7,14,1]
-131459:218: runTimer: >> 0,149ms
-131459:881: Roll[1] was: 20     >0
-131459:897: Roll[2] was: 7     >20
-131459:912: Roll[3] was: 4     >27
-131459:928: Roll[4] was: 11     >31
-131459:943: Roll[5] was: 8     >42
-131459:958: Roll[6] was: 5     >50
-131459:973: Roll[7] was: 1     >55
-131459:988: Roll[8] was: 18     >56
-131500:003: Roll[9] was: 6     >74
-131500:018: Roll[10] was: 3     >80
-131500:020: DiceString: 10d20 >> 83
-131500:022: You rolled a 83 [10d20 >> 20,7,4,11,8,5,1,18,6,3]
-131500:022: runTimer: >> 0,154ms
-131500:614: Roll[1] was: 10     >0
-131500:629: Roll[2] was: 7     >10
-131500:645: Roll[3] was: 14     >17
-131500:660: Roll[4] was: 11     >31
-131500:676: Roll[5] was: 18     >42
-131500:692: Roll[6] was: 5     >60
-131500:708: Roll[7] was: 13     >65
-131500:723: Roll[8] was: 9     >78
-131500:738: Roll[9] was: 6     >87
-131500:754: Roll[10] was: 13     >93
-131500:755: DiceString: 10d20 >> 106
-131500:756: You rolled a 106 [10d20 >> 10,7,14,11,18,5,13,9,6,13]
-131500:757: runTimer: >> 0,144ms
-131501:396: Roll[1] was: 13     >0
-131501:411: Roll[2] was: 9     >13
-131501:426: Roll[3] was: 6     >22
-131501:442: Roll[4] was: 13     >28
-131501:457: Roll[5] was: 10     >41
-131501:565: Roll[6] was: 8     >51
-131501:580: Roll[7] was: 15     >59
-131501:595: Roll[8] was: 12     >74
-131501:611: Roll[9] was: 19     >86
-131501:626: Roll[10] was: 16     >105
-131501:628: DiceString: 10d20 >> 121
-131501:629: You rolled a 121 [10d20 >> 13,9,6,13,10,8,15,12,19,16]
-131501:631: runTimer: >> 0,242ms
-131502:388: Roll[1] was: 9     >0
-131502:403: Roll[2] was: 6     >9
-131502:419: Roll[3] was: 13     >15
-131502:434: Roll[4] was: 10     >28
-131502:449: Roll[5] was: 6     >38
-131502:465: Roll[6] was: 14     >44
-131502:481: Roll[7] was: 1     >58
-131502:496: Roll[8] was: 17     >59
-131502:510: Roll[9] was: 4     >76
-131502:526: Roll[10] was: 11     >80
-131502:527: DiceString: 10d20 >> 91
-131502:529: You rolled a 91 [10d20 >> 9,6,13,10,6,14,1,17,4,11]
-131502:529: runTimer: >> 0,149ms
-131502:922:  Exiting Dice Roll Mode
-131505:115: Reporting current DiceDATA: 10 entries...
-131523:469:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-131523:470:  Wrote 10 lines in 0,003ms
-131906:537:  Failed to parse string2int [ '9]
-131906:539:  Failed to parse string2int [ '3]
-131906:540:  Failed to parse string2int [ '12]
-131906:542:  Failed to parse string2int [ '9]
-131906:544:  Failed to parse string2int [ '4]
-131906:545:  Failed to parse string2int [ '9]
-131906:546:  Failed to parse string2int [ '20]
-131906:548:  Failed to parse string2int [ '10]
-131906:548:  Failed to parse string2int [ '13]
-131906:550:  Failed to parse string2int [ '9]
-131906:551:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-131906:552:  Reading in 10 lines in 0,024ms
-131915:462: Reporting current DiceDATA: 10 entries...
-132336:908:  Failed to parse string2int [ '9] from >>  '9
-132336:911:  Failed to parse string2int [ '3] from >>  '3
-132336:912:  Failed to parse string2int [ '12] from >>  '12
-132336:914:  Failed to parse string2int [ '9] from >>  '9
-132336:915:  Failed to parse string2int [ '4] from >>  '4
-132336:916:  Failed to parse string2int [ '9] from >>  '9
-132336:918:  Failed to parse string2int [ '20] from >>  '20
-132336:919:  Failed to parse string2int [ '10] from >>  '10
-132336:920:  Failed to parse string2int [ '13] from >>  '13
-132336:921:  Failed to parse string2int [ '9] from >>  '9
-132336:922:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-132336:923:  Reading in 10 lines in 0,024ms
-132453:996:  Failed to parse string2int [ '9] from >>  '9,16,13,12,19,16,12,20,16,3'
-132453:999:  Failed to parse string2int [3'] from >>  '9,16,13,12,19,16,12,20,16,3'
-132454:001:  Failed to parse string2int [ '3] from >>  '3,20,7,4,10,7,3,1,9,5'
-132454:002:  Failed to parse string2int [5'] from >>  '3,20,7,4,10,7,3,1,9,5'
-132454:004:  Failed to parse string2int [ '12] from >>  '12,19,16,13,9,6,13,10,7,3'
-132454:005:  Failed to parse string2int [3'] from >>  '12,19,16,13,9,6,13,10,7,3'
-132454:006:  Failed to parse string2int [ '9] from >>  '9,16,2,19,16,3,19,7,3,11'
-132454:007:  Failed to parse string2int [11'] from >>  '9,16,2,19,16,3,19,7,3,11'
-132454:009:  Failed to parse string2int [ '4] from >>  '4,10,17,4,20,17,4,1,18,5'
-132454:009:  Failed to parse string2int [5'] from >>  '4,10,17,4,20,17,4,1,18,5'
-132454:011:  Failed to parse string2int [ '9] from >>  '9,16,13,10,6,14,1,7,14,1'
-132454:012:  Failed to parse string2int [1'] from >>  '9,16,13,10,6,14,1,7,14,1'
-132454:014:  Failed to parse string2int [ '20] from >>  '20,7,4,11,8,5,1,18,6,3'
-132454:015:  Failed to parse string2int [3'] from >>  '20,7,4,11,8,5,1,18,6,3'
-132454:016:  Failed to parse string2int [ '10] from >>  '10,7,14,11,18,5,13,9,6,13'
-132454:018:  Failed to parse string2int [13'] from >>  '10,7,14,11,18,5,13,9,6,13'
-132454:019:  Failed to parse string2int [ '13] from >>  '13,9,6,13,10,8,15,12,19,16'
-132454:020:  Failed to parse string2int [16'] from >>  '13,9,6,13,10,8,15,12,19,16'
-132454:021:  Failed to parse string2int [ '9] from >>  '9,6,13,10,6,14,1,17,4,11'
-132454:022:  Failed to parse string2int [11'] from >>  '9,6,13,10,6,14,1,17,4,11'
-132454:024:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-132454:025:  Reading in 10 lines in 0,038ms
-132715:217:  Failed to parse string2int [  9] from >>   9,16,13,12,19,16,12,20,16,3 
-132715:220:  Failed to parse string2int [  3] from >>   3,20,7,4,10,7,3,1,9,5 
-132715:222:  Failed to parse string2int [  12] from >>   12,19,16,13,9,6,13,10,7,3 
-132715:223:  Failed to parse string2int [  9] from >>   9,16,2,19,16,3,19,7,3,11 
-132715:225:  Failed to parse string2int [  4] from >>   4,10,17,4,20,17,4,1,18,5 
-132715:226:  Failed to parse string2int [  9] from >>   9,16,13,10,6,14,1,7,14,1 
-132715:227:  Failed to parse string2int [  20] from >>   20,7,4,11,8,5,1,18,6,3 
-132715:229:  Failed to parse string2int [  10] from >>   10,7,14,11,18,5,13,9,6,13 
-132715:230:  Failed to parse string2int [  13] from >>   13,9,6,13,10,8,15,12,19,16 
-132715:231:  Failed to parse string2int [  9] from >>   9,6,13,10,6,14,1,17,4,11 
-132715:232:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-132715:234:  Reading in 10 lines in 0,026ms
-132730:726: Reporting current DiceDATA: 10 entries...
-132815:159:  Failed to parse string2int [  9] from >>   9,16,13,12,19,16,12,20,16,3 
-132815:163:  Failed to parse string2int [  3] from >>   3,20,7,4,10,7,3,1,9,5 
-132815:164:  Failed to parse string2int [  12] from >>   12,19,16,13,9,6,13,10,7,3 
-132815:165:  Failed to parse string2int [  9] from >>   9,16,2,19,16,3,19,7,3,11 
-132815:167:  Failed to parse string2int [  4] from >>   4,10,17,4,20,17,4,1,18,5 
-132815:168:  Failed to parse string2int [  9] from >>   9,16,13,10,6,14,1,7,14,1 
-132815:169:  Failed to parse string2int [  20] from >>   20,7,4,11,8,5,1,18,6,3 
-132815:171:  Failed to parse string2int [  10] from >>   10,7,14,11,18,5,13,9,6,13 
-132815:172:  Failed to parse string2int [  13] from >>   13,9,6,13,10,8,15,12,19,16 
-132815:173:  Failed to parse string2int [  9] from >>   9,6,13,10,6,14,1,17,4,11 
-132815:174:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-132815:176:  Reading in 10 lines in 0,026ms
-132839:902: Reporting current DiceDATA: 10 entries...
-132954:194: Roll[1] was: 18     >0
-132954:201: Roll[2] was: 15     >18
-132954:216: Roll[3] was: 12     >33
-132954:232: Roll[4] was: 19     >45
-132954:247: Roll[5] was: 16     >64
-132954:262: Roll[6] was: 13     >80
-132954:277: Roll[7] was: 9     >93
-132954:293: Roll[8] was: 16     >102
-132954:308: Roll[9] was: 13     >118
-132954:323: Roll[10] was: 10     >131
-132954:362: DiceString: 10d20 >> 141
-132954:364: You rolled a 141 [10d20 >> 18,15,12,19,16,13,9,16,13,10]
-132954:365: runTimer: >> 0,190ms
-132956:284: Roll[1] was: 2     >0
-132956:298: Roll[2] was: 9     >2
-132956:314: Roll[3] was: 16     >11
-132956:328: Roll[4] was: 2     >27
-132956:344: Roll[5] was: 9     >29
-132956:359: Roll[6] was: 6     >38
-132956:374: Roll[7] was: 3     >44
-132956:389: Roll[8] was: 19     >47
-132956:404: Roll[9] was: 16     >66
-132956:419: Roll[10] was: 13     >82
-132956:421: DiceString: 10d20 >> 95
-132956:422: You rolled a 95 [10d20 >> 2,9,16,2,9,6,3,19,16,13]
-132956:424: runTimer: >> 0,146ms
-132957:261: Roll[1] was: 2     >0
-132957:276: Roll[2] was: 19     >2
-132957:291: Roll[3] was: 16     >21
-132957:306: Roll[4] was: 12     >37
-132957:321: Roll[5] was: 9     >49
-132957:336: Roll[6] was: 6     >58
-132957:351: Roll[7] was: 2     >64
-132957:367: Roll[8] was: 10     >66
-132957:382: Roll[9] was: 6     >76
-132957:398: Roll[10] was: 14     >82
-132957:399: DiceString: 10d20 >> 96
-132957:401: You rolled a 96 [10d20 >> 2,19,16,12,9,6,2,10,6,14]
-132957:402: runTimer: >> 0,149ms
-132958:171: Roll[1] was: 2     >0
-132958:186: Roll[2] was: 18     >2
-132958:201: Roll[3] was: 15     >20
-132958:217: Roll[4] was: 2     >35
-132958:233: Roll[5] was: 10     >37
-132958:248: Roll[6] was: 6     >47
-132958:263: Roll[7] was: 3     >53
-132958:279: Roll[8] was: 10     >56
-132958:294: Roll[9] was: 7     >66
-132958:310: Roll[10] was: 14     >73
-132958:311: DiceString: 10d20 >> 87
-132958:312: You rolled a 87 [10d20 >> 2,18,15,2,10,6,3,10,7,14]
-132958:314: runTimer: >> 0,157ms
-132959:048: Roll[1] was: 17     >0
-132959:063: Roll[2] was: 13     >17
-132959:079: Roll[3] was: 20     >30
-132959:094: Roll[4] was: 17     >50
-132959:109: Roll[5] was: 14     >67
-132959:125: Roll[6] was: 1     >81
-132959:140: Roll[7] was: 18     >82
-132959:156: Roll[8] was: 5     >100
-132959:171: Roll[9] was: 2     >105
-132959:187: Roll[10] was: 9     >107
-132959:188: DiceString: 10d20 >> 116
-132959:190: You rolled a 116 [10d20 >> 17,13,20,17,14,1,18,5,2,9]
-132959:191: runTimer: >> 0,146ms
-132959:937: Roll[1] was: 5     >0
-132959:952: Roll[2] was: 2     >5
-132959:967: Roll[3] was: 19     >7
-132959:982: Roll[4] was: 15     >26
-132959:998: Roll[5] was: 3     >41
-133000:013: Roll[6] was: 11     >44
-133000:029: Roll[7] was: 18     >55
-133000:043: Roll[8] was: 4     >73
-133000:059: Roll[9] was: 11     >77
-133000:074: Roll[10] was: 8     >88
-133000:075: DiceString: 10d20 >> 96
-133000:077: You rolled a 96 [10d20 >> 5,2,19,15,3,11,18,4,11,8]
-133000:079: runTimer: >> 0,145ms
-133000:808: Roll[1] was: 17     >0
-133000:823: Roll[2] was: 14     >17
-133000:838: Roll[3] was: 11     >31
-133000:853: Roll[4] was: 8     >42
-133000:868: Roll[5] was: 4     >50
-133000:883: Roll[6] was: 1     >54
-133000:898: Roll[7] was: 18     >55
-133000:913: Roll[8] was: 15     >73
-133000:929: Roll[9] was: 2     >88
-133000:944: Roll[10] was: 18     >90
-133000:946: DiceString: 10d20 >> 108
-133000:948: You rolled a 108 [10d20 >> 17,14,11,8,4,1,18,15,2,18]
-133000:949: runTimer: >> 0,144ms
-133001:681: Roll[1] was: 10     >0
-133001:696: Roll[2] was: 7     >10
-133001:711: Roll[3] was: 4     >17
-133001:726: Roll[4] was: 1     >21
-133001:741: Roll[5] was: 17     >22
-133001:757: Roll[6] was: 5     >39
-133001:773: Roll[7] was: 12     >44
-133001:788: Roll[8] was: 8     >56
-133001:803: Roll[9] was: 5     >64
-133001:818: Roll[10] was: 2     >69
-133001:819: DiceString: 10d20 >> 71
-133001:822: You rolled a 71 [10d20 >> 10,7,4,1,17,5,12,8,5,2]
-133001:823: runTimer: >> 0,146ms
-133002:489: Roll[1] was: 4     >0
-133002:504: Roll[2] was: 1     >4
-133002:519: Roll[3] was: 18     >5
-133002:535: Roll[4] was: 5     >23
-133002:550: Roll[5] was: 2     >28
-133002:565: Roll[6] was: 18     >30
-133002:581: Roll[7] was: 6     >48
-133002:596: Roll[8] was: 2     >54
-133002:611: Roll[9] was: 19     >56
-133002:626: Roll[10] was: 16     >75
-133002:627: DiceString: 10d20 >> 91
-133002:629: You rolled a 91 [10d20 >> 4,1,18,5,2,18,6,2,19,16]
-133002:630: runTimer: >> 0,153ms
-133003:496: Roll[1] was: 17     >0
-133003:512: Roll[2] was: 5     >17
-133003:527: Roll[3] was: 1     >22
-133003:542: Roll[4] was: 18     >23
-133003:557: Roll[5] was: 15     >41
-133003:572: Roll[6] was: 12     >56
-133003:588: Roll[7] was: 19     >68
-133003:603: Roll[8] was: 15     >87
-133003:618: Roll[9] was: 12     >102
-133003:633: Roll[10] was: 9     >114
-133003:634: DiceString: 10d20 >> 123
-133003:636: You rolled a 123 [10d20 >> 17,5,1,18,15,12,19,15,12,9]
-133003:638: runTimer: >> 0,144ms
-133004:348:  Exiting Dice Roll Mode
-133005:517: Reporting current DiceDATA: 10 entries...
-133017:405:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-133017:407:  Wrote 10 lines in 0,003ms
-133110:642: REPL Complete, thanks for testing!
-145736:547:  Failed to parse string2int [ 18] from >>  18,15,12,19,16,13,9,16,13,10 
-145736:561:  Failed to parse string2int [ 2] from >>  2,9,16,2,9,6,3,19,16,13 
-145736:563:  Failed to parse string2int [ 2] from >>  2,19,16,12,9,6,2,10,6,14 
-145736:565:  Failed to parse string2int [ 2] from >>  2,18,15,2,10,6,3,10,7,14 
-145736:566:  Failed to parse string2int [ 17] from >>  17,13,20,17,14,1,18,5,2,9 
-145736:568:  Failed to parse string2int [ 5] from >>  5,2,19,15,3,11,18,4,11,8 
-145736:569:  Failed to parse string2int [ 17] from >>  17,14,11,8,4,1,18,15,2,18 
-145736:570:  Failed to parse string2int [ 10] from >>  10,7,4,1,17,5,12,8,5,2 
-145736:572:  Failed to parse string2int [ 4] from >>  4,1,18,5,2,18,6,2,19,16 
-145736:573:  Failed to parse string2int [ 17] from >>  17,5,1,18,15,12,19,15,12,9 
-145736:575:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-145736:576:  Reading in 10 lines in 0,110ms
-150616:598:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
-150616:601:  Reading in 10 lines in 0,014ms
+151057:386:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151057:387:  Wrote 50 lines in 0,070ms
+151110:236: REPL Complete, thanks for testing!
+151120:695: Roll[1] was: 13     >0
+151120:702: Roll[2] was: 10     >13
+151120:717: Roll[3] was: 7     >23
+151120:732: Roll[4] was: 3     >30
+151120:747: Roll[5] was: 20     >33
+151120:763: Roll[6] was: 7     >53
+151120:778: Roll[7] was: 4     >60
+151120:793: Roll[8] was: 1     >64
+151120:809: Roll[9] was: 8     >65
+151120:824: Roll[10] was: 5     >73
+151120:826: DiceString: 10d20 >> 78
+151120:829: You rolled a 78 [10d20 >> 13,10,7,3,20,7,4,1,8,5]
+151120:831: runTimer: >> 0,152ms
+151122:353: Roll[1] was: 3     >0
+151122:368: Roll[2] was: 20     >3
+151122:382: Roll[3] was: 6     >23
+151122:398: Roll[4] was: 14     >29
+151122:413: Roll[5] was: 10     >43
+151122:427: Roll[6] was: 17     >53
+151122:443: Roll[7] was: 4     >70
+151122:458: Roll[8] was: 20     >74
+151122:474: Roll[9] was: 8     >94
+151122:489: Roll[10] was: 4     >102
+151122:490: DiceString: 10d20 >> 106
+151122:492: You rolled a 106 [10d20 >> 3,20,6,14,10,17,4,20,8,4]
+151122:493: runTimer: >> 0,151ms
+151123:419: Roll[1] was: 13     >0
+151123:435: Roll[2] was: 20     >13
+151123:450: Roll[3] was: 17     >33
+151123:572: Roll[4] was: 12     >50
+151123:587: Roll[5] was: 8     >62
+151123:603: Roll[6] was: 15     >70
+151123:618: Roll[7] was: 12     >85
+151123:633: Roll[8] was: 9     >97
+151123:648: Roll[9] was: 6     >106
+151123:664: Roll[10] was: 13     >112
+151123:665: DiceString: 10d20 >> 125
+151123:667: You rolled a 125 [10d20 >> 13,20,17,12,8,15,12,9,6,13]
+151123:668: runTimer: >> 0,255ms
+151124:507: Roll[1] was: 12     >0
+151124:521: Roll[2] was: 19     >12
+151124:536: Roll[3] was: 15     >31
+151124:551: Roll[4] was: 12     >46
+151124:566: Roll[5] was: 9     >58
+151124:581: Roll[6] was: 6     >67
+151124:596: Roll[7] was: 2     >73
+151124:611: Roll[8] was: 19     >75
+151124:627: Roll[9] was: 6     >94
+151124:642: Roll[10] was: 3     >100
+151124:644: DiceString: 10d20 >> 103
+151124:645: You rolled a 103 [10d20 >> 12,19,15,12,9,6,2,19,6,3]
+151124:646: runTimer: >> 0,153ms
+151125:467: Roll[1] was: 14     >0
+151125:483: Roll[2] was: 2     >14
+151125:498: Roll[3] was: 18     >16
+151125:513: Roll[4] was: 15     >34
+151125:529: Roll[5] was: 2     >49
+151125:544: Roll[6] was: 19     >51
+151125:560: Roll[7] was: 6     >70
+151125:575: Roll[8] was: 3     >76
+151125:590: Roll[9] was: 20     >79
+151125:605: Roll[10] was: 16     >99
+151125:606: DiceString: 10d20 >> 115
+151125:607: You rolled a 115 [10d20 >> 14,2,18,15,2,19,6,3,20,16]
+151125:609: runTimer: >> 0,156ms
+151126:382: Roll[1] was: 6     >0
+151126:428: Roll[2] was: 7     >6
+151126:443: Roll[3] was: 4     >13
+151126:459: Roll[4] was: 11     >17
+151126:474: Roll[5] was: 8     >28
+151126:489: Roll[6] was: 4     >36
+151126:504: Roll[7] was: 1     >40
+151126:519: Roll[8] was: 18     >41
+151126:534: Roll[9] was: 15     >59
+151126:549: Roll[10] was: 11     >74
+151126:652: DiceString: 10d20 >> 85
+151126:654: You rolled a 85 [10d20 >> 6,7,4,11,8,4,1,18,15,11]
+151126:656: runTimer: >> 0,282ms
+151127:328: Roll[1] was: 2     >0
+151127:344: Roll[2] was: 9     >2
+151127:359: Roll[3] was: 6     >11
+151127:375: Roll[4] was: 13     >17
+151127:390: Roll[5] was: 10     >30
+151127:406: Roll[6] was: 17     >40
+151127:421: Roll[7] was: 14     >57
+151127:437: Roll[8] was: 1     >71
+151127:452: Roll[9] was: 18     >72
+151127:467: Roll[10] was: 14     >90
+151127:469: DiceString: 10d20 >> 104
+151127:471: You rolled a 104 [10d20 >> 2,9,6,13,10,17,14,1,18,14]
+151127:472: runTimer: >> 0,147ms
+151128:371: Roll[1] was: 11     >0
+151128:386: Roll[2] was: 8     >11
+151128:402: Roll[3] was: 15     >19
+151128:417: Roll[4] was: 12     >34
+151128:432: Roll[5] was: 9     >46
+151128:448: Roll[6] was: 16     >55
+151128:463: Roll[7] was: 13     >71
+151128:479: Roll[8] was: 20     >84
+151128:494: Roll[9] was: 17     >104
+151128:509: Roll[10] was: 13     >121
+151128:511: DiceString: 10d20 >> 134
+151128:513: You rolled a 134 [10d20 >> 11,8,15,12,9,16,13,20,17,13]
+151128:514: runTimer: >> 0,148ms
+151129:365: Roll[1] was: 9     >0
+151129:380: Roll[2] was: 5     >9
+151129:395: Roll[3] was: 2     >14
+151129:410: Roll[4] was: 19     >16
+151129:425: Roll[5] was: 16     >35
+151129:440: Roll[6] was: 12     >51
+151129:456: Roll[7] was: 20     >63
+151129:471: Roll[8] was: 16     >83
+151129:486: Roll[9] was: 13     >99
+151129:502: Roll[10] was: 20     >112
+151129:504: DiceString: 10d20 >> 132
+151129:505: You rolled a 132 [10d20 >> 9,5,2,19,16,12,20,16,13,20]
+151129:507: runTimer: >> 0,142ms
+151130:433: Roll[1] was: 19     >0
+151130:449: Roll[2] was: 6     >19
+151130:464: Roll[3] was: 3     >25
+151130:479: Roll[4] was: 20     >28
+151130:494: Roll[5] was: 17     >48
+151130:509: Roll[6] was: 13     >65
+151130:525: Roll[7] was: 20     >78
+151130:540: Roll[8] was: 17     >98
+151130:556: Roll[9] was: 4     >115
+151130:570: Roll[10] was: 11     >119
+151130:572: DiceString: 10d20 >> 130
+151130:574: You rolled a 130 [10d20 >> 19,6,3,20,17,13,20,17,4,11]
+151130:575: runTimer: >> 0,146ms
+151208:947:  Exiting Dice Roll Mode
+151210:803: Reporting current DiceDATA: 10 entries...
+151214:374:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151214:375:  Wrote 10 lines in 0,004ms
+151226:812:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151226:813:  Wrote 10 lines in 0,003ms
+151227:931:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151227:933:  Wrote 10 lines in 0,002ms
+151228:412:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151228:541:  Wrote 10 lines in 0,130ms
+151228:803:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151228:806:  Wrote 10 lines in 0,003ms
+151230:258: Reporting current DiceDATA: 10 entries...
+151242:204:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151242:205:  Wrote 10 lines in 0,002ms
+151250:930: REPL Complete, thanks for testing!
+151257:317: stringArray 10
+151257:320: stringArray 10
+151257:321: stringArray 10
+151257:322: stringArray 10
+151257:323: stringArray 10
+151257:325: stringArray 10
+151257:326: stringArray 10
+151257:327: stringArray 10
+151257:328: stringArray 10
+151257:329: stringArray 10
+151257:332:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151257:333:  Reading in 10 lines in 0,025ms
+151325:545: REPL Complete, thanks for testing!
+151341:575: Roll[1] was: 9     >0
+151341:582: Roll[2] was: 16     >9
+151341:597: Roll[3] was: 13     >25
+151341:612: Roll[4] was: 10     >38
+151341:627: Roll[5] was: 6     >48
+151341:642: Roll[6] was: 3     >54
+151341:657: Roll[7] was: 20     >57
+151341:672: Roll[8] was: 16     >77
+151341:687: Roll[9] was: 13     >93
+151341:703: Roll[10] was: 20     >106
+151341:719: Roll[11] was: 8     >126
+151341:734: Roll[12] was: 4     >134
+151341:749: Roll[13] was: 1     >138
+151341:765: Roll[14] was: 8     >139
+151341:780: Roll[15] was: 5     >147
+151341:796: Roll[16] was: 12     >152
+151341:812: Roll[17] was: 19     >164
+151341:827: Roll[18] was: 16     >183
+151341:842: Roll[19] was: 13     >199
+151341:858: Roll[20] was: 20     >212
+151341:873: Roll[21] was: 17     >232
+151341:935: Roll[22] was: 4     >249
+151341:950: Roll[23] was: 1     >253
+151341:965: Roll[24] was: 18     >254
+151341:980: Roll[25] was: 15     >272
+151341:995: Roll[26] was: 11     >287
+151342:010: Roll[27] was: 9     >298
+151342:025: Roll[28] was: 16     >307
+151342:040: Roll[29] was: 13     >323
+151342:055: Roll[30] was: 10     >336
+151342:070: Roll[31] was: 6     >346
+151342:085: Roll[32] was: 3     >352
+151342:100: Roll[33] was: 20     >355
+151342:115: Roll[34] was: 17     >375
+151342:131: Roll[35] was: 4     >392
+151342:146: Roll[36] was: 1     >396
+151342:161: Roll[37] was: 17     >397
+151342:176: Roll[38] was: 14     >414
+151342:192: Roll[39] was: 1     >428
+151342:207: Roll[40] was: 18     >429
+151342:223: Roll[41] was: 5     >447
+151342:238: Roll[42] was: 2     >452
+151342:253: Roll[43] was: 18     >454
+151342:269: Roll[44] was: 6     >472
+151342:284: Roll[45] was: 2     >478
+151342:299: Roll[46] was: 19     >480
+151342:314: Roll[47] was: 16     >499
+151342:330: Roll[48] was: 3     >515
+151342:346: Roll[49] was: 10     >518
+151342:361: Roll[50] was: 7     >528
+151342:376: Roll[51] was: 4     >535
+151342:391: Roll[52] was: 20     >539
+151342:406: Roll[53] was: 17     >559
+151342:421: Roll[54] was: 14     >576
+151342:436: Roll[55] was: 11     >590
+151342:451: Roll[56] was: 7     >601
+151342:466: Roll[57] was: 4     >608
+151342:482: Roll[58] was: 11     >612
+151342:497: Roll[59] was: 8     >623
+151342:513: Roll[60] was: 15     >631
+151342:528: Roll[61] was: 12     >646
+151342:544: Roll[62] was: 19     >658
+151342:559: Roll[63] was: 16     >677
+151342:574: Roll[64] was: 12     >693
+151342:589: Roll[65] was: 9     >705
+151342:604: Roll[66] was: 6     >714
+151342:619: Roll[67] was: 3     >720
+151342:634: Roll[68] was: 19     >723
+151342:649: Roll[69] was: 16     >742
+151342:665: Roll[70] was: 3     >758
+151342:680: Roll[71] was: 20     >761
+151342:695: Roll[72] was: 17     >781
+151342:710: Roll[73] was: 13     >798
+151342:726: Roll[74] was: 1     >811
+151342:741: Roll[75] was: 17     >812
+151342:757: Roll[76] was: 5     >829
+151342:772: Roll[77] was: 1     >834
+151342:786: Roll[78] was: 8     >835
+151342:801: Roll[79] was: 4     >843
+151342:816: Roll[80] was: 1     >847
+151342:832: Roll[81] was: 8     >848
+151342:847: Roll[82] was: 5     >856
+151342:862: Roll[83] was: 2     >861
+151342:877: Roll[84] was: 18     >863
+151342:893: Roll[85] was: 6     >881
+151342:908: Roll[86] was: 2     >887
+151342:923: Roll[87] was: 19     >889
+151342:938: Roll[88] was: 16     >908
+151342:953: Roll[89] was: 12     >924
+151342:969: Roll[90] was: 20     >936
+151342:984: Roll[91] was: 16     >956
+151343:000: Roll[92] was: 15     >972
+151343:015: Roll[93] was: 12     >987
+151343:031: Roll[94] was: 19     >999
+151343:046: Roll[95] was: 16     >1018
+151343:062: Roll[96] was: 3     >1034
+151343:077: Roll[97] was: 20     >1037
+151343:092: Roll[98] was: 16     >1057
+151343:107: Roll[99] was: 13     >1073
+151343:123: Roll[100] was: 20     >1086
+151343:125: DiceString: 100d20 >> 1106
+151343:127: You rolled a 1106 [100d20 >> 9,16,13,10,6,3,20,16,13,20,8,4,1,8,5,12,19,16,13,20,17,4,1,18,15,11,9,16,13,10,6,3,20,17,4,1,17,14,1,18,5,2,18,6,2,19,16,3,10,7,4,20,17,14,11,7,4,11,8,15,12,19,16,12,9,6,3,19,16,3,20,17,13,1,17,5,1,8,4,1,8,5,2,18,6,2,19,16,12,20,16,15,12,19,16,3,20,16,13,20]
+151343:129: runTimer: >> 1,564ms
+151347:395:  Exiting Dice Roll Mode
+151441:753: Reporting current DiceDATA: 1 entries...
+151447:066:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151447:068:  Wrote 1 lines in 0,002ms
+151506:632: REPL Complete, thanks for testing!
+151513:634: stringArray 100
+151513:637:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151513:638:  Reading in 1 lines in 0,013ms
+151530:263: stringArray 100
+151530:265:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151530:266:  Reading in 1 lines in 0,003ms
+151531:591:  Invalid choice! (please try again)
+151532:871: stringArray 100
+151532:873:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151532:874:  Reading in 1 lines in 0,003ms
+151533:863: stringArray 100
+151533:865:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151533:867:  Reading in 1 lines in 0,003ms
+151536:151: stringArray 100
+151536:153:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151536:154:  Reading in 1 lines in 0,003ms
+151608:327: Roll[1] was: 18     >0
+151608:333: Roll[2] was: 14     >18
+151608:349: Roll[3] was: 2     >32
+151608:364: Roll[4] was: 18     >34
+151608:380: Roll[5] was: 5     >52
+151608:395: Roll[6] was: 2     >57
+151608:411: Roll[7] was: 9     >59
+151608:426: Roll[8] was: 6     >68
+151608:444: Roll[9] was: 14     >74
+151608:456: Roll[10] was: 20     >88
+151608:471: Roll[11] was: 16     >108
+151608:486: Roll[12] was: 13     >124
+151608:502: Roll[13] was: 20     >137
+151608:517: Roll[14] was: 17     >157
+151608:532: Roll[15] was: 14     >174
+151608:548: Roll[16] was: 1     >188
+151608:563: Roll[17] was: 18     >189
+151608:579: Roll[18] was: 5     >207
+151608:594: Roll[19] was: 1     >212
+151608:609: Roll[20] was: 18     >213
+151608:625: Roll[21] was: 5     >231
+151608:640: Roll[22] was: 2     >236
+151608:655: Roll[23] was: 19     >238
+151608:670: Roll[24] was: 16     >257
+151608:686: Roll[25] was: 3     >273
+151608:701: Roll[26] was: 19     >276
+151608:717: Roll[27] was: 7     >295
+151608:732: Roll[28] was: 3     >302
+151608:747: Roll[29] was: 20     >305
+151608:763: Roll[30] was: 7     >325
+151608:778: Roll[31] was: 4     >332
+151608:793: Roll[32] was: 1     >336
+151608:807: Roll[33] was: 7     >337
+151608:823: Roll[34] was: 14     >344
+151608:838: Roll[35] was: 11     >358
+151608:854: Roll[36] was: 18     >369
+151608:869: Roll[37] was: 15     >387
+151608:884: Roll[38] was: 12     >402
+151608:899: Roll[39] was: 8     >414
+151608:915: Roll[40] was: 15     >422
+151608:929: Roll[41] was: 2     >437
+151608:944: Roll[42] was: 18     >439
+151608:960: Roll[43] was: 6     >457
+151608:975: Roll[44] was: 2     >463
+151608:991: Roll[45] was: 9     >465
+151609:006: Roll[46] was: 18     >474
+151609:022: Roll[47] was: 5     >492
+151609:037: Roll[48] was: 2     >497
+151609:052: Roll[49] was: 18     >499
+151609:068: Roll[50] was: 6     >517
+151609:083: Roll[51] was: 2     >523
+151609:098: Roll[52] was: 19     >525
+151609:113: Roll[53] was: 16     >544
+151609:128: Roll[54] was: 12     >560
+151609:143: Roll[55] was: 9     >572
+151609:158: Roll[56] was: 6     >581
+151609:173: Roll[57] was: 3     >587
+151609:188: Roll[58] was: 19     >590
+151609:204: Roll[59] was: 7     >609
+151609:219: Roll[60] was: 3     >616
+151609:234: Roll[61] was: 20     >619
+151609:249: Roll[62] was: 17     >639
+151609:265: Roll[63] was: 4     >656
+151609:280: Roll[64] was: 1     >660
+151609:295: Roll[65] was: 17     >661
+151609:310: Roll[66] was: 14     >678
+151609:325: Roll[67] was: 11     >692
+151609:340: Roll[68] was: 8     >703
+151609:356: Roll[69] was: 15     >711
+151609:402: Roll[70] was: 15     >726
+151609:417: Roll[71] was: 12     >741
+151609:432: Roll[72] was: 9     >753
+151609:447: Roll[73] was: 6     >762
+151609:463: Roll[74] was: 13     >768
+151609:478: Roll[75] was: 9     >781
+151609:494: Roll[76] was: 17     >790
+151609:509: Roll[77] was: 13     >807
+151609:525: Roll[78] was: 20     >820
+151609:540: Roll[79] was: 17     >840
+151609:555: Roll[80] was: 14     >857
+151609:570: Roll[81] was: 11     >871
+151609:585: Roll[82] was: 7     >882
+151609:601: Roll[83] was: 15     >889
+151609:616: Roll[84] was: 11     >904
+151609:631: Roll[85] was: 8     >915
+151609:646: Roll[86] was: 5     >923
+151609:661: Roll[87] was: 1     >928
+151609:676: Roll[88] was: 18     >929
+151609:691: Roll[89] was: 15     >947
+151609:707: Roll[90] was: 2     >962
+151609:722: Roll[91] was: 19     >964
+151609:738: Roll[92] was: 6     >983
+151609:753: Roll[93] was: 3     >989
+151609:768: Roll[94] was: 19     >992
+151609:784: Roll[95] was: 7     >1011
+151609:798: Roll[96] was: 13     >1018
+151609:813: Roll[97] was: 10     >1031
+151609:828: Roll[98] was: 6     >1041
+151609:843: Roll[99] was: 3     >1047
+151609:859: Roll[100] was: 10     >1050
+151609:861: DiceString: 100d20 >> 1060
+151609:864: You rolled a 1060 [100d20 >> 18,14,2,18,5,2,9,6,14,20,16,13,20,17,14,1,18,5,1,18,5,2,19,16,3,19,7,3,20,7,4,1,7,14,11,18,15,12,8,15,2,18,6,2,9,18,5,2,18,6,2,19,16,12,9,6,3,19,7,3,20,17,4,1,17,14,11,8,15,15,12,9,6,13,9,17,13,20,17,14,11,7,15,11,8,5,1,18,15,2,19,6,3,19,7,13,10,6,3,10]
+151609:866: runTimer: >> 1,551ms
+151611:883: Roll[1] was: 1     >0
+151611:898: Roll[2] was: 18     >1
+151611:913: Roll[3] was: 15     >19
+151611:928: Roll[4] was: 11     >34
+151611:943: Roll[5] was: 8     >45
+151611:958: Roll[6] was: 5     >53
+151611:973: Roll[7] was: 1     >58
+151611:988: Roll[8] was: 18     >59
+151612:004: Roll[9] was: 17     >77
+151612:019: Roll[10] was: 14     >94
+151612:034: Roll[11] was: 10     >108
+151612:049: Roll[12] was: 7     >118
+151612:065: Roll[13] was: 14     >125
+151612:080: Roll[14] was: 11     >139
+151612:096: Roll[15] was: 18     >150
+151612:111: Roll[16] was: 15     >168
+151612:126: Roll[17] was: 12     >183
+151612:141: Roll[18] was: 8     >195
+151612:156: Roll[19] was: 5     >203
+151612:172: Roll[20] was: 12     >208
+151612:187: Roll[21] was: 9     >220
+151612:202: Roll[22] was: 6     >229
+151612:217: Roll[23] was: 2     >235
+151612:232: Roll[24] was: 19     >237
+151612:248: Roll[25] was: 6     >256
+151612:263: Roll[26] was: 3     >262
+151612:279: Roll[27] was: 20     >265
+151612:294: Roll[28] was: 7     >285
+151612:309: Roll[29] was: 4     >292
+151612:324: Roll[30] was: 20     >296
+151612:339: Roll[31] was: 17     >316
+151612:354: Roll[32] was: 14     >333
+151612:369: Roll[33] was: 11     >347
+151612:384: Roll[34] was: 7     >358
+151612:399: Roll[35] was: 4     >365
+151612:414: Roll[36] was: 1     >369
+151612:429: Roll[37] was: 17     >370
+151612:444: Roll[38] was: 14     >387
+151612:460: Roll[39] was: 1     >401
+151612:475: Roll[40] was: 18     >402
+151612:491: Roll[41] was: 5     >420
+151612:506: Roll[42] was: 2     >425
+151612:522: Roll[43] was: 9     >427
+151612:537: Roll[44] was: 6     >436
+151612:553: Roll[45] was: 13     >442
+151612:568: Roll[46] was: 10     >455
+151612:584: Roll[47] was: 17     >465
+151612:599: Roll[48] was: 14     >482
+151612:614: Roll[49] was: 10     >496
+151612:629: Roll[50] was: 7     >506
+151612:644: Roll[51] was: 4     >513
+151612:659: Roll[52] was: 1     >517
+151612:675: Roll[53] was: 8     >518
+151612:690: Roll[54] was: 4     >526
+151612:706: Roll[55] was: 12     >530
+151612:721: Roll[56] was: 8     >542
+151612:736: Roll[57] was: 5     >550
+151612:751: Roll[58] was: 2     >555
+151612:767: Roll[59] was: 9     >557
+151612:782: Roll[60] was: 6     >566
+151612:797: Roll[61] was: 2     >572
+151612:812: Roll[62] was: 19     >574
+151612:828: Roll[63] was: 6     >593
+151612:843: Roll[64] was: 3     >599
+151612:858: Roll[65] was: 20     >602
+151612:873: Roll[66] was: 17     >622
+151612:888: Roll[67] was: 13     >639
+151612:903: Roll[68] was: 10     >652
+151612:918: Roll[69] was: 7     >662
+151612:934: Roll[70] was: 14     >669
+151612:949: Roll[71] was: 11     >683
+151612:965: Roll[72] was: 18     >694
+151612:980: Roll[73] was: 15     >712
+151612:995: Roll[74] was: 11     >727
+151613:011: Roll[75] was: 10     >738
+151613:027: Roll[76] was: 17     >748
+151613:042: Roll[77] was: 14     >765
+151613:058: Roll[78] was: 1     >779
+151613:074: Roll[79] was: 8     >780
+151613:089: Roll[80] was: 5     >788
+151613:104: Roll[81] was: 2     >793
+151613:120: Roll[82] was: 9     >795
+151613:135: Roll[83] was: 6     >804
+151613:151: Roll[84] was: 13     >810
+151613:167: Roll[85] was: 20     >823
+151613:183: Roll[86] was: 7     >843
+151613:198: Roll[87] was: 4     >850
+151613:214: Roll[88] was: 11     >854
+151613:229: Roll[89] was: 8     >865
+151613:244: Roll[90] was: 4     >873
+151613:259: Roll[91] was: 1     >877
+151613:275: Roll[92] was: 8     >878
+151613:290: Roll[93] was: 5     >886
+151613:306: Roll[94] was: 12     >891
+151613:321: Roll[95] was: 9     >903
+151613:336: Roll[96] was: 6     >912
+151613:352: Roll[97] was: 13     >918
+151613:367: Roll[98] was: 10     >931
+151613:383: Roll[99] was: 17     >941
+151613:398: Roll[100] was: 14     >958
+151613:400: DiceString: 100d20 >> 972
+151613:402: You rolled a 972 [100d20 >> 1,18,15,11,8,5,1,18,17,14,10,7,14,11,18,15,12,8,5,12,9,6,2,19,6,3,20,7,4,20,17,14,11,7,4,1,17,14,1,18,5,2,9,6,13,10,17,14,10,7,4,1,8,4,12,8,5,2,9,6,2,19,6,3,20,17,13,10,7,14,11,18,15,11,10,17,14,1,8,5,2,9,6,13,20,7,4,11,8,4,1,8,5,12,9,6,13,10,17,14]
+151613:404: runTimer: >> 1,523ms
+151614:371: Roll[1] was: 11     >0
+151614:386: Roll[2] was: 8     >11
+151614:401: Roll[3] was: 5     >19
+151614:416: Roll[4] was: 2     >24
+151614:431: Roll[5] was: 18     >26
+151614:446: Roll[6] was: 15     >44
+151614:461: Roll[7] was: 12     >59
+151614:476: Roll[8] was: 9     >71
+151614:491: Roll[9] was: 5     >80
+151614:507: Roll[10] was: 12     >85
+151614:522: Roll[11] was: 9     >97
+151614:537: Roll[12] was: 6     >106
+151614:552: Roll[13] was: 3     >112
+151614:567: Roll[14] was: 19     >115
+151614:582: Roll[15] was: 16     >134
+151614:597: Roll[16] was: 13     >150
+151614:613: Roll[17] was: 20     >163
+151614:628: Roll[18] was: 17     >183
+151614:644: Roll[19] was: 4     >200
+151614:659: Roll[20] was: 1     >204
+151614:675: Roll[21] was: 8     >205
+151614:690: Roll[22] was: 4     >213
+151614:705: Roll[23] was: 1     >217
+151614:720: Roll[24] was: 18     >218
+151614:735: Roll[25] was: 15     >236
+151614:750: Roll[26] was: 11     >251
+151614:766: Roll[27] was: 19     >262
+151614:781: Roll[28] was: 15     >281
+151614:796: Roll[29] was: 12     >296
+151614:812: Roll[30] was: 19     >308
+151614:827: Roll[31] was: 16     >327
+151614:843: Roll[32] was: 3     >343
+151614:889: Roll[33] was: 4     >346
+151614:904: Roll[34] was: 20     >350
+151614:919: Roll[35] was: 17     >370
+151614:934: Roll[36] was: 14     >387
+151614:949: Roll[37] was: 11     >401
+151614:964: Roll[38] was: 7     >412
+151614:979: Roll[39] was: 4     >419
+151614:995: Roll[40] was: 11     >423
+151615:010: Roll[41] was: 20     >434
+151615:024: Roll[42] was: 6     >454
+151615:039: Roll[43] was: 3     >460
+151615:054: Roll[44] was: 19     >463
+151615:069: Roll[45] was: 16     >482
+151615:084: Roll[46] was: 13     >498
+151615:099: Roll[47] was: 9     >511
+151615:115: Roll[48] was: 17     >520
+151615:130: Roll[49] was: 13     >537
+151615:146: Roll[50] was: 1     >550
+151615:161: Roll[51] was: 17     >551
+151615:177: Roll[52] was: 4     >568
+151615:192: Roll[53] was: 1     >572
+151615:207: Roll[54] was: 18     >573
+151615:222: Roll[55] was: 15     >591
+151615:237: Roll[56] was: 11     >606
+151615:252: Roll[57] was: 8     >617
+151615:267: Roll[58] was: 5     >625
+151615:282: Roll[59] was: 2     >630
+151615:297: Roll[60] was: 18     >632
+151615:312: Roll[61] was: 15     >650
+151615:327: Roll[62] was: 12     >665
+151615:342: Roll[63] was: 8     >677
+151615:357: Roll[64] was: 5     >685
+151615:372: Roll[65] was: 2     >690
+151615:387: Roll[66] was: 19     >692
+151615:402: Roll[67] was: 15     >711
+151615:417: Roll[68] was: 12     >726
+151615:433: Roll[69] was: 19     >738
+151615:448: Roll[70] was: 16     >757
+151615:462: Roll[71] was: 2     >773
+151615:477: Roll[72] was: 19     >775
+151615:492: Roll[73] was: 16     >794
+151615:508: Roll[74] was: 3     >810
+151615:523: Roll[75] was: 20     >813
+151615:539: Roll[76] was: 7     >833
+151615:554: Roll[77] was: 3     >840
+151615:569: Roll[78] was: 20     >843
+151615:584: Roll[79] was: 17     >863
+151615:599: Roll[80] was: 14     >880
+151615:614: Roll[81] was: 10     >894
+151615:629: Roll[82] was: 7     >904
+151615:644: Roll[83] was: 4     >911
+151615:660: Roll[84] was: 11     >915
+151615:675: Roll[85] was: 8     >926
+151615:690: Roll[86] was: 4     >934
+151615:705: Roll[87] was: 1     >938
+151615:720: Roll[88] was: 18     >939
+151615:735: Roll[89] was: 15     >957
+151615:750: Roll[90] was: 11     >972
+151615:765: Roll[91] was: 8     >983
+151615:780: Roll[92] was: 5     >991
+151615:796: Roll[93] was: 12     >996
+151615:811: Roll[94] was: 9     >1008
+151615:826: Roll[95] was: 5     >1017
+151615:842: Roll[96] was: 13     >1022
+151615:857: Roll[97] was: 9     >1035
+151615:872: Roll[98] was: 6     >1044
+151615:887: Roll[99] was: 3     >1050
+151615:902: Roll[100] was: 20     >1053
+151615:904: DiceString: 100d20 >> 1073
+151615:905: You rolled a 1073 [100d20 >> 11,8,5,2,18,15,12,9,5,12,9,6,3,19,16,13,20,17,4,1,8,4,1,18,15,11,19,15,12,19,16,3,4,20,17,14,11,7,4,11,20,6,3,19,16,13,9,17,13,1,17,4,1,18,15,11,8,5,2,18,15,12,8,5,2,19,15,12,19,16,2,19,16,3,20,7,3,20,17,14,10,7,4,11,8,4,1,18,15,11,8,5,12,9,5,13,9,6,3,20]
+151615:907: runTimer: >> 1,538ms
+151616:771: Roll[1] was: 11     >0
+151616:786: Roll[2] was: 8     >11
+151616:801: Roll[3] was: 4     >19
+151616:816: Roll[4] was: 1     >23
+151616:831: Roll[5] was: 18     >24
+151616:847: Roll[6] was: 5     >42
+151616:862: Roll[7] was: 2     >47
+151616:878: Roll[8] was: 9     >49
+151616:893: Roll[9] was: 6     >58
+151616:908: Roll[10] was: 2     >64
+151616:923: Roll[11] was: 19     >66
+151616:938: Roll[12] was: 16     >85
+151616:953: Roll[13] was: 12     >101
+151616:968: Roll[14] was: 9     >113
+151616:983: Roll[15] was: 6     >122
+151616:998: Roll[16] was: 3     >128
+151617:013: Roll[17] was: 11     >131
+151617:028: Roll[18] was: 8     >142
+151617:043: Roll[19] was: 4     >150
+151617:058: Roll[20] was: 1     >154
+151617:074: Roll[21] was: 8     >155
+151617:089: Roll[22] was: 5     >163
+151617:104: Roll[23] was: 2     >168
+151617:119: Roll[24] was: 18     >170
+151617:134: Roll[25] was: 15     >188
+151617:149: Roll[26] was: 12     >203
+151617:164: Roll[27] was: 9     >215
+151617:179: Roll[28] was: 5     >224
+151617:194: Roll[29] was: 2     >229
+151617:209: Roll[30] was: 19     >231
+151617:225: Roll[31] was: 6     >250
+151617:240: Roll[32] was: 3     >256
+151617:255: Roll[33] was: 19     >259
+151617:271: Roll[34] was: 7     >278
+151617:286: Roll[35] was: 3     >285
+151617:301: Roll[36] was: 20     >288
+151617:316: Roll[37] was: 17     >308
+151617:331: Roll[38] was: 13     >325
+151617:346: Roll[39] was: 10     >338
+151617:361: Roll[40] was: 7     >348
+151617:376: Roll[41] was: 4     >355
+151617:391: Roll[42] was: 20     >359
+151617:406: Roll[43] was: 17     >379
+151617:421: Roll[44] was: 14     >396
+151617:437: Roll[45] was: 1     >410
+151617:451: Roll[46] was: 7     >411
+151617:466: Roll[47] was: 4     >418
+151617:482: Roll[48] was: 11     >422
+151617:497: Roll[49] was: 8     >433
+151617:513: Roll[50] was: 15     >441
+151617:528: Roll[51] was: 12     >456
+151617:543: Roll[52] was: 9     >468
+151617:558: Roll[53] was: 5     >477
+151617:573: Roll[54] was: 2     >482
+151617:588: Roll[55] was: 19     >484
+151617:604: Roll[56] was: 6     >503
+151617:619: Roll[57] was: 3     >509
+151617:635: Roll[58] was: 10     >512
+151617:650: Roll[59] was: 7     >522
+151617:665: Roll[60] was: 3     >529
+151617:680: Roll[61] was: 20     >532
+151617:694: Roll[62] was: 6     >552
+151617:709: Roll[63] was: 3     >558
+151617:724: Roll[64] was: 20     >561
+151617:740: Roll[65] was: 7     >581
+151617:755: Roll[66] was: 4     >588
+151617:771: Roll[67] was: 11     >592
+151617:786: Roll[68] was: 8     >603
+151617:801: Roll[69] was: 4     >611
+151617:816: Roll[70] was: 1     >615
+151617:831: Roll[71] was: 18     >616
+151617:846: Roll[72] was: 14     >634
+151617:861: Roll[73] was: 11     >648
+151617:877: Roll[74] was: 18     >659
+151617:892: Roll[75] was: 15     >677
+151617:907: Roll[76] was: 12     >692
+151617:922: Roll[77] was: 9     >704
+151617:937: Roll[78] was: 5     >713
+151617:952: Roll[79] was: 2     >718
+151617:967: Roll[80] was: 19     >720
+151617:982: Roll[81] was: 15     >739
+151617:997: Roll[82] was: 12     >754
+151618:012: Roll[83] was: 20     >766
+151618:027: Roll[84] was: 17     >786
+151618:042: Roll[85] was: 14     >803
+151618:057: Roll[86] was: 11     >817
+151618:073: Roll[87] was: 18     >828
+151618:088: Roll[88] was: 14     >846
+151618:103: Roll[89] was: 11     >860
+151618:118: Roll[90] was: 8     >871
+151618:134: Roll[91] was: 15     >879
+151618:149: Roll[92] was: 12     >894
+151618:164: Roll[93] was: 9     >906
+151618:179: Roll[94] was: 5     >915
+151618:194: Roll[95] was: 2     >920
+151618:209: Roll[96] was: 19     >922
+151618:224: Roll[97] was: 15     >941
+151618:239: Roll[98] was: 12     >956
+151618:254: Roll[99] was: 9     >968
+151618:269: Roll[100] was: 6     >977
+151618:270: DiceString: 100d20 >> 983
+151618:272: You rolled a 983 [100d20 >> 11,8,4,1,18,5,2,9,6,2,19,16,12,9,6,3,11,8,4,1,8,5,2,18,15,12,9,5,2,19,6,3,19,7,3,20,17,13,10,7,4,20,17,14,1,7,4,11,8,15,12,9,5,2,19,6,3,10,7,3,20,6,3,20,7,4,11,8,4,1,18,14,11,18,15,12,9,5,2,19,15,12,20,17,14,11,18,14,11,8,15,12,9,5,2,19,15,12,9,6]
+151618:274: runTimer: >> 1,513ms
+151619:046: Roll[1] was: 16     >0
+151619:062: Roll[2] was: 3     >16
+151619:077: Roll[3] was: 20     >19
+151619:093: Roll[4] was: 7     >39
+151619:108: Roll[5] was: 3     >46
+151619:124: Roll[6] was: 11     >49
+151619:139: Roll[7] was: 7     >60
+151619:155: Roll[8] was: 15     >67
+151619:170: Roll[9] was: 11     >82
+151619:186: Roll[10] was: 18     >93
+151619:201: Roll[11] was: 15     >111
+151619:216: Roll[12] was: 12     >126
+151619:232: Roll[13] was: 19     >138
+151619:247: Roll[14] was: 16     >157
+151619:263: Roll[15] was: 3     >173
+151619:278: Roll[16] was: 20     >176
+151619:294: Roll[17] was: 7     >196
+151619:309: Roll[18] was: 4     >203
+151619:325: Roll[19] was: 11     >207
+151619:340: Roll[20] was: 8     >218
+151619:355: Roll[21] was: 4     >226
+151619:370: Roll[22] was: 1     >230
+151619:386: Roll[23] was: 8     >231
+151619:401: Roll[24] was: 5     >239
+151619:416: Roll[25] was: 2     >244
+151619:431: Roll[26] was: 18     >246
+151619:446: Roll[27] was: 15     >264
+151619:461: Roll[28] was: 12     >279
+151619:476: Roll[29] was: 9     >291
+151619:491: Roll[30] was: 5     >300
+151619:506: Roll[31] was: 2     >305
+151619:522: Roll[32] was: 9     >307
+151619:537: Roll[33] was: 6     >316
+151619:552: Roll[34] was: 3     >322
+151619:567: Roll[35] was: 19     >325
+151619:583: Roll[36] was: 16     >344
+151619:598: Roll[37] was: 3     >360
+151619:613: Roll[38] was: 20     >363
+151619:628: Roll[39] was: 17     >383
+151619:644: Roll[40] was: 4     >400
+151619:659: Roll[41] was: 1     >404
+151619:674: Roll[42] was: 17     >405
+151619:690: Roll[43] was: 4     >422
+151619:705: Roll[44] was: 1     >426
+151619:720: Roll[45] was: 18     >427
+151619:735: Roll[46] was: 15     >445
+151619:750: Roll[47] was: 11     >460
+151619:765: Roll[48] was: 8     >471
+151619:780: Roll[49] was: 5     >479
+151619:796: Roll[50] was: 12     >484
+151619:811: Roll[51] was: 9     >496
+151619:827: Roll[52] was: 16     >505
+151619:842: Roll[53] was: 13     >521
+151619:857: Roll[54] was: 9     >534
+151619:872: Roll[55] was: 6     >543
+151619:888: Roll[56] was: 13     >549
+151619:903: Roll[57] was: 10     >562
+151619:919: Roll[58] was: 17     >572
+151619:934: Roll[59] was: 14     >589
+151619:949: Roll[60] was: 11     >603
+151619:964: Roll[61] was: 7     >614
+151619:980: Roll[62] was: 15     >621
+151619:994: Roll[63] was: 1     >636
+151620:009: Roll[64] was: 9     >637
+151620:024: Roll[65] was: 6     >646
+151620:039: Roll[66] was: 3     >652
+151620:055: Roll[67] was: 10     >655
+151620:070: Roll[68] was: 6     >665
+151620:085: Roll[69] was: 3     >671
+151620:100: Roll[70] was: 20     >674
+151620:115: Roll[71] was: 17     >694
+151620:130: Roll[72] was: 13     >711
+151620:145: Roll[73] was: 10     >724
+151620:160: Roll[74] was: 7     >734
+151620:175: Roll[75] was: 4     >741
+151620:190: Roll[76] was: 20     >745
+151620:205: Roll[77] was: 17     >765
+151620:220: Roll[78] was: 14     >782
+151620:235: Roll[79] was: 10     >796
+151620:251: Roll[80] was: 18     >806
+151620:266: Roll[81] was: 14     >824
+151620:282: Roll[82] was: 2     >838
+151620:297: Roll[83] was: 18     >840
+151620:313: Roll[84] was: 5     >858
+151620:328: Roll[85] was: 2     >863
+151620:343: Roll[86] was: 19     >865
+151620:358: Roll[87] was: 16     >884
+151620:373: Roll[88] was: 12     >900
+151620:388: Roll[89] was: 9     >912
+151620:403: Roll[90] was: 6     >921
+151620:419: Roll[91] was: 13     >927
+151620:434: Roll[92] was: 10     >940
+151620:449: Roll[93] was: 6     >950
+151620:464: Roll[94] was: 3     >956
+151620:480: Roll[95] was: 10     >959
+151620:495: Roll[96] was: 7     >969
+151620:510: Roll[97] was: 4     >976
+151620:526: Roll[98] was: 11     >980
+151620:541: Roll[99] was: 8     >991
+151620:557: Roll[100] was: 15     >999
+151620:559: DiceString: 100d20 >> 1014
+151620:560: You rolled a 1014 [100d20 >> 16,3,20,7,3,11,7,15,11,18,15,12,19,16,3,20,7,4,11,8,4,1,8,5,2,18,15,12,9,5,2,9,6,3,19,16,3,20,17,4,1,17,4,1,18,15,11,8,5,12,9,16,13,9,6,13,10,17,14,11,7,15,1,9,6,3,10,6,3,20,17,13,10,7,4,20,17,14,10,18,14,2,18,5,2,19,16,12,9,6,13,10,6,3,10,7,4,11,8,15]
+151620:562: runTimer: >> 1,521ms
+151621:346: Roll[1] was: 10     >0
+151621:361: Roll[2] was: 7     >10
+151621:376: Roll[3] was: 4     >17
+151621:391: Roll[4] was: 20     >21
+151621:406: Roll[5] was: 17     >41
+151621:422: Roll[6] was: 4     >58
+151621:437: Roll[7] was: 1     >62
+151621:452: Roll[8] was: 18     >63
+151621:467: Roll[9] was: 14     >81
+151621:482: Roll[10] was: 11     >95
+151621:497: Roll[11] was: 8     >106
+151621:512: Roll[12] was: 5     >114
+151621:527: Roll[13] was: 1     >119
+151621:542: Roll[14] was: 18     >120
+151621:557: Roll[15] was: 15     >138
+151621:572: Roll[16] was: 12     >153
+151621:588: Roll[17] was: 19     >165
+151621:602: Roll[18] was: 5     >184
+151621:617: Roll[19] was: 2     >189
+151621:633: Roll[20] was: 9     >191
+151621:648: Roll[21] was: 6     >200
+151621:663: Roll[22] was: 2     >206
+151621:678: Roll[23] was: 19     >208
+151621:694: Roll[24] was: 6     >227
+151621:709: Roll[25] was: 3     >233
+151621:724: Roll[26] was: 20     >236
+151621:740: Roll[27] was: 7     >256
+151621:755: Roll[28] was: 4     >263
+151621:770: Roll[29] was: 20     >267
+151621:785: Roll[30] was: 17     >287
+151621:801: Roll[31] was: 4     >304
+151621:816: Roll[32] was: 1     >308
+151621:831: Roll[33] was: 18     >309
+151621:847: Roll[34] was: 5     >327
+151621:862: Roll[35] was: 2     >332
+151621:877: Roll[36] was: 18     >334
+151621:892: Roll[37] was: 15     >352
+151621:908: Roll[38] was: 2     >367
+151621:922: Roll[39] was: 9     >369
+151621:938: Roll[40] was: 5     >378
+151621:952: Roll[41] was: 2     >383
+151621:967: Roll[42] was: 19     >385
+151621:982: Roll[43] was: 15     >404
+151621:997: Roll[44] was: 12     >419
+151622:012: Roll[45] was: 20     >431
+151622:028: Roll[46] was: 8     >451
+151622:043: Roll[47] was: 4     >459
+151622:058: Roll[48] was: 1     >463
+151622:073: Roll[49] was: 18     >464
+151622:088: Roll[50] was: 14     >482
+151622:103: Roll[51] was: 11     >496
+151622:118: Roll[52] was: 8     >507
+151622:134: Roll[53] was: 15     >515
+151622:149: Roll[54] was: 12     >530
+151622:165: Roll[55] was: 19     >542
+151622:180: Roll[56] was: 16     >561
+151622:195: Roll[57] was: 12     >577
+151622:211: Roll[58] was: 20     >589
+151622:226: Roll[59] was: 16     >609
+151622:242: Roll[60] was: 4     >625
+151622:257: Roll[61] was: 20     >629
+151622:271: Roll[62] was: 7     >649
+151622:286: Roll[63] was: 3     >656
+151622:301: Roll[64] was: 20     >659
+151622:317: Roll[65] was: 7     >679
+151622:332: Roll[66] was: 4     >686
+151622:348: Roll[67] was: 11     >690
+151622:363: Roll[68] was: 8     >701
+151622:378: Roll[69] was: 5     >709
+151622:394: Roll[70] was: 12     >714
+151622:409: Roll[71] was: 8     >726
+151622:424: Roll[72] was: 5     >734
+151622:440: Roll[73] was: 12     >739
+151622:455: Roll[74] was: 9     >751
+151622:470: Roll[75] was: 6     >760
+151622:485: Roll[76] was: 3     >766
+151622:500: Roll[77] was: 19     >769
+151622:516: Roll[78] was: 6     >788
+151622:531: Roll[79] was: 3     >794
+151622:547: Roll[80] was: 10     >797
+151622:562: Roll[81] was: 7     >807
+151622:577: Roll[82] was: 4     >814
+151622:591: Roll[83] was: 10     >818
+151622:606: Roll[84] was: 7     >828
+151622:622: Roll[85] was: 14     >835
+151622:637: Roll[86] was: 11     >849
+151622:652: Roll[87] was: 7     >860
+151622:667: Roll[88] was: 4     >867
+151622:682: Roll[89] was: 1     >871
+151622:697: Roll[90] was: 18     >872
+151622:712: Roll[91] was: 14     >890
+151622:728: Roll[92] was: 2     >904
+151622:743: Roll[93] was: 18     >906
+151622:758: Roll[94] was: 15     >924
+151622:773: Roll[95] was: 12     >939
+151622:788: Roll[96] was: 8     >951
+151622:803: Roll[97] was: 5     >959
+151622:818: Roll[98] was: 2     >964
+151622:833: Roll[99] was: 19     >966
+151622:848: Roll[100] was: 15     >985
+151622:850: DiceString: 100d20 >> 1000
+151622:852: You rolled a 1000 [100d20 >> 10,7,4,20,17,4,1,18,14,11,8,5,1,18,15,12,19,5,2,9,6,2,19,6,3,20,7,4,20,17,4,1,18,5,2,18,15,2,9,5,2,19,15,12,20,8,4,1,18,14,11,8,15,12,19,16,12,20,16,4,20,7,3,20,7,4,11,8,5,12,8,5,12,9,6,3,19,6,3,10,7,4,10,7,14,11,7,4,1,18,14,2,18,15,12,8,5,2,19,15]
+151622:853: runTimer: >> 1,508ms
+151623:667: Roll[1] was: 4     >0
+151623:683: Roll[2] was: 11     >4
+151623:698: Roll[3] was: 8     >15
+151623:714: Roll[4] was: 15     >23
+151623:729: Roll[5] was: 12     >38
+151623:744: Roll[6] was: 9     >50
+151623:760: Roll[7] was: 16     >59
+151623:775: Roll[8] was: 13     >75
+151623:791: Roll[9] was: 20     >88
+151623:806: Roll[10] was: 17     >108
+151623:821: Roll[11] was: 13     >125
+151623:837: Roll[12] was: 20     >138
+151623:852: Roll[13] was: 17     >158
+151623:867: Roll[14] was: 14     >175
+151623:882: Roll[15] was: 11     >189
+151623:897: Roll[16] was: 7     >200
+151623:912: Roll[17] was: 4     >207
+151623:926: Roll[18] was: 10     >211
+151623:942: Roll[19] was: 18     >221
+151623:957: Roll[20] was: 14     >239
+151623:973: Roll[21] was: 1     >253
+151623:988: Roll[22] was: 18     >254
+151624:003: Roll[23] was: 6     >272
+151624:018: Roll[24] was: 3     >278
+151624:034: Roll[25] was: 10     >281
+151624:049: Roll[26] was: 7     >291
+151624:065: Roll[27] was: 14     >298
+151624:080: Roll[28] was: 11     >312
+151624:095: Roll[29] was: 8     >323
+151624:110: Roll[30] was: 4     >331
+151624:125: Roll[31] was: 1     >335
+151624:140: Roll[32] was: 18     >336
+151624:155: Roll[33] was: 15     >354
+151624:170: Roll[34] was: 11     >369
+151624:185: Roll[35] was: 8     >380
+151624:201: Roll[36] was: 15     >388
+151624:216: Roll[37] was: 12     >403
+151624:231: Roll[38] was: 9     >415
+151624:247: Roll[39] was: 16     >424
+151624:262: Roll[40] was: 13     >440
+151624:278: Roll[41] was: 20     >453
+151624:293: Roll[42] was: 16     >473
+151624:309: Roll[43] was: 4     >489
+151624:324: Roll[44] was: 20     >493
+151624:338: Roll[45] was: 7     >513
+151624:354: Roll[46] was: 14     >520
+151624:368: Roll[47] was: 20     >534
+151624:383: Roll[48] was: 17     >554
+151624:398: Roll[49] was: 14     >571
+151624:413: Roll[50] was: 10     >585
+151624:429: Roll[51] was: 17     >595
+151624:444: Roll[52] was: 14     >612
+151624:459: Roll[53] was: 11     >626
+151624:474: Roll[54] was: 8     >637
+151624:489: Roll[55] was: 4     >645
+151624:504: Roll[56] was: 1     >649
+151624:519: Roll[57] was: 18     >650
+151624:534: Roll[58] was: 15     >668
+151624:549: Roll[59] was: 11     >683
+151624:564: Roll[60] was: 8     >694
+151624:580: Roll[61] was: 15     >702
+151624:595: Roll[62] was: 12     >717
+151624:610: Roll[63] was: 9     >729
+151624:626: Roll[64] was: 16     >738
+151624:641: Roll[65] was: 13     >754
+151624:656: Roll[66] was: 9     >767
+151624:671: Roll[67] was: 6     >776
+151624:686: Roll[68] was: 3     >782
+151624:701: Roll[69] was: 19     >785
+151624:716: Roll[70] was: 16     >804
+151624:731: Roll[71] was: 13     >820
+151624:746: Roll[72] was: 10     >833
+151624:762: Roll[73] was: 17     >843
+151624:777: Roll[74] was: 14     >860
+151624:793: Roll[75] was: 1     >874
+151624:808: Roll[76] was: 17     >875
+151624:823: Roll[77] was: 14     >892
+151624:839: Roll[78] was: 1     >906
+151624:854: Roll[79] was: 18     >907
+151624:870: Roll[80] was: 5     >925
+151624:885: Roll[81] was: 2     >930
+151624:901: Roll[82] was: 9     >932
+151624:916: Roll[83] was: 6     >941
+151624:931: Roll[84] was: 3     >947
+151624:947: Roll[85] was: 10     >950
+151624:962: Roll[86] was: 6     >960
+151624:978: Roll[87] was: 14     >966
+151624:993: Roll[88] was: 10     >980
+151625:008: Roll[89] was: 19     >990
+151625:024: Roll[90] was: 6     >1009
+151625:040: Roll[91] was: 13     >1015
+151625:055: Roll[92] was: 10     >1028
+151625:071: Roll[93] was: 17     >1038
+151625:086: Roll[94] was: 14     >1055
+151625:102: Roll[95] was: 1     >1069
+151625:117: Roll[96] was: 18     >1070
+151625:133: Roll[97] was: 5     >1088
+151625:147: Roll[98] was: 11     >1093
+151625:162: Roll[99] was: 8     >1104
+151625:177: Roll[100] was: 4     >1112
+151625:179: DiceString: 100d20 >> 1116
+151625:181: You rolled a 1116 [100d20 >> 4,11,8,15,12,9,16,13,20,17,13,20,17,14,11,7,4,10,18,14,1,18,6,3,10,7,14,11,8,4,1,18,15,11,8,15,12,9,16,13,20,16,4,20,7,14,20,17,14,10,17,14,11,8,4,1,18,15,11,8,15,12,9,16,13,9,6,3,19,16,13,10,17,14,1,17,14,1,18,5,2,9,6,3,10,6,14,10,19,6,13,10,17,14,1,18,5,11,8,4]
+151625:182: runTimer: >> 1,526ms
+151625:832: Roll[1] was: 8     >0
+151625:848: Roll[2] was: 15     >8
+151625:863: Roll[3] was: 12     >23
+151625:878: Roll[4] was: 9     >35
+151625:893: Roll[5] was: 6     >44
+151625:908: Roll[6] was: 2     >50
+151625:923: Roll[7] was: 19     >52
+151625:939: Roll[8] was: 6     >71
+151625:954: Roll[9] was: 3     >77
+151625:970: Roll[10] was: 10     >80
+151625:985: Roll[11] was: 7     >90
+151626:001: Roll[12] was: 5     >97
+151626:016: Roll[13] was: 2     >102
+151626:032: Roll[14] was: 9     >104
+151626:047: Roll[15] was: 6     >113
+151626:062: Roll[16] was: 3     >119
+151626:078: Roll[17] was: 10     >122
+151626:093: Roll[18] was: 7     >132
+151626:108: Roll[19] was: 3     >139
+151626:123: Roll[20] was: 20     >142
+151626:137: Roll[21] was: 6     >162
+151626:153: Roll[22] was: 14     >168
+151626:168: Roll[23] was: 10     >182
+151626:184: Roll[24] was: 18     >192
+151626:199: Roll[25] was: 14     >210
+151626:214: Roll[26] was: 11     >224
+151626:229: Roll[27] was: 8     >235
+151626:244: Roll[28] was: 4     >243
+151626:259: Roll[29] was: 1     >247
+151626:275: Roll[30] was: 8     >248
+151626:290: Roll[31] was: 5     >256
+151626:305: Roll[32] was: 2     >261
+151626:320: Roll[33] was: 19     >263
+151626:335: Roll[34] was: 15     >282
+151626:351: Roll[35] was: 2     >297
+151626:367: Roll[36] was: 10     >299
+151626:382: Roll[37] was: 6     >309
+151626:397: Roll[38] was: 3     >315
+151626:413: Roll[39] was: 10     >318
+151626:428: Roll[40] was: 7     >328
+151626:443: Roll[41] was: 4     >335
+151626:458: Roll[42] was: 20     >339
+151626:473: Roll[43] was: 17     >359
+151626:488: Roll[44] was: 14     >376
+151626:504: Roll[45] was: 1     >390
+151626:519: Roll[46] was: 18     >391
+151626:534: Roll[47] was: 15     >409
+151626:550: Roll[48] was: 2     >424
+151626:564: Roll[49] was: 8     >426
+151626:580: Roll[50] was: 15     >434
+151626:595: Roll[51] was: 12     >449
+151626:611: Roll[52] was: 19     >461
+151626:626: Roll[53] was: 16     >480
+151626:642: Roll[54] was: 3     >496
+151626:657: Roll[55] was: 20     >499
+151626:673: Roll[56] was: 7     >519
+151626:688: Roll[57] was: 4     >526
+151626:702: Roll[58] was: 10     >530
+151626:717: Roll[59] was: 7     >540
+151626:732: Roll[60] was: 3     >547
+151626:747: Roll[61] was: 20     >550
+151626:762: Roll[62] was: 17     >570
+151626:778: Roll[63] was: 4     >587
+151626:793: Roll[64] was: 1     >591
+151626:808: Roll[65] was: 17     >592
+151626:824: Roll[66] was: 5     >609
+151626:839: Roll[67] was: 1     >614
+151626:854: Roll[68] was: 18     >615
+151626:870: Roll[69] was: 5     >633
+151626:885: Roll[70] was: 2     >638
+151626:901: Roll[71] was: 9     >640
+151626:916: Roll[72] was: 6     >649
+151626:931: Roll[73] was: 3     >655
+151626:946: Roll[74] was: 19     >658
+151626:961: Roll[75] was: 16     >677
+151626:976: Roll[76] was: 13     >693
+151626:992: Roll[77] was: 20     >706
+151627:007: Roll[78] was: 8     >726
+151627:023: Roll[79] was: 15     >734
+151627:038: Roll[80] was: 12     >749
+151627:054: Roll[81] was: 19     >761
+151627:069: Roll[82] was: 16     >780
+151627:085: Roll[83] was: 3     >796
+151627:100: Roll[84] was: 20     >799
+151627:116: Roll[85] was: 17     >819
+151627:131: Roll[86] was: 4     >836
+151627:146: Roll[87] was: 1     >840
+151627:162: Roll[88] was: 8     >841
+151627:177: Roll[89] was: 4     >849
+151627:193: Roll[90] was: 12     >853
+151627:208: Roll[91] was: 8     >865
+151627:224: Roll[92] was: 15     >873
+151627:239: Roll[93] was: 12     >888
+151627:255: Roll[94] was: 19     >900
+151627:270: Roll[95] was: 16     >919
+151627:286: Roll[96] was: 3     >935
+151627:301: Roll[97] was: 20     >938
+151627:317: Roll[98] was: 7     >958
+151627:332: Roll[99] was: 4     >965
+151627:347: Roll[100] was: 1     >969
+151627:349: DiceString: 100d20 >> 970
+151627:351: You rolled a 970 [100d20 >> 8,15,12,9,6,2,19,6,3,10,7,5,2,9,6,3,10,7,3,20,6,14,10,18,14,11,8,4,1,8,5,2,19,15,2,10,6,3,10,7,4,20,17,14,1,18,15,2,8,15,12,19,16,3,20,7,4,10,7,3,20,17,4,1,17,5,1,18,5,2,9,6,3,19,16,13,20,8,15,12,19,16,3,20,17,4,1,8,4,12,8,15,12,19,16,3,20,7,4,1]
+151627:352: runTimer: >> 1,528ms
+151628:171: Roll[1] was: 2     >0
+151628:187: Roll[2] was: 9     >2
+151628:202: Roll[3] was: 6     >11
+151628:217: Roll[4] was: 2     >17
+151628:232: Roll[5] was: 19     >19
+151628:248: Roll[6] was: 6     >38
+151628:263: Roll[7] was: 3     >44
+151628:279: Roll[8] was: 10     >47
+151628:294: Roll[9] was: 7     >57
+151628:309: Roll[10] was: 4     >64
+151628:325: Roll[11] was: 11     >68
+151628:340: Roll[12] was: 8     >79
+151628:355: Roll[13] was: 4     >87
+151628:370: Roll[14] was: 1     >91
+151628:385: Roll[15] was: 18     >92
+151628:400: Roll[16] was: 14     >110
+151628:415: Roll[17] was: 11     >124
+151628:431: Roll[18] was: 18     >135
+151628:446: Roll[19] was: 15     >153
+151628:462: Roll[20] was: 2     >168
+151628:477: Roll[21] was: 19     >170
+151628:493: Roll[22] was: 6     >189
+151628:508: Roll[23] was: 3     >195
+151628:524: Roll[24] was: 10     >198
+151628:539: Roll[25] was: 7     >208
+151628:555: Roll[26] was: 14     >215
+151628:570: Roll[27] was: 11     >229
+151628:585: Roll[28] was: 7     >240
+151628:601: Roll[29] was: 15     >247
+151628:616: Roll[30] was: 11     >262
+151628:631: Roll[31] was: 8     >273
+151628:646: Roll[32] was: 5     >281
+151628:661: Roll[33] was: 1     >286
+151628:676: Roll[34] was: 18     >287
+151628:691: Roll[35] was: 15     >305
+151628:707: Roll[36] was: 2     >320
+151628:722: Roll[37] was: 19     >322
+151628:737: Roll[38] was: 16     >341
+151628:752: Roll[39] was: 12     >357
+151628:766: Roll[40] was: 19     >369
+151628:782: Roll[41] was: 6     >388
+151628:797: Roll[42] was: 2     >394
+151628:813: Roll[43] was: 10     >396
+151628:828: Roll[44] was: 6     >406
+151628:844: Roll[45] was: 14     >412
+151628:859: Roll[46] was: 10     >426
+151628:874: Roll[47] was: 7     >436
+151628:889: Roll[48] was: 4     >443
+151628:903: Roll[49] was: 10     >447
+151628:919: Roll[50] was: 17     >457
+151628:934: Roll[51] was: 14     >474
+151628:949: Roll[52] was: 11     >488
+151628:964: Roll[53] was: 7     >499
+151628:979: Roll[54] was: 4     >506
+151628:994: Roll[55] was: 1     >510
+151629:010: Roll[56] was: 20     >511
+151629:025: Roll[57] was: 16     >531
+151629:040: Roll[58] was: 13     >547
+151629:056: Roll[59] was: 20     >560
+151629:071: Roll[60] was: 17     >580
+151629:087: Roll[61] was: 4     >597
+151629:102: Roll[62] was: 1     >601
+151629:117: Roll[63] was: 18     >602
+151629:132: Roll[64] was: 14     >620
+151629:147: Roll[65] was: 11     >634
+151629:162: Roll[66] was: 8     >645
+151629:178: Roll[67] was: 15     >653
+151629:193: Roll[68] was: 12     >668
+151629:209: Roll[69] was: 19     >680
+151629:224: Roll[70] was: 15     >699
+151629:240: Roll[71] was: 3     >714
+151629:255: Roll[72] was: 19     >717
+151629:270: Roll[73] was: 16     >736
+151629:285: Roll[74] was: 13     >752
+151629:300: Roll[75] was: 10     >765
+151629:315: Roll[76] was: 6     >775
+151629:330: Roll[77] was: 3     >781
+151629:345: Roll[78] was: 20     >784
+151629:360: Roll[79] was: 16     >804
+151629:375: Roll[80] was: 13     >820
+151629:390: Roll[81] was: 10     >833
+151629:405: Roll[82] was: 7     >843
+151629:421: Roll[83] was: 14     >850
+151629:436: Roll[84] was: 11     >864
+151629:451: Roll[85] was: 7     >875
+151629:467: Roll[86] was: 14     >882
+151629:482: Roll[87] was: 11     >896
+151629:498: Roll[88] was: 18     >907
+151629:513: Roll[89] was: 15     >925
+151629:528: Roll[90] was: 12     >940
+151629:544: Roll[91] was: 19     >952
+151629:559: Roll[92] was: 16     >971
+151629:574: Roll[93] was: 12     >987
+151629:590: Roll[94] was: 20     >999
+151629:605: Roll[95] was: 16     >1019
+151629:621: Roll[96] was: 4     >1035
+151629:636: Roll[97] was: 20     >1039
+151629:651: Roll[98] was: 17     >1059
+151629:667: Roll[99] was: 4     >1076
+151629:682: Roll[100] was: 1     >1080
+151629:683: DiceString: 100d20 >> 1081
+151629:685: You rolled a 1081 [100d20 >> 2,9,6,2,19,6,3,10,7,4,11,8,4,1,18,14,11,18,15,2,19,6,3,10,7,14,11,7,15,11,8,5,1,18,15,2,19,16,12,19,6,2,10,6,14,10,7,4,10,17,14,11,7,4,1,20,16,13,20,17,4,1,18,14,11,8,15,12,19,15,3,19,16,13,10,6,3,20,16,13,10,7,14,11,7,14,11,18,15,12,19,16,12,20,16,4,20,17,4,1]
+151629:686: runTimer: >> 1,518ms
+151630:366: Roll[1] was: 19     >0
+151630:381: Roll[2] was: 16     >19
+151630:396: Roll[3] was: 13     >35
+151630:411: Roll[4] was: 9     >48
+151630:426: Roll[5] was: 6     >57
+151630:441: Roll[6] was: 3     >63
+151630:456: Roll[7] was: 20     >66
+151630:471: Roll[8] was: 16     >86
+151630:486: Roll[9] was: 13     >102
+151630:501: Roll[10] was: 10     >115
+151630:516: Roll[11] was: 6     >125
+151630:532: Roll[12] was: 14     >131
+151630:547: Roll[13] was: 10     >145
+151630:563: Roll[14] was: 18     >155
+151630:578: Roll[15] was: 14     >173
+151630:593: Roll[16] was: 11     >187
+151630:608: Roll[17] was: 8     >198
+151630:623: Roll[18] was: 4     >206
+151630:638: Roll[19] was: 1     >210
+151630:654: Roll[20] was: 8     >211
+151630:669: Roll[21] was: 5     >219
+151630:684: Roll[22] was: 2     >224
+151630:700: Roll[23] was: 9     >226
+151630:715: Roll[24] was: 6     >235
+151630:730: Roll[25] was: 2     >241
+151630:745: Roll[26] was: 19     >243
+151630:760: Roll[27] was: 16     >262
+151630:775: Roll[28] was: 13     >278
+151630:790: Roll[29] was: 9     >291
+151630:806: Roll[30] was: 17     >300
+151630:821: Roll[31] was: 13     >317
+151630:836: Roll[32] was: 10     >330
+151630:852: Roll[33] was: 17     >340
+151630:867: Roll[34] was: 14     >357
+151630:883: Roll[35] was: 1     >371
+151630:898: Roll[36] was: 18     >372
+151630:914: Roll[37] was: 5     >390
+151630:929: Roll[38] was: 2     >395
+151630:943: Roll[39] was: 8     >397
+151630:959: Roll[40] was: 15     >405
+151630:973: Roll[41] was: 1     >420
+151630:988: Roll[42] was: 18     >421
+151631:003: Roll[43] was: 6     >439
+151631:018: Roll[44] was: 3     >445
+151631:033: Roll[45] was: 20     >448
+151631:049: Roll[46] was: 7     >468
+151631:064: Roll[47] was: 4     >475
+151631:080: Roll[48] was: 11     >479
+151631:095: Roll[49] was: 8     >490
+151631:111: Roll[50] was: 15     >498
+151631:126: Roll[51] was: 12     >513
+151631:142: Roll[52] was: 19     >525
+151631:157: Roll[53] was: 15     >544
+151631:172: Roll[54] was: 12     >559
+151631:188: Roll[55] was: 19     >571
+151631:203: Roll[56] was: 16     >590
+151631:219: Roll[57] was: 3     >606
+151631:234: Roll[58] was: 20     >609
+151631:250: Roll[59] was: 7     >629
+151631:265: Roll[60] was: 4     >636
+151631:280: Roll[61] was: 1     >640
+151631:294: Roll[62] was: 7     >641
+151631:309: Roll[63] was: 4     >648
+151631:325: Roll[64] was: 11     >652
+151631:340: Roll[65] was: 8     >663
+151631:356: Roll[66] was: 4     >671
+151631:371: Roll[67] was: 11     >675
+151631:386: Roll[68] was: 8     >686
+151631:401: Roll[69] was: 5     >694
+151631:416: Roll[70] was: 2     >699
+151631:431: Roll[71] was: 18     >701
+151631:447: Roll[72] was: 6     >719
+151631:462: Roll[73] was: 2     >725
+151631:477: Roll[74] was: 19     >727
+151631:493: Roll[75] was: 6     >746
+151631:508: Roll[76] was: 3     >752
+151631:524: Roll[77] was: 10     >755
+151631:539: Roll[78] was: 7     >765
+151631:555: Roll[79] was: 14     >772
+151631:570: Roll[80] was: 11     >786
+151631:586: Roll[81] was: 18     >797
+151631:601: Roll[82] was: 15     >815
+151631:616: Roll[83] was: 11     >830
+151631:631: Roll[84] was: 8     >841
+151631:646: Roll[85] was: 5     >849
+151631:661: Roll[86] was: 1     >854
+151631:676: Roll[87] was: 18     >855
+151631:691: Roll[88] was: 15     >873
+151631:706: Roll[89] was: 12     >888
+151631:721: Roll[90] was: 8     >900
+151631:736: Roll[91] was: 5     >908
+151631:751: Roll[92] was: 2     >913
+151631:767: Roll[93] was: 9     >915
+151631:782: Roll[94] was: 6     >924
+151631:797: Roll[95] was: 2     >930
+151631:812: Roll[96] was: 19     >932
+151631:827: Roll[97] was: 16     >951
+151631:842: Roll[98] was: 13     >967
+151631:857: Roll[99] was: 9     >980
+151631:872: Roll[100] was: 6     >989
+151631:874: DiceString: 100d20 >> 995
+151631:876: You rolled a 995 [100d20 >> 19,16,13,9,6,3,20,16,13,10,6,14,10,18,14,11,8,4,1,8,5,2,9,6,2,19,16,13,9,17,13,10,17,14,1,18,5,2,8,15,1,18,6,3,20,7,4,11,8,15,12,19,15,12,19,16,3,20,7,4,1,7,4,11,8,4,11,8,5,2,18,6,2,19,6,3,10,7,14,11,18,15,11,8,5,1,18,15,12,8,5,2,9,6,2,19,16,13,9,6]
+151631:877: runTimer: >> 1,525ms
+151714:478:  Exiting Dice Roll Mode
+151728:240:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151728:242:  Wrote 10 lines in 0,003ms
+151739:215:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151739:217:  Wrote 10 lines in 0,003ms
+151740:543:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151740:545:  Wrote 10 lines in 0,003ms
+151753:832:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151753:833:  Wrote 10 lines in 0,003ms
+151759:029: REPL Complete, thanks for testing!
+151804:528: stringArray 100
+151804:530: stringArray 100
+151804:532: stringArray 100
+151804:534: stringArray 100
+151804:535: stringArray 100
+151804:536: stringArray 100
+151804:538: stringArray 100
+151804:540: stringArray 100
+151804:541: stringArray 100
+151804:542: stringArray 100
+151804:544:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151804:546:  Reading in 10 lines in 0,027ms
+151817:293: stringArray 100
+151817:295: stringArray 100
+151817:297: stringArray 100
+151817:298: stringArray 100
+151817:300: stringArray 100
+151817:301: stringArray 100
+151817:303: stringArray 100
+151817:304: stringArray 100
+151817:306: stringArray 100
+151817:307: stringArray 100
+151817:308:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151817:310:  Reading in 10 lines in 0,017ms
+151825:109: stringArray 100
+151825:111: stringArray 100
+151825:113: stringArray 100
+151825:114: stringArray 100
+151825:116: stringArray 100
+151825:117: stringArray 100
+151825:119: stringArray 100
+151825:120: stringArray 100
+151825:122: stringArray 100
+151825:123: stringArray 100
+151825:125:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151825:127:  Reading in 10 lines in 0,017ms
+151829:141: stringArray 100
+151829:143: stringArray 100
+151829:145: stringArray 100
+151829:146: stringArray 100
+151829:148: stringArray 100
+151829:149: stringArray 100
+151829:151: stringArray 100
+151829:152: stringArray 100
+151829:154: stringArray 100
+151829:155: stringArray 100
+151829:157:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151829:159:  Reading in 10 lines in 0,017ms
+151829:837: stringArray 100
+151829:874: stringArray 100
+151829:875: stringArray 100
+151829:877: stringArray 100
+151829:879: stringArray 100
+151829:880: stringArray 100
+151829:881: stringArray 100
+151829:883: stringArray 100
+151829:884: stringArray 100
+151829:886: stringArray 100
+151829:887:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151829:889:  Reading in 10 lines in 0,052ms
+151830:405: stringArray 100
+151830:407: stringArray 100
+151830:409: stringArray 100
+151830:410: stringArray 100
+151830:412: stringArray 100
+151830:413: stringArray 100
+151830:415: stringArray 100
+151830:416: stringArray 100
+151830:417: stringArray 100
+151830:419: stringArray 100
+151830:421:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151830:422:  Reading in 10 lines in 0,017ms
+151831:245: stringArray 100
+151831:336: stringArray 100
+151831:338: stringArray 100
+151831:339: stringArray 100
+151831:341: stringArray 100
+151831:343: stringArray 100
+151831:344: stringArray 100
+151831:346: stringArray 100
+151831:347: stringArray 100
+151831:349: stringArray 100
+151831:351:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151831:352:  Reading in 10 lines in 0,107ms
+151831:997: stringArray 100
+151831:999: stringArray 100
+151832:000: stringArray 100
+151832:002: stringArray 100
+151832:003: stringArray 100
+151832:005: stringArray 100
+151832:006: stringArray 100
+151832:008: stringArray 100
+151832:009: stringArray 100
+151832:011: stringArray 100
+151832:012:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151832:014:  Reading in 10 lines in 0,017ms
+151832:765: stringArray 100
+151832:767: stringArray 100
+151832:769: stringArray 100
+151832:770: stringArray 100
+151832:772: stringArray 100
+151832:774: stringArray 100
+151832:776: stringArray 100
+151832:778: stringArray 100
+151832:779: stringArray 100
+151832:781: stringArray 100
+151832:782:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151832:784:  Reading in 10 lines in 0,019ms
+151833:486: stringArray 100
+151833:488: stringArray 100
+151833:490: stringArray 100
+151833:491: stringArray 100
+151833:493: stringArray 100
+151833:494: stringArray 100
+151833:496: stringArray 100
+151833:498: stringArray 100
+151833:499: stringArray 100
+151833:501: stringArray 100
+151833:503:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151833:504:  Reading in 10 lines in 0,018ms
+151834:085: stringArray 100
+151834:087: stringArray 100
+151834:088: stringArray 100
+151834:090: stringArray 100
+151834:091: stringArray 100
+151834:093: stringArray 100
+151834:094: stringArray 100
+151834:096: stringArray 100
+151834:098: stringArray 100
+151834:100: stringArray 100
+151834:101:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+151834:103:  Reading in 10 lines in 0,017ms
+151938:924: Reporting current DiceDATA: 110 entries...
+152049:794: REPL Complete, thanks for testing!
+152113:132: stringArray 100
+152113:135: stringArray 100
+152113:136: stringArray 100
+152113:138: stringArray 100
+152113:139: stringArray 100
+152113:141: stringArray 100
+152113:142: stringArray 100
+152113:143: stringArray 100
+152113:145: stringArray 100
+152113:147: stringArray 100
+152113:148:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+152113:149:  Reading in 10 lines in 0,026ms
+152128:641: Roll[1] was: 9     >0
+152128:647: Roll[2] was: 15     >9
+152128:662: Roll[3] was: 12     >24
+152128:677: Roll[4] was: 9     >36
+152128:692: Roll[5] was: 5     >45
+152128:708: Roll[6] was: 13     >50
+152128:723: Roll[7] was: 9     >63
+152128:739: Roll[8] was: 16     >72
+152128:754: Roll[9] was: 13     >88
+152128:769: Roll[10] was: 10     >101
+152128:784: Roll[11] was: 7     >111
+152128:798: Roll[12] was: 13     >118
+152128:813: Roll[13] was: 10     >131
+152128:828: Roll[14] was: 6     >141
+152128:843: Roll[15] was: 3     >147
+152128:858: Roll[16] was: 20     >150
+152128:873: Roll[17] was: 17     >170
+152128:889: Roll[18] was: 4     >187
+152128:904: Roll[19] was: 20     >191
+152128:920: Roll[20] was: 8     >211
+152128:935: Roll[21] was: 4     >219
+152128:950: Roll[22] was: 1     >223
+152128:966: Roll[23] was: 8     >224
+152128:981: Roll[24] was: 5     >232
+152128:997: Roll[25] was: 12     >237
+152129:012: Roll[26] was: 20     >249
+152129:027: Roll[27] was: 17     >269
+152129:043: Roll[28] was: 4     >286
+152129:058: Roll[29] was: 1     >290
+152129:072: Roll[30] was: 7     >291
+152129:088: Roll[31] was: 14     >298
+152129:103: Roll[32] was: 11     >312
+152129:119: Roll[33] was: 18     >323
+152129:134: Roll[34] was: 15     >341
+152129:149: Roll[35] was: 12     >356
+152129:165: Roll[36] was: 19     >368
+152129:180: Roll[37] was: 16     >387
+152129:195: Roll[38] was: 12     >403
+152129:211: Roll[39] was: 20     >415
+152129:226: Roll[40] was: 16     >435
+152129:241: Roll[41] was: 13     >451
+152129:257: Roll[42] was: 20     >464
+152129:271: Roll[43] was: 7     >484
+152129:286: Roll[44] was: 3     >491
+152129:302: Roll[45] was: 10     >494
+152129:317: Roll[46] was: 7     >504
+152129:332: Roll[47] was: 4     >511
+152129:348: Roll[48] was: 11     >515
+152129:363: Roll[49] was: 8     >526
+152129:378: Roll[50] was: 5     >534
+152129:393: Roll[51] was: 1     >539
+152129:408: Roll[52] was: 18     >540
+152129:424: Roll[53] was: 5     >558
+152129:439: Roll[54] was: 2     >563
+152129:454: Roll[55] was: 19     >565
+152129:470: Roll[56] was: 6     >584
+152129:485: Roll[57] was: 3     >590
+152129:500: Roll[58] was: 19     >593
+152129:516: Roll[59] was: 6     >612
+152129:531: Roll[60] was: 3     >618
+152129:546: Roll[61] was: 20     >621
+152129:561: Roll[62] was: 17     >641
+152129:576: Roll[63] was: 13     >658
+152129:591: Roll[64] was: 10     >671
+152129:607: Roll[65] was: 17     >681
+152129:622: Roll[66] was: 14     >698
+152129:637: Roll[67] was: 11     >712
+152129:653: Roll[68] was: 18     >723
+152129:668: Roll[69] was: 15     >741
+152129:683: Roll[70] was: 11     >756
+152129:698: Roll[71] was: 8     >767
+152129:713: Roll[72] was: 5     >775
+152129:728: Roll[73] was: 2     >780
+152129:743: Roll[74] was: 18     >782
+152129:758: Roll[75] was: 15     >800
+152129:774: Roll[76] was: 2     >815
+152129:789: Roll[77] was: 19     >817
+152129:804: Roll[78] was: 16     >836
+152129:819: Roll[79] was: 12     >852
+152129:834: Roll[80] was: 9     >864
+152129:849: Roll[81] was: 6     >873
+152129:864: Roll[82] was: 3     >879
+152129:879: Roll[83] was: 19     >882
+152129:894: Roll[84] was: 16     >901
+152129:909: Roll[85] was: 13     >917
+152129:925: Roll[86] was: 20     >930
+152129:940: Roll[87] was: 17     >950
+152129:955: Roll[88] was: 13     >967
+152129:970: Roll[89] was: 10     >980
+152129:985: Roll[90] was: 7     >990
+152130:000: Roll[91] was: 15     >997
+152130:015: Roll[92] was: 12     >1012
+152130:031: Roll[93] was: 19     >1024
+152130:046: Roll[94] was: 16     >1043
+152130:061: Roll[95] was: 12     >1059
+152130:076: Roll[96] was: 9     >1071
+152130:091: Roll[97] was: 6     >1080
+152130:106: Roll[98] was: 3     >1086
+152130:121: Roll[99] was: 19     >1089
+152130:136: Roll[100] was: 16     >1108
+152130:151: Roll[101] was: 13     >1124
+152130:166: Roll[102] was: 9     >1137
+152130:181: Roll[103] was: 6     >1146
+152130:196: Roll[104] was: 3     >1152
+152130:211: Roll[105] was: 20     >1155
+152130:226: Roll[106] was: 16     >1175
+152130:241: Roll[107] was: 13     >1191
+152130:256: Roll[108] was: 10     >1204
+152130:271: Roll[109] was: 7     >1214
+152130:286: Roll[110] was: 3     >1221
+152130:301: Roll[111] was: 20     >1224
+152130:316: Roll[112] was: 17     >1244
+152130:331: Roll[113] was: 13     >1261
+152130:347: Roll[114] was: 1     >1274
+152130:361: Roll[115] was: 7     >1275
+152130:376: Roll[116] was: 4     >1282
+152130:391: Roll[117] was: 20     >1286
+152130:407: Roll[118] was: 8     >1306
+152130:422: Roll[119] was: 4     >1314
+152130:437: Roll[120] was: 1     >1318
+152130:453: Roll[121] was: 8     >1319
+152130:468: Roll[122] was: 5     >1327
+152130:483: Roll[123] was: 2     >1332
+152130:498: Roll[124] was: 18     >1334
+152130:513: Roll[125] was: 15     >1352
+152130:528: Roll[126] was: 12     >1367
+152130:543: Roll[127] was: 9     >1379
+152130:559: Roll[128] was: 16     >1388
+152130:574: Roll[129] was: 12     >1404
+152130:589: Roll[130] was: 9     >1416
+152130:604: Roll[131] was: 6     >1425
+152130:619: Roll[132] was: 3     >1431
+152130:635: Roll[133] was: 10     >1434
+152130:650: Roll[134] was: 7     >1444
+152130:666: Roll[135] was: 14     >1451
+152130:681: Roll[136] was: 10     >1465
+152130:696: Roll[137] was: 7     >1475
+152130:711: Roll[138] was: 4     >1482
+152130:727: Roll[139] was: 11     >1486
+152130:742: Roll[140] was: 8     >1497
+152130:758: Roll[141] was: 15     >1505
+152130:773: Roll[142] was: 12     >1520
+152130:789: Roll[143] was: 19     >1532
+152130:804: Roll[144] was: 16     >1551
+152130:820: Roll[145] was: 3     >1567
+152130:835: Roll[146] was: 20     >1570
+152130:850: Roll[147] was: 16     >1590
+152130:865: Roll[148] was: 13     >1606
+152130:880: Roll[149] was: 10     >1619
+152130:895: Roll[150] was: 6     >1629
+152130:910: Roll[151] was: 3     >1635
+152130:925: Roll[152] was: 20     >1638
+152130:940: Roll[153] was: 17     >1658
+152130:955: Roll[154] was: 13     >1675
+152130:970: Roll[155] was: 10     >1688
+152130:985: Roll[156] was: 7     >1698
+152131:000: Roll[157] was: 15     >1705
+152131:015: Roll[158] was: 12     >1720
+152131:031: Roll[159] was: 19     >1732
+152131:046: Roll[160] was: 16     >1751
+152131:061: Roll[161] was: 12     >1767
+152131:122: Roll[162] was: 10     >1779
+152131:137: Roll[163] was: 6     >1789
+152131:153: Roll[164] was: 14     >1795
+152131:167: Roll[165] was: 20     >1809
+152131:183: Roll[166] was: 7     >1829
+152131:198: Roll[167] was: 4     >1836
+152131:214: Roll[168] was: 11     >1840
+152131:229: Roll[169] was: 8     >1851
+152131:245: Roll[170] was: 15     >1859
+152131:259: Roll[171] was: 1     >1874
+152131:274: Roll[172] was: 18     >1875
+152131:289: Roll[173] was: 15     >1893
+152131:304: Roll[174] was: 11     >1908
+152131:320: Roll[175] was: 19     >1919
+152131:335: Roll[176] was: 15     >1938
+152131:351: Roll[177] was: 2     >1953
+152131:366: Roll[178] was: 19     >1955
+152131:382: Roll[179] was: 6     >1974
+152131:396: Roll[180] was: 13     >1980
+152131:411: Roll[181] was: 9     >1993
+152131:426: Roll[182] was: 6     >2002
+152131:441: Roll[183] was: 3     >2008
+152131:457: Roll[184] was: 10     >2011
+152131:472: Roll[185] was: 7     >2021
+152131:487: Roll[186] was: 3     >2028
+152131:503: Roll[187] was: 11     >2031
+152131:518: Roll[188] was: 7     >2042
+152131:533: Roll[189] was: 4     >2049
+152131:549: Roll[190] was: 11     >2053
+152131:564: Roll[191] was: 8     >2064
+152131:580: Roll[192] was: 15     >2072
+152131:595: Roll[193] was: 12     >2087
+152131:610: Roll[194] was: 9     >2099
+152131:626: Roll[195] was: 16     >2108
+152131:641: Roll[196] was: 13     >2124
+152131:656: Roll[197] was: 9     >2137
+152131:671: Roll[198] was: 6     >2146
+152131:686: Roll[199] was: 3     >2152
+152131:701: Roll[200] was: 19     >2155
+152131:716: Roll[201] was: 16     >2174
+152131:732: Roll[202] was: 3     >2190
+152131:747: Roll[203] was: 20     >2193
+152131:762: Roll[204] was: 17     >2213
+152131:778: Roll[205] was: 14     >2230
+152131:793: Roll[206] was: 1     >2244
+152131:808: Roll[207] was: 17     >2245
+152131:823: Roll[208] was: 14     >2262
+152131:838: Roll[209] was: 11     >2276
+152131:854: Roll[210] was: 18     >2287
+152131:869: Roll[211] was: 15     >2305
+152131:884: Roll[212] was: 12     >2320
+152131:900: Roll[213] was: 19     >2332
+152131:915: Roll[214] was: 15     >2351
+152131:931: Roll[215] was: 3     >2366
+152131:946: Roll[216] was: 19     >2369
+152131:962: Roll[217] was: 6     >2388
+152131:976: Roll[218] was: 13     >2394
+152131:991: Roll[219] was: 9     >2407
+152132:006: Roll[220] was: 18     >2416
+152132:021: Roll[221] was: 14     >2434
+152132:037: Roll[222] was: 2     >2448
+152132:052: Roll[223] was: 18     >2450
+152132:067: Roll[224] was: 15     >2468
+152132:083: Roll[225] was: 2     >2483
+152132:098: Roll[226] was: 19     >2485
+152132:114: Roll[227] was: 6     >2504
+152132:129: Roll[228] was: 3     >2510
+152132:145: Roll[229] was: 10     >2513
+152132:160: Roll[230] was: 7     >2523
+152132:176: Roll[231] was: 14     >2530
+152132:191: Roll[232] was: 11     >2544
+152132:206: Roll[233] was: 7     >2555
+152132:221: Roll[234] was: 4     >2562
+152132:236: Roll[235] was: 1     >2566
+152132:251: Roll[236] was: 18     >2567
+152132:266: Roll[237] was: 14     >2585
+152132:281: Roll[238] was: 11     >2599
+152132:296: Roll[239] was: 8     >2610
+152132:311: Roll[240] was: 5     >2618
+152132:327: Roll[241] was: 12     >2623
+152132:342: Roll[242] was: 8     >2635
+152132:357: Roll[243] was: 5     >2643
+152132:372: Roll[244] was: 2     >2648
+152132:387: Roll[245] was: 19     >2650
+152132:402: Roll[246] was: 15     >2669
+152132:417: Roll[247] was: 12     >2684
+152132:479: Roll[248] was: 20     >2696
+152132:494: Roll[249] was: 17     >2716
+152132:509: Roll[250] was: 13     >2733
+152132:524: Roll[251] was: 10     >2746
+152132:539: Roll[252] was: 7     >2756
+152132:554: Roll[253] was: 3     >2763
+152132:569: Roll[254] was: 20     >2766
+152132:584: Roll[255] was: 17     >2786
+152132:600: Roll[256] was: 4     >2803
+152132:615: Roll[257] was: 1     >2807
+152132:630: Roll[258] was: 18     >2808
+152132:646: Roll[259] was: 5     >2826
+152132:661: Roll[260] was: 1     >2831
+152132:676: Roll[261] was: 18     >2832
+152132:692: Roll[262] was: 5     >2850
+152132:707: Roll[263] was: 2     >2855
+152132:723: Roll[264] was: 9     >2857
+152132:738: Roll[265] was: 6     >2866
+152132:753: Roll[266] was: 3     >2872
+152132:769: Roll[267] was: 10     >2875
+152132:784: Roll[268] was: 7     >2885
+152132:800: Roll[269] was: 14     >2892
+152132:815: Roll[270] was: 11     >2906
+152132:831: Roll[271] was: 18     >2917
+152132:846: Roll[272] was: 14     >2935
+152132:861: Roll[273] was: 11     >2949
+152132:876: Roll[274] was: 8     >2960
+152132:891: Roll[275] was: 5     >2968
+152132:906: Roll[276] was: 1     >2973
+152132:921: Roll[277] was: 18     >2974
+152132:936: Roll[278] was: 15     >2992
+152132:952: Roll[279] was: 2     >3007
+152132:967: Roll[280] was: 19     >3009
+152132:983: Roll[281] was: 6     >3028
+152132:998: Roll[282] was: 3     >3034
+152133:013: Roll[283] was: 11     >3037
+152133:029: Roll[284] was: 18     >3048
+152133:044: Roll[285] was: 15     >3066
+152133:060: Roll[286] was: 2     >3081
+152133:075: Roll[287] was: 19     >3083
+152133:090: Roll[288] was: 15     >3102
+152133:106: Roll[289] was: 3     >3117
+152133:121: Roll[290] was: 19     >3120
+152133:137: Roll[291] was: 6     >3139
+152133:152: Roll[292] was: 3     >3145
+152133:168: Roll[293] was: 20     >3148
+152133:182: Roll[294] was: 17     >3168
+152133:197: Roll[295] was: 13     >3185
+152133:213: Roll[296] was: 1     >3198
+152133:228: Roll[297] was: 17     >3199
+152133:244: Roll[298] was: 4     >3216
+152133:259: Roll[299] was: 1     >3220
+152133:274: Roll[300] was: 18     >3221
+152133:289: Roll[301] was: 15     >3239
+152133:305: Roll[302] was: 2     >3254
+152133:320: Roll[303] was: 19     >3256
+152133:335: Roll[304] was: 15     >3275
+152133:351: Roll[305] was: 2     >3290
+152133:366: Roll[306] was: 19     >3292
+152133:382: Roll[307] was: 6     >3311
+152133:397: Roll[308] was: 3     >3317
+152133:413: Roll[309] was: 10     >3320
+152133:428: Roll[310] was: 7     >3330
+152133:444: Roll[311] was: 14     >3337
+152133:459: Roll[312] was: 11     >3351
+152133:474: Roll[313] was: 8     >3362
+152133:489: Roll[314] was: 4     >3370
+152133:504: Roll[315] was: 1     >3374
+152133:519: Roll[316] was: 18     >3375
+152133:534: Roll[317] was: 15     >3393
+152133:549: Roll[318] was: 11     >3408
+152133:564: Roll[319] was: 8     >3419
+152133:579: Roll[320] was: 5     >3427
+152133:593: Roll[321] was: 11     >3432
+152133:609: Roll[322] was: 18     >3443
+152133:624: Roll[323] was: 15     >3461
+152133:639: Roll[324] was: 12     >3476
+152133:655: Roll[325] was: 19     >3488
+152133:670: Roll[326] was: 16     >3507
+152133:686: Roll[327] was: 3     >3523
+152133:701: Roll[328] was: 19     >3526
+152133:716: Roll[329] was: 16     >3545
+152133:732: Roll[330] was: 3     >3561
+152133:747: Roll[331] was: 20     >3564
+152133:762: Roll[332] was: 17     >3584
+152133:778: Roll[333] was: 4     >3601
+152133:839: Roll[334] was: 1     >3605
+152133:854: Roll[335] was: 18     >3606
+152133:869: Roll[336] was: 15     >3624
+152133:884: Roll[337] was: 12     >3639
+152133:899: Roll[338] was: 8     >3651
+152133:914: Roll[339] was: 5     >3659
+152133:929: Roll[340] was: 2     >3664
+152133:945: Roll[341] was: 9     >3666
+152133:960: Roll[342] was: 6     >3675
+152133:976: Roll[343] was: 13     >3681
+152133:991: Roll[344] was: 9     >3694
+152134:006: Roll[345] was: 18     >3703
+152134:022: Roll[346] was: 5     >3721
+152134:037: Roll[347] was: 2     >3726
+152134:053: Roll[348] was: 9     >3728
+152134:068: Roll[349] was: 6     >3737
+152134:083: Roll[350] was: 2     >3743
+152134:098: Roll[351] was: 19     >3745
+152134:113: Roll[352] was: 16     >3764
+152134:128: Roll[353] was: 12     >3780
+152134:143: Roll[354] was: 9     >3792
+152134:157: Roll[355] was: 15     >3801
+152134:173: Roll[356] was: 3     >3816
+152134:188: Roll[357] was: 19     >3819
+152134:203: Roll[358] was: 16     >3838
+152134:218: Roll[359] was: 13     >3854
+152134:233: Roll[360] was: 10     >3867
+152134:248: Roll[361] was: 6     >3877
+152134:263: Roll[362] was: 3     >3883
+152134:279: Roll[363] was: 10     >3886
+152134:294: Roll[364] was: 7     >3896
+152134:310: Roll[365] was: 14     >3903
+152134:324: Roll[366] was: 20     >3917
+152134:339: Roll[367] was: 17     >3937
+152134:355: Roll[368] was: 4     >3954
+152134:370: Roll[369] was: 1     >3958
+152134:385: Roll[370] was: 18     >3959
+152134:400: Roll[371] was: 14     >3977
+152134:415: Roll[372] was: 11     >3991
+152134:430: Roll[373] was: 8     >4002
+152134:445: Roll[374] was: 5     >4010
+152134:460: Roll[375] was: 1     >4015
+152134:475: Roll[376] was: 18     >4016
+152134:490: Roll[377] was: 15     >4034
+152134:506: Roll[378] was: 2     >4049
+152134:521: Roll[379] was: 19     >4051
+152134:537: Roll[380] was: 6     >4070
+152134:552: Roll[381] was: 3     >4076
+152134:567: Roll[382] was: 19     >4079
+152134:582: Roll[383] was: 16     >4098
+152134:597: Roll[384] was: 13     >4114
+152134:612: Roll[385] was: 10     >4127
+152134:628: Roll[386] was: 17     >4137
+152134:643: Roll[387] was: 13     >4154
+152134:658: Roll[388] was: 10     >4167
+152134:674: Roll[389] was: 17     >4177
+152134:689: Roll[390] was: 14     >4194
+152134:705: Roll[391] was: 1     >4208
+152134:720: Roll[392] was: 18     >4209
+152134:735: Roll[393] was: 15     >4227
+152134:751: Roll[394] was: 2     >4242
+152134:766: Roll[395] was: 19     >4244
+152134:782: Roll[396] was: 6     >4263
+152134:797: Roll[397] was: 2     >4269
+152134:812: Roll[398] was: 19     >4271
+152134:827: Roll[399] was: 16     >4290
+152134:842: Roll[400] was: 13     >4306
+152134:857: Roll[401] was: 9     >4319
+152134:872: Roll[402] was: 6     >4328
+152134:887: Roll[403] was: 3     >4334
+152134:903: Roll[404] was: 10     >4337
+152134:918: Roll[405] was: 7     >4347
+152134:933: Roll[406] was: 3     >4354
+152134:948: Roll[407] was: 20     >4357
+152134:963: Roll[408] was: 17     >4377
+152134:978: Roll[409] was: 14     >4394
+152134:993: Roll[410] was: 10     >4408
+152135:008: Roll[411] was: 19     >4418
+152135:024: Roll[412] was: 6     >4437
+152135:039: Roll[413] was: 3     >4443
+152135:054: Roll[414] was: 19     >4446
+152135:069: Roll[415] was: 16     >4465
+152135:084: Roll[416] was: 13     >4481
+152135:099: Roll[417] was: 9     >4494
+152135:114: Roll[418] was: 6     >4503
+152135:129: Roll[419] was: 3     >4509
+152135:144: Roll[420] was: 20     >4512
+152135:159: Roll[421] was: 16     >4532
+152135:175: Roll[422] was: 4     >4548
+152135:190: Roll[423] was: 20     >4552
+152135:205: Roll[424] was: 17     >4572
+152135:220: Roll[425] was: 14     >4589
+152135:234: Roll[426] was: 20     >4603
+152135:250: Roll[427] was: 7     >4623
+152135:265: Roll[428] was: 4     >4630
+152135:281: Roll[429] was: 11     >4634
+152135:296: Roll[430] was: 8     >4645
+152135:311: Roll[431] was: 5     >4653
+152135:327: Roll[432] was: 12     >4658
+152135:342: Roll[433] was: 8     >4670
+152135:358: Roll[434] was: 16     >4678
+152135:373: Roll[435] was: 12     >4694
+152135:389: Roll[436] was: 19     >4706
+152135:404: Roll[437] was: 16     >4725
+152135:420: Roll[438] was: 3     >4741
+152135:435: Roll[439] was: 20     >4744
+152135:450: Roll[440] was: 17     >4764
+152135:466: Roll[441] was: 4     >4781
+152135:482: Roll[442] was: 11     >4785
+152135:497: Roll[443] was: 8     >4796
+152135:512: Roll[444] was: 5     >4804
+152135:527: Roll[445] was: 1     >4809
+152135:542: Roll[446] was: 18     >4810
+152135:557: Roll[447] was: 15     >4828
+152135:572: Roll[448] was: 12     >4843
+152135:588: Roll[449] was: 19     >4855
+152135:603: Roll[450] was: 15     >4874
+152135:618: Roll[451] was: 12     >4889
+152135:633: Roll[452] was: 9     >4901
+152135:648: Roll[453] was: 6     >4910
+152135:663: Roll[454] was: 2     >4916
+152135:678: Roll[455] was: 19     >4918
+152135:693: Roll[456] was: 16     >4937
+152135:709: Roll[457] was: 3     >4953
+152135:724: Roll[458] was: 20     >4956
+152135:739: Roll[459] was: 16     >4976
+152135:755: Roll[460] was: 4     >4992
+152135:770: Roll[461] was: 20     >4996
+152135:786: Roll[462] was: 8     >5016
+152135:801: Roll[463] was: 4     >5024
+152135:817: Roll[464] was: 11     >5028
+152135:832: Roll[465] was: 8     >5039
+152135:847: Roll[466] was: 5     >5047
+152135:862: Roll[467] was: 2     >5052
+152135:877: Roll[468] was: 18     >5054
+152135:892: Roll[469] was: 15     >5072
+152135:907: Roll[470] was: 12     >5087
+152135:922: Roll[471] was: 9     >5099
+152135:937: Roll[472] was: 5     >5108
+152135:952: Roll[473] was: 2     >5113
+152135:967: Roll[474] was: 19     >5115
+152135:982: Roll[475] was: 15     >5134
+152135:998: Roll[476] was: 3     >5149
+152136:013: Roll[477] was: 11     >5152
+152136:028: Roll[478] was: 8     >5163
+152136:043: Roll[479] was: 4     >5171
+152136:057: Roll[480] was: 11     >5175
+152136:073: Roll[481] was: 18     >5186
+152136:088: Roll[482] was: 14     >5204
+152136:103: Roll[483] was: 11     >5218
+152136:118: Roll[484] was: 8     >5229
+152136:133: Roll[485] was: 5     >5237
+152136:149: Roll[486] was: 12     >5242
+152136:164: Roll[487] was: 9     >5254
+152136:179: Roll[488] was: 5     >5263
+152136:194: Roll[489] was: 2     >5268
+152136:209: Roll[490] was: 19     >5270
+152136:225: Roll[491] was: 6     >5289
+152136:240: Roll[492] was: 3     >5295
+152136:255: Roll[493] was: 19     >5298
+152136:270: Roll[494] was: 16     >5317
+152136:285: Roll[495] was: 13     >5333
+152136:300: Roll[496] was: 10     >5346
+152136:315: Roll[497] was: 6     >5356
+152136:329: Roll[498] was: 13     >5362
+152136:345: Roll[499] was: 20     >5375
+152136:360: Roll[500] was: 16     >5395
+152136:375: Roll[501] was: 13     >5411
+152136:390: Roll[502] was: 10     >5424
+152136:405: Roll[503] was: 7     >5434
+152136:421: Roll[504] was: 14     >5441
+152136:436: Roll[505] was: 11     >5455
+152136:451: Roll[506] was: 7     >5466
+152136:466: Roll[507] was: 4     >5473
+152136:481: Roll[508] was: 1     >5477
+152136:496: Roll[509] was: 17     >5478
+152136:511: Roll[510] was: 14     >5495
+152136:526: Roll[511] was: 11     >5509
+152136:541: Roll[512] was: 8     >5520
+152136:556: Roll[513] was: 4     >5528
+152136:572: Roll[514] was: 12     >5532
+152136:587: Roll[515] was: 8     >5544
+152136:603: Roll[516] was: 15     >5552
+152136:618: Roll[517] was: 12     >5567
+152136:633: Roll[518] was: 9     >5579
+152136:649: Roll[519] was: 16     >5588
+152136:664: Roll[520] was: 13     >5604
+152136:679: Roll[521] was: 10     >5617
+152136:694: Roll[522] was: 6     >5627
+152136:709: Roll[523] was: 3     >5633
+152136:725: Roll[524] was: 10     >5636
+152136:740: Roll[525] was: 7     >5646
+152136:756: Roll[526] was: 14     >5653
+152136:771: Roll[527] was: 11     >5667
+152136:786: Roll[528] was: 8     >5678
+152136:801: Roll[529] was: 4     >5686
+152136:816: Roll[530] was: 1     >5690
+152136:831: Roll[531] was: 18     >5691
+152136:846: Roll[532] was: 14     >5709
+152136:861: Roll[533] was: 11     >5723
+152136:876: Roll[534] was: 8     >5734
+152136:891: Roll[535] was: 5     >5742
+152136:907: Roll[536] was: 12     >5747
+152136:922: Roll[537] was: 9     >5759
+152136:937: Roll[538] was: 5     >5768
+152136:952: Roll[539] was: 2     >5773
+152136:966: Roll[540] was: 8     >5775
+152136:982: Roll[541] was: 15     >5783
+152136:997: Roll[542] was: 12     >5798
+152137:012: Roll[543] was: 20     >5810
+152137:028: Roll[544] was: 8     >5830
+152137:043: Roll[545] was: 4     >5838
+152137:058: Roll[546] was: 1     >5842
+152137:074: Roll[547] was: 8     >5843
+152137:089: Roll[548] was: 5     >5851
+152137:104: Roll[549] was: 2     >5856
+152137:119: Roll[550] was: 18     >5858
+152137:134: Roll[551] was: 15     >5876
+152137:150: Roll[552] was: 2     >5891
+152137:165: Roll[553] was: 19     >5893
+152137:180: Roll[554] was: 16     >5912
+152137:195: Roll[555] was: 12     >5928
+152137:210: Roll[556] was: 9     >5940
+152137:225: Roll[557] was: 6     >5949
+152137:240: Roll[558] was: 3     >5955
+152137:255: Roll[559] was: 19     >5958
+152137:270: Roll[560] was: 16     >5977
+152137:286: Roll[561] was: 3     >5993
+152137:301: Roll[562] was: 20     >5996
+152137:316: Roll[563] was: 17     >6016
+152137:331: Roll[564] was: 13     >6033
+152137:346: Roll[565] was: 10     >6046
+152137:361: Roll[566] was: 7     >6056
+152137:376: Roll[567] was: 4     >6063
+152137:392: Roll[568] was: 11     >6067
+152137:407: Roll[569] was: 8     >6078
+152137:422: Roll[570] was: 4     >6086
+152137:437: Roll[571] was: 1     >6090
+152137:452: Roll[572] was: 18     >6091
+152137:467: Roll[573] was: 14     >6109
+152137:482: Roll[574] was: 11     >6123
+152137:498: Roll[575] was: 18     >6134
+152137:512: Roll[576] was: 5     >6152
+152137:527: Roll[577] was: 1     >6157
+152137:542: Roll[578] was: 18     >6158
+152137:557: Roll[579] was: 15     >6176
+152137:572: Roll[580] was: 12     >6191
+152137:587: Roll[581] was: 8     >6203
+152137:602: Roll[582] was: 5     >6211
+152137:617: Roll[583] was: 2     >6216
+152137:633: Roll[584] was: 9     >6218
+152137:648: Roll[585] was: 6     >6227
+152137:663: Roll[586] was: 2     >6233
+152137:678: Roll[587] was: 19     >6235
+152137:693: Roll[588] was: 16     >6254
+152137:708: Roll[589] was: 13     >6270
+152137:723: Roll[590] was: 9     >6283
+152137:737: Roll[591] was: 16     >6292
+152137:752: Roll[592] was: 12     >6308
+152137:768: Roll[593] was: 19     >6320
+152137:783: Roll[594] was: 16     >6339
+152137:799: Roll[595] was: 3     >6355
+152137:814: Roll[596] was: 20     >6358
+152137:830: Roll[597] was: 7     >6378
+152137:844: Roll[598] was: 14     >6385
+152137:859: Roll[599] was: 10     >6399
+152137:874: Roll[600] was: 7     >6409
+152137:889: Roll[601] was: 4     >6416
+152137:905: Roll[602] was: 11     >6420
+152137:920: Roll[603] was: 8     >6431
+152137:935: Roll[604] was: 4     >6439
+152137:950: Roll[605] was: 1     >6443
+152137:965: Roll[606] was: 18     >6444
+152137:980: Roll[607] was: 15     >6462
+152137:995: Roll[608] was: 11     >6477
+152138:011: Roll[609] was: 10     >6488
+152138:025: Roll[610] was: 16     >6498
+152138:040: Roll[611] was: 13     >6514
+152138:055: Roll[612] was: 10     >6527
+152138:070: Roll[613] was: 6     >6537
+152138:085: Roll[614] was: 3     >6543
+152138:101: Roll[615] was: 10     >6546
+152138:116: Roll[616] was: 7     >6556
+152138:132: Roll[617] was: 14     >6563
+152138:147: Roll[618] was: 11     >6577
+152138:163: Roll[619] was: 18     >6588
+152138:178: Roll[620] was: 15     >6606
+152138:193: Roll[621] was: 12     >6621
+152138:208: Roll[622] was: 8     >6633
+152138:223: Roll[623] was: 5     >6641
+152138:238: Roll[624] was: 2     >6646
+152138:253: Roll[625] was: 18     >6648
+152138:268: Roll[626] was: 15     >6666
+152138:283: Roll[627] was: 12     >6681
+152138:298: Roll[628] was: 9     >6693
+152138:313: Roll[629] was: 5     >6702
+152138:328: Roll[630] was: 2     >6707
+152138:343: Roll[631] was: 19     >6709
+152138:359: Roll[632] was: 6     >6728
+152138:374: Roll[633] was: 3     >6734
+152138:390: Roll[634] was: 10     >6737
+152138:405: Roll[635] was: 7     >6747
+152138:420: Roll[636] was: 3     >6754
+152138:436: Roll[637] was: 11     >6757
+152138:451: Roll[638] was: 7     >6768
+152138:467: Roll[639] was: 14     >6775
+152138:482: Roll[640] was: 11     >6789
+152138:497: Roll[641] was: 8     >6800
+152138:512: Roll[642] was: 5     >6808
+152138:527: Roll[643] was: 1     >6813
+152138:542: Roll[644] was: 18     >6814
+152138:557: Roll[645] was: 15     >6832
+152138:572: Roll[646] was: 12     >6847
+152138:588: Roll[647] was: 19     >6859
+152138:603: Roll[648] was: 15     >6878
+152138:618: Roll[649] was: 12     >6893
+152138:633: Roll[650] was: 9     >6905
+152138:648: Roll[651] was: 6     >6914
+152138:664: Roll[652] was: 13     >6920
+152138:679: Roll[653] was: 10     >6933
+152138:695: Roll[654] was: 17     >6943
+152138:710: Roll[655] was: 13     >6960
+152138:726: Roll[656] was: 1     >6973
+152138:741: Roll[657] was: 17     >6974
+152138:756: Roll[658] was: 14     >6991
+152138:770: Roll[659] was: 20     >7005
+152138:785: Roll[660] was: 17     >7025
+152138:801: Roll[661] was: 4     >7042
+152138:816: Roll[662] was: 1     >7046
+152138:831: Roll[663] was: 18     >7047
+152138:847: Roll[664] was: 5     >7065
+152138:862: Roll[665] was: 2     >7070
+152138:878: Roll[666] was: 9     >7072
+152138:893: Roll[667] was: 6     >7081
+152138:908: Roll[668] was: 2     >7087
+152138:924: Roll[669] was: 9     >7089
+152138:939: Roll[670] was: 6     >7098
+152138:955: Roll[671] was: 13     >7104
+152138:970: Roll[672] was: 10     >7117
+152138:985: Roll[673] was: 7     >7127
+152139:001: Roll[674] was: 5     >7134
+152139:016: Roll[675] was: 2     >7139
+152139:031: Roll[676] was: 19     >7141
+152139:046: Roll[677] was: 16     >7160
+152139:061: Roll[678] was: 12     >7176
+152139:076: Roll[679] was: 9     >7188
+152139:091: Roll[680] was: 6     >7197
+152139:107: Roll[681] was: 13     >7203
+152139:122: Roll[682] was: 10     >7216
+152139:137: Roll[683] was: 6     >7226
+152139:152: Roll[684] was: 3     >7232
+152139:167: Roll[685] was: 20     >7235
+152139:183: Roll[686] was: 7     >7255
+152139:198: Roll[687] was: 4     >7262
+152139:213: Roll[688] was: 1     >7266
+152139:227: Roll[689] was: 7     >7267
+152139:288: Roll[690] was: 4     >7274
+152139:303: Roll[691] was: 1     >7278
+152139:318: Roll[692] was: 18     >7279
+152139:334: Roll[693] was: 5     >7297
+152139:349: Roll[694] was: 2     >7302
+152139:364: Roll[695] was: 18     >7304
+152139:380: Roll[696] was: 5     >7322
+152139:395: Roll[697] was: 2     >7327
+152139:411: Roll[698] was: 9     >7329
+152139:427: Roll[699] was: 17     >7338
+152139:442: Roll[700] was: 13     >7355
+152139:457: Roll[701] was: 10     >7368
+152139:473: Roll[702] was: 17     >7378
+152139:488: Roll[703] was: 14     >7395
+152139:503: Roll[704] was: 11     >7409
+152139:519: Roll[705] was: 18     >7420
+152139:534: Roll[706] was: 15     >7438
+152139:550: Roll[707] was: 2     >7453
+152139:565: Roll[708] was: 18     >7455
+152139:581: Roll[709] was: 6     >7473
+152139:596: Roll[710] was: 2     >7479
+152139:611: Roll[711] was: 19     >7481
+152139:627: Roll[712] was: 6     >7500
+152139:642: Roll[713] was: 3     >7506
+152139:657: Roll[714] was: 20     >7509
+152139:672: Roll[715] was: 16     >7529
+152139:687: Roll[716] was: 13     >7545
+152139:702: Roll[717] was: 10     >7558
+152139:717: Roll[718] was: 7     >7568
+152139:733: Roll[719] was: 14     >7575
+152139:748: Roll[720] was: 11     >7589
+152139:763: Roll[721] was: 7     >7600
+152139:779: Roll[722] was: 14     >7607
+152139:794: Roll[723] was: 11     >7621
+152139:810: Roll[724] was: 18     >7632
+152139:825: Roll[725] was: 15     >7650
+152139:841: Roll[726] was: 2     >7665
+152139:856: Roll[727] was: 19     >7667
+152139:871: Roll[728] was: 16     >7686
+152139:886: Roll[729] was: 12     >7702
+152139:901: Roll[730] was: 9     >7714
+152139:916: Roll[731] was: 6     >7723
+152139:931: Roll[732] was: 3     >7729
+152139:946: Roll[733] was: 19     >7732
+152139:961: Roll[734] was: 16     >7751
+152139:976: Roll[735] was: 13     >7767
+152139:992: Roll[736] was: 20     >7780
+152140:007: Roll[737] was: 8     >7800
+152140:022: Roll[738] was: 5     >7808
+152140:038: Roll[739] was: 12     >7813
+152140:053: Roll[740] was: 9     >7825
+152140:068: Roll[741] was: 6     >7834
+152140:083: Roll[742] was: 2     >7840
+152140:097: Roll[743] was: 9     >7842
+152140:113: Roll[744] was: 16     >7851
+152140:128: Roll[745] was: 12     >7867
+152140:144: Roll[746] was: 20     >7879
+152140:159: Roll[747] was: 16     >7899
+152140:174: Roll[748] was: 13     >7915
+152140:190: Roll[749] was: 20     >7928
+152140:205: Roll[750] was: 17     >7948
+152140:220: Roll[751] was: 14     >7965
+152140:234: Roll[752] was: 20     >7979
+152140:249: Roll[753] was: 17     >7999
+152140:265: Roll[754] was: 4     >8016
+152140:280: Roll[755] was: 1     >8020
+152140:296: Roll[756] was: 8     >8021
+152140:311: Roll[757] was: 5     >8029
+152140:326: Roll[758] was: 1     >8034
+152140:342: Roll[759] was: 8     >8035
+152140:358: Roll[760] was: 16     >8043
+152140:373: Roll[761] was: 12     >8059
+152140:388: Roll[762] was: 9     >8071
+152140:404: Roll[763] was: 16     >8080
+152140:419: Roll[764] was: 13     >8096
+152140:434: Roll[765] was: 10     >8109
+152140:449: Roll[766] was: 6     >8119
+152140:464: Roll[767] was: 3     >8125
+152140:479: Roll[768] was: 20     >8128
+152140:494: Roll[769] was: 17     >8148
+152140:509: Roll[770] was: 13     >8165
+152140:523: Roll[771] was: 20     >8178
+152140:538: Roll[772] was: 16     >8198
+152140:554: Roll[773] was: 3     >8214
+152140:569: Roll[774] was: 20     >8217
+152140:584: Roll[775] was: 17     >8237
+152140:600: Roll[776] was: 4     >8254
+152140:615: Roll[777] was: 1     >8258
+152140:631: Roll[778] was: 8     >8259
+152140:646: Roll[779] was: 5     >8267
+152140:661: Roll[780] was: 1     >8272
+152140:677: Roll[781] was: 9     >8273
+152140:692: Roll[782] was: 5     >8282
+152140:708: Roll[783] was: 13     >8287
+152140:723: Roll[784] was: 9     >8300
+152140:738: Roll[785] was: 6     >8309
+152140:753: Roll[786] was: 3     >8315
+152140:768: Roll[787] was: 19     >8318
+152140:783: Roll[788] was: 16     >8337
+152140:798: Roll[789] was: 13     >8353
+152140:813: Roll[790] was: 10     >8366
+152140:829: Roll[791] was: 17     >8376
+152140:844: Roll[792] was: 14     >8393
+152140:860: Roll[793] was: 1     >8407
+152140:875: Roll[794] was: 17     >8408
+152140:891: Roll[795] was: 5     >8425
+152140:906: Roll[796] was: 1     >8430
+152140:921: Roll[797] was: 18     >8431
+152140:936: Roll[798] was: 15     >8449
+152140:951: Roll[799] was: 12     >8464
+152140:966: Roll[800] was: 8     >8476
+152140:981: Roll[801] was: 5     >8484
+152140:997: Roll[802] was: 12     >8489
+152141:012: Roll[803] was: 20     >8501
+152141:028: Roll[804] was: 8     >8521
+152141:043: Roll[805] was: 4     >8529
+152141:058: Roll[806] was: 1     >8533
+152141:072: Roll[807] was: 7     >8534
+152141:087: Roll[808] was: 4     >8541
+152141:102: Roll[809] was: 1     >8545
+152141:118: Roll[810] was: 8     >8546
+152141:133: Roll[811] was: 5     >8554
+152141:148: Roll[812] was: 1     >8559
+152141:164: Roll[813] was: 9     >8560
+152141:179: Roll[814] was: 5     >8569
+152141:195: Roll[815] was: 12     >8574
+152141:210: Roll[816] was: 9     >8586
+152141:225: Roll[817] was: 6     >8595
+152141:240: Roll[818] was: 3     >8601
+152141:255: Roll[819] was: 19     >8604
+152141:270: Roll[820] was: 16     >8623
+152141:285: Roll[821] was: 13     >8639
+152141:301: Roll[822] was: 20     >8652
+152141:316: Roll[823] was: 17     >8672
+152141:332: Roll[824] was: 4     >8689
+152141:346: Roll[825] was: 10     >8693
+152141:361: Roll[826] was: 7     >8703
+152141:377: Roll[827] was: 14     >8710
+152141:392: Roll[828] was: 11     >8724
+152141:407: Roll[829] was: 8     >8735
+152141:422: Roll[830] was: 4     >8743
+152141:437: Roll[831] was: 1     >8747
+152141:452: Roll[832] was: 18     >8748
+152141:468: Roll[833] was: 5     >8766
+152141:483: Roll[834] was: 2     >8771
+152141:498: Roll[835] was: 18     >8773
+152141:513: Roll[836] was: 15     >8791
+152141:528: Roll[837] was: 12     >8806
+152141:543: Roll[838] was: 9     >8818
+152141:558: Roll[839] was: 5     >8827
+152141:573: Roll[840] was: 2     >8832
+152141:588: Roll[841] was: 19     >8834
+152141:603: Roll[842] was: 15     >8853
+152141:619: Roll[843] was: 3     >8868
+152141:634: Roll[844] was: 19     >8871
+152141:650: Roll[845] was: 7     >8890
+152141:665: Roll[846] was: 3     >8897
+152141:680: Roll[847] was: 20     >8900
+152141:696: Roll[848] was: 7     >8920
+152141:711: Roll[849] was: 4     >8927
+152141:726: Roll[850] was: 1     >8931
+152141:741: Roll[851] was: 17     >8932
+152141:756: Roll[852] was: 14     >8949
+152141:771: Roll[853] was: 11     >8963
+152141:786: Roll[854] was: 8     >8974
+152141:801: Roll[855] was: 4     >8982
+152141:817: Roll[856] was: 11     >8986
+152141:832: Roll[857] was: 8     >8997
+152141:848: Roll[858] was: 15     >9005
+152141:863: Roll[859] was: 12     >9020
+152141:879: Roll[860] was: 19     >9032
+152141:894: Roll[861] was: 16     >9051
+152141:909: Roll[862] was: 13     >9067
+152141:925: Roll[863] was: 20     >9080
+152141:940: Roll[864] was: 17     >9100
+152141:955: Roll[865] was: 13     >9117
+152141:970: Roll[866] was: 10     >9130
+152141:985: Roll[867] was: 7     >9140
+152142:001: Roll[868] was: 5     >9147
+152142:016: Roll[869] was: 2     >9152
+152142:032: Roll[870] was: 9     >9154
+152142:047: Roll[871] was: 6     >9163
+152142:062: Roll[872] was: 3     >9169
+152142:078: Roll[873] was: 10     >9172
+152142:093: Roll[874] was: 7     >9182
+152142:108: Roll[875] was: 3     >9189
+152142:123: Roll[876] was: 20     >9192
+152142:138: Roll[877] was: 17     >9212
+152142:153: Roll[878] was: 14     >9229
+152142:168: Roll[879] was: 10     >9243
+152142:183: Roll[880] was: 7     >9253
+152142:198: Roll[881] was: 4     >9260
+152142:214: Roll[882] was: 11     >9264
+152142:229: Roll[883] was: 8     >9275
+152142:245: Roll[884] was: 15     >9283
+152142:260: Roll[885] was: 12     >9298
+152142:275: Roll[886] was: 8     >9310
+152142:289: Roll[887] was: 15     >9318
+152142:304: Roll[888] was: 11     >9333
+152142:320: Roll[889] was: 19     >9344
+152142:335: Roll[890] was: 15     >9363
+152142:349: Roll[891] was: 2     >9378
+152142:365: Roll[892] was: 9     >9380
+152142:380: Roll[893] was: 5     >9389
+152142:395: Roll[894] was: 2     >9394
+152142:410: Roll[895] was: 19     >9396
+152142:425: Roll[896] was: 16     >9415
+152142:440: Roll[897] was: 12     >9431
+152142:456: Roll[898] was: 20     >9443
+152142:471: Roll[899] was: 16     >9463
+152142:486: Roll[900] was: 13     >9479
+152142:502: Roll[901] was: 20     >9492
+152142:517: Roll[902] was: 17     >9512
+152142:532: Roll[903] was: 14     >9529
+152142:547: Roll[904] was: 10     >9543
+152142:562: Roll[905] was: 7     >9553
+152142:577: Roll[906] was: 4     >9560
+152142:592: Roll[907] was: 1     >9564
+152142:608: Roll[908] was: 8     >9565
+152142:623: Roll[909] was: 4     >9573
+152142:638: Roll[910] was: 1     >9577
+152142:654: Roll[911] was: 8     >9578
+152142:669: Roll[912] was: 5     >9586
+152142:684: Roll[913] was: 2     >9591
+152142:699: Roll[914] was: 19     >9593
+152142:714: Roll[915] was: 15     >9612
+152142:729: Roll[916] was: 12     >9627
+152142:744: Roll[917] was: 9     >9639
+152142:759: Roll[918] was: 5     >9648
+152142:775: Roll[919] was: 13     >9653
+152142:790: Roll[920] was: 9     >9666
+152142:805: Roll[921] was: 6     >9675
+152142:821: Roll[922] was: 13     >9681
+152142:836: Roll[923] was: 10     >9694
+152142:852: Roll[924] was: 17     >9704
+152142:867: Roll[925] was: 14     >9721
+152142:883: Roll[926] was: 1     >9735
+152142:898: Roll[927] was: 18     >9736
+152142:914: Roll[928] was: 5     >9754
+152142:929: Roll[929] was: 2     >9759
+152142:944: Roll[930] was: 18     >9761
+152142:959: Roll[931] was: 15     >9779
+152142:974: Roll[932] was: 12     >9794
+152142:989: Roll[933] was: 9     >9806
+152143:004: Roll[934] was: 17     >9815
+152143:019: Roll[935] was: 14     >9832
+152143:035: Roll[936] was: 1     >9846
+152143:050: Roll[937] was: 17     >9847
+152143:066: Roll[938] was: 5     >9864
+152143:081: Roll[939] was: 1     >9869
+152143:097: Roll[940] was: 9     >9870
+152143:112: Roll[941] was: 5     >9879
+152143:127: Roll[942] was: 2     >9884
+152143:143: Roll[943] was: 9     >9886
+152143:158: Roll[944] was: 6     >9895
+152143:174: Roll[945] was: 13     >9901
+152143:189: Roll[946] was: 10     >9914
+152143:204: Roll[947] was: 7     >9924
+152143:219: Roll[948] was: 3     >9931
+152143:234: Roll[949] was: 20     >9934
+152143:250: Roll[950] was: 7     >9954
+152143:265: Roll[951] was: 4     >9961
+152143:281: Roll[952] was: 11     >9965
+152143:296: Roll[953] was: 8     >9976
+152143:312: Roll[954] was: 15     >9984
+152143:327: Roll[955] was: 12     >9999
+152143:343: Roll[956] was: 19     >10011
+152143:358: Roll[957] was: 16     >10030
+152143:373: Roll[958] was: 12     >10046
+152143:388: Roll[959] was: 9     >10058
+152143:403: Roll[960] was: 6     >10067
+152143:418: Roll[961] was: 3     >10073
+152143:434: Roll[962] was: 10     >10076
+152143:449: Roll[963] was: 6     >10086
+152143:464: Roll[964] was: 3     >10092
+152143:479: Roll[965] was: 20     >10095
+152143:494: Roll[966] was: 17     >10115
+152143:509: Roll[967] was: 13     >10132
+152143:524: Roll[968] was: 10     >10145
+152143:540: Roll[969] was: 17     >10155
+152143:555: Roll[970] was: 14     >10172
+152143:570: Roll[971] was: 11     >10186
+152143:585: Roll[972] was: 7     >10197
+152143:600: Roll[973] was: 4     >10204
+152143:615: Roll[974] was: 1     >10208
+152143:630: Roll[975] was: 18     >10209
+152143:645: Roll[976] was: 14     >10227
+152143:661: Roll[977] was: 1     >10241
+152143:676: Roll[978] was: 18     >10242
+152143:692: Roll[979] was: 5     >10260
+152143:707: Roll[980] was: 2     >10265
+152143:723: Roll[981] was: 9     >10267
+152143:738: Roll[982] was: 6     >10276
+152143:754: Roll[983] was: 13     >10282
+152143:769: Roll[984] was: 10     >10295
+152143:784: Roll[985] was: 7     >10305
+152143:800: Roll[986] was: 14     >10312
+152143:815: Roll[987] was: 11     >10326
+152143:831: Roll[988] was: 18     >10337
+152143:846: Roll[989] was: 14     >10355
+152143:862: Roll[990] was: 2     >10369
+152143:877: Roll[991] was: 18     >10371
+152143:892: Roll[992] was: 15     >10389
+152143:907: Roll[993] was: 12     >10404
+152143:923: Roll[994] was: 19     >10416
+152143:938: Roll[995] was: 16     >10435
+152143:953: Roll[996] was: 12     >10451
+152143:968: Roll[997] was: 9     >10463
+152143:983: Roll[998] was: 6     >10472
+152143:998: Roll[999] was: 3     >10478
+152144:013: Roll[1000] was: 11     >10481
+152144:015: DiceString: 1000d20 >> 10492
+152144:018: You rolled a 10492 [1000d20 >> 9,15,12,9,5,13,9,16,13,10,7,13,10,6,3,20,17,4,20,8,4,1,8,5,12,20,17,4,1,7,14,11,18,15,12,19,16,12,20,16,13,20,7,3,10,7,4,11,8,5,1,18,5,2,19,6,3,19,6,3,20,17,13,10,17,14,11,18,15,11,8,5,2,18,15,2,19,16,12,9,6,3,19,16,13,20,17,13,10,7,15,12,19,16,12,9,6,3,19,16,13,9,6,3,20,16,13,10,7,3,20,17,13,1,7,4,20,8,4,1,8,5,2,18,15,12,9,16,12,9,6,3,10,7,14,10,7,4,11,8,15,12,19,16,3,20,16,13,10,6,3,20,17,13,10,7,15,12,19,16,12,10,6,14,20,7,4,11,8,15,1,18,15,11,19,15,2,19,6,13,9,6,3,10,7,3,11,7,4,11,8,15,12,9,16,13,9,6,3,19,16,3,20,17,14,1,17,14,11,18,15,12,19,15,3,19,6,13,9,18,14,2,18,15,2,19,6,3,10,7,14,11,7,4,1,18,14,11,8,5,12,8,5,2,19,15,12,20,17,13,10,7,3,20,17,4,1,18,5,1,18,5,2,9,6,3,10,7,14,11,18,14,11,8,5,1,18,15,2,19,6,3,11,18,15,2,19,15,3,19,6,3,20,17,13,1,17,4,1,18,15,2,19,15,2,19,6,3,10,7,14,11,8,4,1,18,15,11,8,5,11,18,15,12,19,16,3,19,16,3,20,17,4,1,18,15,12,8,5,2,9,6,13,9,18,5,2,9,6,2,19,16,12,9,15,3,19,16,13,10,6,3,10,7,14,20,17,4,1,18,14,11,8,5,1,18,15,2,19,6,3,19,16,13,10,17,13,10,17,14,1,18,15,2,19,6,2,19,16,13,9,6,3,10,7,3,20,17,14,10,19,6,3,19,16,13,9,6,3,20,16,4,20,17,14,20,7,4,11,8,5,12,8,16,12,19,16,3,20,17,4,11,8,5,1,18,15,12,19,15,12,9,6,2,19,16,3,20,16,4,20,8,4,11,8,5,2,18,15,12,9,5,2,19,15,3,11,8,4,11,18,14,11,8,5,12,9,5,2,19,6,3,19,16,13,10,6,13,20,16,13,10,7,14,11,7,4,1,17,14,11,8,4,12,8,15,12,9,16,13,10,6,3,10,7,14,11,8,4,1,18,14,11,8,5,12,9,5,2,8,15,12,20,8,4,1,8,5,2,18,15,2,19,16,12,9,6,3,19,16,3,20,17,13,10,7,4,11,8,4,1,18,14,11,18,5,1,18,15,12,8,5,2,9,6,2,19,16,13,9,16,12,19,16,3,20,7,14,10,7,4,11,8,4,1,18,15,11,10,16,13,10,6,3,10,7,14,11,18,15,12,8,5,2,18,15,12,9,5,2,19,6,3,10,7,3,11,7,14,11,8,5,1,18,15,12,19,15,12,9,6,13,10,17,13,1,17,14,20,17,4,1,18,5,2,9,6,2,9,6,13,10,7,5,2,19,16,12,9,6,13,10,6,3,20,7,4,1,7,4,1,18,5,2,18,5,2,9,17,13,10,17,14,11,18,15,2,18,6,2,19,6,3,20,16,13,10,7,14,11,7,14,11,18,15,2,19,16,12,9,6,3,19,16,13,20,8,5,12,9,6,2,9,16,12,20,16,13,20,17,14,20,17,4,1,8,5,1,8,16,12,9,16,13,10,6,3,20,17,13,20,16,3,20,17,4,1,8,5,1,9,5,13,9,6,3,19,16,13,10,17,14,1,17,5,1,18,15,12,8,5,12,20,8,4,1,7,4,1,8,5,1,9,5,12,9,6,3,19,16,13,20,17,4,10,7,14,11,8,4,1,18,5,2,18,15,12,9,5,2,19,15,3,19,7,3,20,7,4,1,17,14,11,8,4,11,8,15,12,19,16,13,20,17,13,10,7,5,2,9,6,3,10,7,3,20,17,14,10,7,4,11,8,15,12,8,15,11,19,15,2,9,5,2,19,16,12,20,16,13,20,17,14,10,7,4,1,8,4,1,8,5,2,19,15,12,9,5,13,9,6,13,10,17,14,1,18,5,2,18,15,12,9,17,14,1,17,5,1,9,5,2,9,6,13,10,7,3,20,7,4,11,8,15,12,19,16,12,9,6,3,10,6,3,20,17,13,10,17,14,11,7,4,1,18,14,1,18,5,2,9,6,13,10,7,14,11,18,14,2,18,15,12,19,16,12,9,6,3,11]
+152144:019: runTimer: >> 15,398ms
+152300:933: Roll[1] was: 9     >0
+152300:940: Roll[2] was: 17     >9
+152300:955: Roll[3] was: 13     >26
+152300:971: Roll[4] was: 1     >39
+152300:986: Roll[5] was: 17     >40
+152301:002: Roll[6] was: 16     >57
+152301:017: Roll[7] was: 13     >73
+152301:032: Roll[8] was: 9     >86
+152301:048: Roll[9] was: 17     >95
+152301:062: Roll[10] was: 3     >112
+152301:077: Roll[11] was: 20     >115
+152301:092: Roll[12] was: 16     >135
+152301:107: Roll[13] was: 13     >151
+152301:122: Roll[14] was: 10     >164
+152301:137: Roll[15] was: 6     >174
+152301:153: Roll[16] was: 14     >180
+152301:168: Roll[17] was: 10     >194
+152301:183: Roll[18] was: 7     >204
+152301:199: Roll[19] was: 14     >211
+152301:214: Roll[20] was: 11     >225
+152301:228: Roll[21] was: 17     >236
+152301:243: Roll[22] was: 14     >253
+152301:258: Roll[23] was: 11     >267
+152301:274: Roll[24] was: 18     >278
+152301:289: Roll[25] was: 15     >296
+152301:304: Roll[26] was: 11     >311
+152301:320: Roll[27] was: 19     >322
+152301:335: Roll[28] was: 15     >341
+152301:350: Roll[29] was: 12     >356
+152301:365: Roll[30] was: 9     >368
+152301:380: Roll[31] was: 5     >377
+152301:395: Roll[32] was: 2     >382
+152301:410: Roll[33] was: 19     >384
+152301:426: Roll[34] was: 6     >403
+152301:441: Roll[35] was: 3     >409
+152301:456: Roll[36] was: 20     >412
+152301:472: Roll[37] was: 7     >432
+152301:487: Roll[38] was: 3     >439
+152301:503: Roll[39] was: 11     >442
+152301:518: Roll[40] was: 7     >453
+152301:534: Roll[41] was: 15     >460
+152301:549: Roll[42] was: 11     >475
+152301:564: Roll[43] was: 8     >486
+152301:579: Roll[44] was: 5     >494
+152301:593: Roll[45] was: 11     >499
+152301:608: Roll[46] was: 8     >510
+152301:624: Roll[47] was: 15     >518
+152301:639: Roll[48] was: 12     >533
+152301:654: Roll[49] was: 8     >545
+152301:670: Roll[50] was: 16     >553
+152301:685: Roll[51] was: 12     >569
+152301:700: Roll[52] was: 9     >581
+152301:715: Roll[53] was: 15     >590
+152301:729: Roll[54] was: 12     >605
+152301:745: Roll[55] was: 19     >617
+152301:760: Roll[56] was: 16     >636
+152301:776: Roll[57] was: 3     >652
+152301:791: Roll[58] was: 20     >655
+152301:806: Roll[59] was: 17     >675
+152301:821: Roll[60] was: 13     >692
+152301:836: Roll[61] was: 10     >705
+152301:852: Roll[62] was: 17     >715
+152301:867: Roll[63] was: 14     >732
+152301:883: Roll[64] was: 1     >746
+152301:898: Roll[65] was: 18     >747
+152301:914: Roll[66] was: 5     >765
+152301:929: Roll[67] was: 2     >770
+152301:944: Roll[68] was: 18     >772
+152301:959: Roll[69] was: 15     >790
+152301:974: Roll[70] was: 12     >805
+152301:990: Roll[71] was: 19     >817
+152302:005: Roll[72] was: 7     >836
+152302:021: Roll[73] was: 14     >843
+152302:036: Roll[74] was: 11     >857
+152302:051: Roll[75] was: 8     >868
+152302:067: Roll[76] was: 15     >876
+152302:082: Roll[77] was: 12     >891
+152302:098: Roll[78] was: 19     >903
+152302:112: Roll[79] was: 5     >922
+152302:127: Roll[80] was: 2     >927
+152302:142: Roll[81] was: 19     >929
+152302:158: Roll[82] was: 6     >948
+152302:173: Roll[83] was: 3     >954
+152302:188: Roll[84] was: 19     >957
+152302:204: Roll[85] was: 7     >976
+152302:219: Roll[86] was: 3     >983
+152302:235: Roll[87] was: 10     >986
+152302:250: Roll[88] was: 7     >996
+152302:264: Roll[89] was: 13     >1003
+152302:279: Roll[90] was: 10     >1016
+152302:294: Roll[91] was: 7     >1026
+152302:310: Roll[92] was: 14     >1033
+152302:324: Roll[93] was: 20     >1047
+152302:339: Roll[94] was: 17     >1067
+152302:354: Roll[95] was: 14     >1084
+152302:369: Roll[96] was: 11     >1098
+152302:384: Roll[97] was: 7     >1109
+152302:399: Roll[98] was: 4     >1116
+152302:415: Roll[99] was: 11     >1120
+152302:430: Roll[100] was: 8     >1131
+152302:445: Roll[101] was: 5     >1139
+152302:461: Roll[102] was: 12     >1144
+152302:476: Roll[103] was: 9     >1156
+152302:492: Roll[104] was: 16     >1165
+152302:507: Roll[105] was: 12     >1181
+152302:522: Roll[106] was: 9     >1193
+152302:536: Roll[107] was: 15     >1202
+152302:551: Roll[108] was: 12     >1217
+152302:566: Roll[109] was: 9     >1229
+152302:581: Roll[110] was: 6     >1238
+152302:596: Roll[111] was: 2     >1244
+152302:611: Roll[112] was: 19     >1246
+152302:627: Roll[113] was: 6     >1265
+152302:641: Roll[114] was: 13     >1271
+152302:656: Roll[115] was: 9     >1284
+152302:671: Roll[116] was: 6     >1293
+152302:686: Roll[117] was: 3     >1299
+152302:702: Roll[118] was: 10     >1302
+152302:716: Roll[119] was: 16     >1312
+152302:731: Roll[120] was: 13     >1328
+152302:747: Roll[121] was: 20     >1341
+152302:762: Roll[122] was: 17     >1361
+152302:777: Roll[123] was: 14     >1378
+152302:793: Roll[124] was: 1     >1392
+152302:808: Roll[125] was: 17     >1393
+152302:824: Roll[126] was: 5     >1410
+152302:839: Roll[127] was: 1     >1415
+152302:854: Roll[128] was: 18     >1416
+152302:870: Roll[129] was: 5     >1434
+152302:885: Roll[130] was: 2     >1439
+152302:899: Roll[131] was: 8     >1441
+152302:915: Roll[132] was: 15     >1449
+152302:930: Roll[133] was: 12     >1464
+152302:945: Roll[134] was: 9     >1476
+152302:960: Roll[135] was: 6     >1485
+152302:975: Roll[136] was: 2     >1491
+152302:991: Roll[137] was: 9     >1493
+152303:006: Roll[138] was: 18     >1502
+152303:021: Roll[139] was: 14     >1520
+152303:036: Roll[140] was: 11     >1534
+152303:051: Roll[141] was: 8     >1545
+152303:066: Roll[142] was: 5     >1553
+152303:081: Roll[143] was: 1     >1558
+152303:096: Roll[144] was: 18     >1559
+152303:111: Roll[145] was: 15     >1577
+152303:126: Roll[146] was: 12     >1592
+152303:141: Roll[147] was: 8     >1604
+152303:156: Roll[148] was: 5     >1612
+152303:172: Roll[149] was: 12     >1617
+152303:187: Roll[150] was: 9     >1629
+152303:203: Roll[151] was: 16     >1638
+152303:218: Roll[152] was: 13     >1654
+152303:233: Roll[153] was: 10     >1667
+152303:249: Roll[154] was: 17     >1677
+152303:264: Roll[155] was: 13     >1694
+152303:279: Roll[156] was: 10     >1707
+152303:294: Roll[157] was: 7     >1717
+152303:308: Roll[158] was: 13     >1724
+152303:324: Roll[159] was: 20     >1737
+152303:339: Roll[160] was: 17     >1757
+152303:354: Roll[161] was: 14     >1774
+152303:369: Roll[162] was: 11     >1788
+152303:384: Roll[163] was: 7     >1799
+152303:399: Roll[164] was: 4     >1806
+152303:414: Roll[165] was: 1     >1810
+152303:430: Roll[166] was: 8     >1811
+152303:445: Roll[167] was: 5     >1819
+152303:460: Roll[168] was: 1     >1824
+152303:475: Roll[169] was: 18     >1825
+152303:490: Roll[170] was: 15     >1843
+152303:505: Roll[171] was: 12     >1858
+152303:520: Roll[172] was: 8     >1870
+152303:536: Roll[173] was: 15     >1878
+152303:551: Roll[174] was: 12     >1893
+152303:566: Roll[175] was: 9     >1905
+152303:581: Roll[176] was: 6     >1914
+152303:596: Roll[177] was: 2     >1920
+152303:611: Roll[178] was: 19     >1922
+152303:626: Roll[179] was: 16     >1941
+152303:641: Roll[180] was: 13     >1957
+152303:656: Roll[181] was: 9     >1970
+152303:671: Roll[182] was: 6     >1979
+152303:686: Roll[183] was: 3     >1985
+152303:701: Roll[184] was: 19     >1988
+152303:716: Roll[185] was: 16     >2007
+152303:732: Roll[186] was: 3     >2023
+152303:747: Roll[187] was: 20     >2026
+152303:763: Roll[188] was: 7     >2046
+152303:778: Roll[189] was: 4     >2053
+152303:793: Roll[190] was: 1     >2057
+152303:808: Roll[191] was: 17     >2058
+152303:823: Roll[192] was: 14     >2075
+152303:838: Roll[193] was: 11     >2089
+152303:854: Roll[194] was: 18     >2100
+152303:869: Roll[195] was: 15     >2118
+152303:884: Roll[196] was: 12     >2133
+152303:899: Roll[197] was: 8     >2145
+152303:913: Roll[198] was: 15     >2153
+152303:929: Roll[199] was: 2     >2168
+152303:944: Roll[200] was: 18     >2170
+152303:959: Roll[201] was: 15     >2188
+152303:974: Roll[202] was: 12     >2203
+152303:990: Roll[203] was: 19     >2215
+152304:005: Roll[204] was: 7     >2234
+152304:020: Roll[205] was: 4     >2241
+152304:036: Roll[206] was: 11     >2245
+152304:051: Roll[207] was: 8     >2256
+152304:065: Roll[208] was: 14     >2264
+152304:081: Roll[209] was: 1     >2278
+152304:096: Roll[210] was: 18     >2279
+152304:111: Roll[211] was: 15     >2297
+152304:126: Roll[212] was: 12     >2312
+152304:141: Roll[213] was: 8     >2324
+152304:157: Roll[214] was: 15     >2332
+152304:172: Roll[215] was: 12     >2347
+152304:186: Roll[216] was: 18     >2359
+152304:202: Roll[217] was: 6     >2377
+152304:217: Roll[218] was: 2     >2383
+152304:233: Roll[219] was: 10     >2385
+152304:248: Roll[220] was: 6     >2395
+152304:263: Roll[221] was: 3     >2401
+152304:278: Roll[222] was: 20     >2404
+152304:294: Roll[223] was: 7     >2424
+152304:309: Roll[224] was: 4     >2431
+152304:324: Roll[225] was: 20     >2435
+152304:339: Roll[226] was: 17     >2455
+152304:354: Roll[227] was: 14     >2472
+152304:369: Roll[228] was: 11     >2486
+152304:384: Roll[229] was: 7     >2497
+152304:399: Roll[230] was: 4     >2504
+152304:414: Roll[231] was: 1     >2508
+152304:428: Roll[232] was: 7     >2509
+152304:443: Roll[233] was: 4     >2516
+152304:459: Roll[234] was: 11     >2520
+152304:474: Roll[235] was: 8     >2531
+152304:490: Roll[236] was: 15     >2539
+152304:505: Roll[237] was: 12     >2554
+152304:520: Roll[238] was: 8     >2566
+152304:535: Roll[239] was: 5     >2574
+152304:551: Roll[240] was: 12     >2579
+152304:566: Roll[241] was: 9     >2591
+152304:581: Roll[242] was: 6     >2600
+152304:596: Roll[243] was: 2     >2606
+152304:611: Roll[244] was: 19     >2608
+152304:626: Roll[245] was: 16     >2627
+152304:641: Roll[246] was: 13     >2643
+152304:656: Roll[247] was: 9     >2656
+152304:671: Roll[248] was: 6     >2665
+152304:686: Roll[249] was: 3     >2671
+152304:702: Roll[250] was: 10     >2674
+152304:717: Roll[251] was: 7     >2684
+152304:733: Roll[252] was: 14     >2691
+152304:747: Roll[253] was: 20     >2705
+152304:762: Roll[254] was: 17     >2725
+152304:778: Roll[255] was: 4     >2742
+152304:793: Roll[256] was: 1     >2746
+152304:808: Roll[257] was: 17     >2747
+152304:824: Roll[258] was: 5     >2764
+152304:839: Roll[259] was: 1     >2769
+152304:855: Roll[260] was: 8     >2770
+152304:870: Roll[261] was: 5     >2778
+152304:885: Roll[262] was: 2     >2783
+152304:900: Roll[263] was: 19     >2785
+152304:915: Roll[264] was: 15     >2804
+152304:930: Roll[265] was: 12     >2819
+152304:945: Roll[266] was: 9     >2831
+152304:960: Roll[267] was: 6     >2840
+152304:975: Roll[268] was: 2     >2846
+152304:990: Roll[269] was: 19     >2848
+152305:005: Roll[270] was: 7     >2867
+152305:020: Roll[271] was: 4     >2874
+152305:035: Roll[272] was: 1     >2878
+152305:050: Roll[273] was: 17     >2879
+152305:065: Roll[274] was: 14     >2896
+152305:080: Roll[275] was: 11     >2910
+152305:095: Roll[276] was: 8     >2921
+152305:111: Roll[277] was: 15     >2929
+152305:126: Roll[278] was: 12     >2944
+152305:141: Roll[279] was: 8     >2956
+152305:156: Roll[280] was: 5     >2964
+152305:172: Roll[281] was: 12     >2969
+152305:187: Roll[282] was: 9     >2981
+152305:202: Roll[283] was: 6     >2990
+152305:217: Roll[284] was: 2     >2996
+152305:232: Roll[285] was: 19     >2998
+152305:247: Roll[286] was: 16     >3017
+152305:262: Roll[287] was: 13     >3033
+152305:277: Roll[288] was: 9     >3046
+152305:292: Roll[289] was: 6     >3055
+152305:307: Roll[290] was: 3     >3061
+152305:322: Roll[291] was: 19     >3064
+152305:338: Roll[292] was: 7     >3083
+152305:353: Roll[293] was: 3     >3090
+152305:368: Roll[294] was: 20     >3093
+152305:383: Roll[295] was: 17     >3113
+152305:398: Roll[296] was: 14     >3130
+152305:413: Roll[297] was: 10     >3144
+152305:428: Roll[298] was: 7     >3154
+152305:443: Roll[299] was: 4     >3161
+152305:458: Roll[300] was: 20     >3165
+152305:473: Roll[301] was: 17     >3185
+152305:488: Roll[302] was: 14     >3202
+152305:504: Roll[303] was: 1     >3216
+152305:519: Roll[304] was: 18     >3217
+152305:535: Roll[305] was: 5     >3235
+152305:550: Roll[306] was: 2     >3240
+152305:566: Roll[307] was: 18     >3242
+152305:581: Roll[308] was: 6     >3260
+152305:596: Roll[309] was: 2     >3266
+152305:612: Roll[310] was: 10     >3268
+152305:627: Roll[311] was: 6     >3278
+152305:642: Roll[312] was: 3     >3284
+152305:658: Roll[313] was: 10     >3287
+152305:673: Roll[314] was: 7     >3297
+152305:689: Roll[315] was: 14     >3304
+152305:704: Roll[316] was: 11     >3318
+152305:719: Roll[317] was: 8     >3329
+152305:735: Roll[318] was: 15     >3337
+152305:750: Roll[319] was: 11     >3352
+152305:765: Roll[320] was: 8     >3363
+152305:781: Roll[321] was: 15     >3371
+152305:796: Roll[322] was: 12     >3386
+152305:811: Roll[323] was: 9     >3398
+152305:825: Roll[324] was: 15     >3407
+152305:840: Roll[325] was: 12     >3422
+152305:856: Roll[326] was: 19     >3434
+152305:871: Roll[327] was: 16     >3453
+152305:887: Roll[328] was: 3     >3469
+152305:902: Roll[329] was: 20     >3472
+152305:918: Roll[330] was: 16     >3492
+152305:933: Roll[331] was: 3     >3508
+152305:948: Roll[332] was: 20     >3511
+152305:964: Roll[333] was: 7     >3531
+152305:979: Roll[334] was: 4     >3538
+152305:995: Roll[335] was: 11     >3542
+152306:010: Roll[336] was: 20     >3553
+152306:025: Roll[337] was: 16     >3573
+152306:041: Roll[338] was: 3     >3589
+152306:056: Roll[339] was: 20     >3592
+152306:072: Roll[340] was: 7     >3612
+152306:087: Roll[341] was: 4     >3619
+152306:103: Roll[342] was: 11     >3623
+152306:118: Roll[343] was: 8     >3634
+152306:133: Roll[344] was: 5     >3642
+152306:149: Roll[345] was: 12     >3647
+152306:164: Roll[346] was: 9     >3659
+152306:178: Roll[347] was: 15     >3668
+152306:193: Roll[348] was: 12     >3683
+152306:208: Roll[349] was: 8     >3695
+152306:224: Roll[350] was: 15     >3703
+152306:239: Roll[351] was: 12     >3718
+152306:254: Roll[352] was: 9     >3730
+152306:268: Roll[353] was: 15     >3739
+152306:283: Roll[354] was: 12     >3754
+152306:299: Roll[355] was: 19     >3766
+152306:314: Roll[356] was: 16     >3785
+152306:329: Roll[357] was: 13     >3801
+152306:344: Roll[358] was: 9     >3814
+152306:358: Roll[359] was: 16     >3823
+152306:374: Roll[360] was: 3     >3839
+152306:389: Roll[361] was: 19     >3842
+152306:404: Roll[362] was: 16     >3861
+152306:419: Roll[363] was: 13     >3877
+152306:434: Roll[364] was: 10     >3890
+152306:450: Roll[365] was: 17     >3900
+152306:465: Roll[366] was: 14     >3917
+152306:481: Roll[367] was: 1     >3931
+152306:496: Roll[368] was: 17     >3932
+152306:512: Roll[369] was: 5     >3949
+152306:527: Roll[370] was: 1     >3954
+152306:542: Roll[371] was: 18     >3955
+152306:557: Roll[372] was: 15     >3973
+152306:572: Roll[373] was: 12     >3988
+152306:587: Roll[374] was: 8     >4000
+152306:602: Roll[375] was: 5     >4008
+152306:617: Roll[376] was: 2     >4013
+152306:633: Roll[377] was: 9     >4015
+152306:648: Roll[378] was: 6     >4024
+152306:664: Roll[379] was: 13     >4030
+152306:679: Roll[380] was: 10     >4043
+152306:695: Roll[381] was: 17     >4053
+152306:710: Roll[382] was: 13     >4070
+152306:725: Roll[383] was: 10     >4083
+152306:741: Roll[384] was: 17     >4093
+152306:756: Roll[385] was: 14     >4110
+152306:771: Roll[386] was: 11     >4124
+152306:786: Roll[387] was: 8     >4135
+152306:801: Roll[388] was: 4     >4143
+152306:817: Roll[389] was: 11     >4147
+152306:832: Roll[390] was: 8     >4158
+152306:848: Roll[391] was: 15     >4166
+152306:863: Roll[392] was: 12     >4181
+152306:878: Roll[393] was: 9     >4193
+152306:894: Roll[394] was: 16     >4202
+152306:909: Roll[395] was: 13     >4218
+152306:925: Roll[396] was: 20     >4231
+152306:940: Roll[397] was: 17     >4251
+152306:955: Roll[398] was: 13     >4268
+152306:970: Roll[399] was: 10     >4281
+152306:985: Roll[400] was: 7     >4291
+152307:000: Roll[401] was: 15     >4298
+152307:015: Roll[402] was: 12     >4313
+152307:031: Roll[403] was: 19     >4325
+152307:046: Roll[404] was: 16     >4344
+152307:061: Roll[405] was: 12     >4360
+152307:077: Roll[406] was: 20     >4372
+152307:092: Roll[407] was: 16     >4392
+152307:108: Roll[408] was: 3     >4408
+152307:123: Roll[409] was: 20     >4411
+152307:138: Roll[410] was: 17     >4431
+152307:154: Roll[411] was: 4     >4448
+152307:169: Roll[412] was: 1     >4452
+152307:185: Roll[413] was: 8     >4453
+152307:200: Roll[414] was: 5     >4461
+152307:215: Roll[415] was: 1     >4466
+152307:231: Roll[416] was: 9     >4467
+152307:246: Roll[417] was: 5     >4476
+152307:261: Roll[418] was: 2     >4481
+152307:276: Roll[419] was: 19     >4483
+152307:292: Roll[420] was: 6     >4502
+152307:307: Roll[421] was: 3     >4508
+152307:322: Roll[422] was: 19     >4511
+152307:337: Roll[423] was: 16     >4530
+152307:352: Roll[424] was: 13     >4546
+152307:368: Roll[425] was: 20     >4559
+152307:383: Roll[426] was: 17     >4579
+152307:398: Roll[427] was: 14     >4596
+152307:414: Roll[428] was: 1     >4610
+152307:429: Roll[429] was: 17     >4611
+152307:445: Roll[430] was: 5     >4628
+152307:460: Roll[431] was: 1     >4633
+152307:474: Roll[432] was: 8     >4634
+152307:490: Roll[433] was: 15     >4642
+152307:505: Roll[434] was: 12     >4657
+152307:520: Roll[435] was: 8     >4669
+152307:536: Roll[436] was: 15     >4677
+152307:551: Roll[437] was: 12     >4692
+152307:566: Roll[438] was: 9     >4704
+152307:581: Roll[439] was: 6     >4713
+152307:596: Roll[440] was: 2     >4719
+152307:611: Roll[441] was: 19     >4721
+152307:626: Roll[442] was: 16     >4740
+152307:642: Roll[443] was: 3     >4756
+152307:657: Roll[444] was: 20     >4759
+152307:672: Roll[445] was: 16     >4779
+152307:688: Roll[446] was: 4     >4795
+152307:703: Roll[447] was: 20     >4799
+152307:719: Roll[448] was: 8     >4819
+152307:734: Roll[449] was: 4     >4827
+152307:749: Roll[450] was: 1     >4831
+152307:765: Roll[451] was: 8     >4832
+152307:780: Roll[452] was: 5     >4840
+152307:796: Roll[453] was: 12     >4845
+152307:811: Roll[454] was: 9     >4857
+152307:826: Roll[455] was: 5     >4866
+152307:842: Roll[456] was: 13     >4871
+152307:857: Roll[457] was: 9     >4884
+152307:873: Roll[458] was: 17     >4893
+152307:888: Roll[459] was: 13     >4910
+152307:904: Roll[460] was: 20     >4923
+152307:918: Roll[461] was: 7     >4943
+152307:933: Roll[462] was: 3     >4950
+152307:949: Roll[463] was: 11     >4953
+152307:964: Roll[464] was: 7     >4964
+152307:979: Roll[465] was: 4     >4971
+152307:994: Roll[466] was: 1     >4975
+152308:009: Roll[467] was: 9     >4976
+152308:024: Roll[468] was: 6     >4985
+152308:039: Roll[469] was: 3     >4991
+152308:054: Roll[470] was: 19     >4994
+152308:069: Roll[471] was: 16     >5013
+152308:084: Roll[472] was: 13     >5029
+152308:099: Roll[473] was: 9     >5042
+152308:114: Roll[474] was: 6     >5051
+152308:129: Roll[475] was: 3     >5057
+152308:144: Roll[476] was: 20     >5060
+152308:160: Roll[477] was: 7     >5080
+152308:175: Roll[478] was: 4     >5087
+152308:190: Roll[479] was: 20     >5091
+152308:206: Roll[480] was: 7     >5111
+152308:221: Roll[481] was: 4     >5118
+152308:236: Roll[482] was: 1     >5122
+152308:251: Roll[483] was: 18     >5123
+152308:266: Roll[484] was: 14     >5141
+152308:281: Roll[485] was: 11     >5155
+152308:296: Roll[486] was: 8     >5166
+152308:311: Roll[487] was: 5     >5174
+152308:326: Roll[488] was: 1     >5179
+152308:342: Roll[489] was: 8     >5180
+152308:357: Roll[490] was: 5     >5188
+152308:372: Roll[491] was: 2     >5193
+152308:387: Roll[492] was: 19     >5195
+152308:401: Roll[493] was: 5     >5214
+152308:416: Roll[494] was: 2     >5219
+152308:432: Roll[495] was: 9     >5221
+152308:447: Roll[496] was: 6     >5230
+152308:461: Roll[497] was: 12     >5236
+152308:477: Roll[498] was: 19     >5248
+152308:492: Roll[499] was: 16     >5267
+152308:508: Roll[500] was: 3     >5283
+152308:523: Roll[501] was: 20     >5286
+152308:538: Roll[502] was: 16     >5306
+152308:554: Roll[503] was: 3     >5322
+152308:569: Roll[504] was: 20     >5325
+152308:584: Roll[505] was: 17     >5345
+152308:600: Roll[506] was: 4     >5362
+152308:615: Roll[507] was: 1     >5366
+152308:631: Roll[508] was: 8     >5367
+152308:646: Roll[509] was: 5     >5375
+152308:662: Roll[510] was: 12     >5380
+152308:677: Roll[511] was: 9     >5392
+152308:692: Roll[512] was: 5     >5401
+152308:708: Roll[513] was: 13     >5406
+152308:723: Roll[514] was: 9     >5419
+152308:739: Roll[515] was: 16     >5428
+152308:754: Roll[516] was: 13     >5444
+152308:769: Roll[517] was: 10     >5457
+152308:784: Roll[518] was: 7     >5467
+152308:799: Roll[519] was: 3     >5474
+152308:814: Roll[520] was: 20     >5477
+152308:829: Roll[521] was: 17     >5497
+152308:844: Roll[522] was: 14     >5514
+152308:860: Roll[523] was: 1     >5528
+152308:875: Roll[524] was: 17     >5529
+152308:891: Roll[525] was: 5     >5546
+152308:906: Roll[526] was: 1     >5551
+152308:921: Roll[527] was: 18     >5552
+152308:937: Roll[528] was: 5     >5570
+152308:952: Roll[529] was: 2     >5575
+152308:967: Roll[530] was: 19     >5577
+152308:983: Roll[531] was: 6     >5596
+152308:998: Roll[532] was: 3     >5602
+152309:013: Roll[533] was: 11     >5605
+152309:029: Roll[534] was: 18     >5616
+152309:044: Roll[535] was: 15     >5634
+152309:059: Roll[536] was: 11     >5649
+152309:074: Roll[537] was: 8     >5660
+152309:090: Roll[538] was: 15     >5668
+152309:105: Roll[539] was: 12     >5683
+152309:120: Roll[540] was: 9     >5695
+152309:136: Roll[541] was: 16     >5704
+152309:151: Roll[542] was: 13     >5720
+152309:166: Roll[543] was: 9     >5733
+152309:181: Roll[544] was: 6     >5742
+152309:196: Roll[545] was: 3     >5748
+152309:211: Roll[546] was: 20     >5751
+152309:226: Roll[547] was: 16     >5771
+152309:241: Roll[548] was: 13     >5787
+152309:256: Roll[549] was: 10     >5800
+152309:272: Roll[550] was: 17     >5810
+152309:287: Roll[551] was: 14     >5827
+152309:303: Roll[552] was: 1     >5841
+152309:318: Roll[553] was: 18     >5842
+152309:333: Roll[554] was: 14     >5860
+152309:349: Roll[555] was: 2     >5874
+152309:364: Roll[556] was: 18     >5876
+152309:379: Roll[557] was: 15     >5894
+152309:395: Roll[558] was: 2     >5909
+152309:410: Roll[559] was: 19     >5911
+152309:426: Roll[560] was: 6     >5930
+152309:441: Roll[561] was: 3     >5936
+152309:456: Roll[562] was: 20     >5939
+152309:471: Roll[563] was: 16     >5959
+152309:485: Roll[564] was: 3     >5975
+152309:500: Roll[565] was: 19     >5978
+152309:516: Roll[566] was: 6     >5997
+152309:531: Roll[567] was: 3     >6003
+152309:546: Roll[568] was: 20     >6006
+152309:562: Roll[569] was: 7     >6026
+152309:577: Roll[570] was: 4     >6033
+152309:592: Roll[571] was: 1     >6037
+152309:606: Roll[572] was: 7     >6038
+152309:621: Roll[573] was: 4     >6045
+152309:637: Roll[574] was: 11     >6049
+152309:651: Roll[575] was: 17     >6060
+152309:666: Roll[576] was: 14     >6077
+152309:682: Roll[577] was: 1     >6091
+152309:696: Roll[578] was: 7     >6092
+152309:712: Roll[579] was: 14     >6099
+152309:727: Roll[580] was: 11     >6113
+152309:743: Roll[581] was: 18     >6124
+152309:758: Roll[582] was: 15     >6142
+152309:773: Roll[583] was: 12     >6157
+152309:789: Roll[584] was: 19     >6169
+152309:804: Roll[585] was: 16     >6188
+152309:819: Roll[586] was: 12     >6204
+152309:835: Roll[587] was: 20     >6216
+152309:850: Roll[588] was: 16     >6236
+152309:865: Roll[589] was: 13     >6252
+152309:880: Roll[590] was: 10     >6265
+152309:895: Roll[591] was: 6     >6275
+152309:910: Roll[592] was: 3     >6281
+152309:926: Roll[593] was: 10     >6284
+152309:941: Roll[594] was: 7     >6294
+152309:956: Roll[595] was: 4     >6301
+152309:971: Roll[596] was: 1     >6305
+152309:986: Roll[597] was: 17     >6306
+152310:000: Roll[598] was: 15     >6323
+152310:016: Roll[599] was: 2     >6338
+152310:031: Roll[600] was: 19     >6340
+152310:047: Roll[601] was: 6     >6359
+152310:062: Roll[602] was: 3     >6365
+152310:077: Roll[603] was: 20     >6368
+152310:093: Roll[604] was: 7     >6388
+152310:108: Roll[605] was: 3     >6395
+152310:123: Roll[606] was: 20     >6398
+152310:138: Roll[607] was: 17     >6418
+152310:153: Roll[608] was: 14     >6435
+152310:168: Roll[609] was: 10     >6449
+152310:183: Roll[610] was: 7     >6459
+152310:199: Roll[611] was: 14     >6466
+152310:213: Roll[612] was: 1     >6480
+152310:228: Roll[613] was: 17     >6481
+152310:243: Roll[614] was: 14     >6498
+152310:258: Roll[615] was: 11     >6512
+152310:273: Roll[616] was: 7     >6523
+152310:288: Roll[617] was: 4     >6530
+152310:304: Roll[618] was: 11     >6534
+152310:319: Roll[619] was: 8     >6545
+152310:334: Roll[620] was: 5     >6553
+152310:349: Roll[621] was: 2     >6558
+152310:365: Roll[622] was: 9     >6560
+152310:380: Roll[623] was: 5     >6569
+152310:395: Roll[624] was: 2     >6574
+152310:410: Roll[625] was: 19     >6576
+152310:425: Roll[626] was: 16     >6595
+152310:440: Roll[627] was: 12     >6611
+152310:455: Roll[628] was: 9     >6623
+152310:471: Roll[629] was: 16     >6632
+152310:486: Roll[630] was: 13     >6648
+152310:501: Roll[631] was: 10     >6661
+152310:517: Roll[632] was: 17     >6671
+152310:532: Roll[633] was: 14     >6688
+152310:548: Roll[634] was: 1     >6702
+152310:563: Roll[635] was: 18     >6703
+152310:578: Roll[636] was: 14     >6721
+152310:593: Roll[637] was: 11     >6735
+152310:608: Roll[638] was: 8     >6746
+152310:623: Roll[639] was: 4     >6754
+152310:639: Roll[640] was: 12     >6758
+152310:654: Roll[641] was: 8     >6770
+152310:670: Roll[642] was: 16     >6778
+152310:685: Roll[643] was: 12     >6794
+152310:700: Roll[644] was: 9     >6806
+152310:716: Roll[645] was: 16     >6815
+152310:731: Roll[646] was: 13     >6831
+152310:747: Roll[647] was: 20     >6844
+152310:762: Roll[648] was: 17     >6864
+152310:778: Roll[649] was: 4     >6881
+152310:793: Roll[650] was: 1     >6885
+152310:808: Roll[651] was: 17     >6886
+152310:824: Roll[652] was: 5     >6903
+152310:839: Roll[653] was: 1     >6908
+152310:855: Roll[654] was: 8     >6909
+152310:870: Roll[655] was: 5     >6917
+152310:885: Roll[656] was: 2     >6922
+152310:901: Roll[657] was: 9     >6924
+152310:916: Roll[658] was: 6     >6933
+152310:932: Roll[659] was: 13     >6939
+152310:946: Roll[660] was: 19     >6952
+152310:961: Roll[661] was: 16     >6971
+152310:976: Roll[662] was: 13     >6987
+152310:991: Roll[663] was: 9     >7000
+152311:007: Roll[664] was: 8     >7009
+152311:022: Roll[665] was: 5     >7017
+152311:037: Roll[666] was: 2     >7022
+152311:053: Roll[667] was: 9     >7024
+152311:068: Roll[668] was: 6     >7033
+152311:083: Roll[669] was: 2     >7039
+152311:099: Roll[670] was: 9     >7041
+152311:114: Roll[671] was: 6     >7050
+152311:130: Roll[672] was: 13     >7056
+152311:145: Roll[673] was: 10     >7069
+152311:160: Roll[674] was: 7     >7079
+152311:176: Roll[675] was: 14     >7086
+152311:191: Roll[676] was: 11     >7100
+152311:207: Roll[677] was: 18     >7111
+152311:222: Roll[678] was: 15     >7129
+152311:236: Roll[679] was: 1     >7144
+152311:252: Roll[680] was: 8     >7145
+152311:267: Roll[681] was: 5     >7153
+152311:281: Roll[682] was: 11     >7158
+152311:297: Roll[683] was: 18     >7169
+152311:312: Roll[684] was: 15     >7187
+152311:327: Roll[685] was: 12     >7202
+152311:342: Roll[686] was: 8     >7214
+152311:357: Roll[687] was: 5     >7222
+152311:372: Roll[688] was: 2     >7227
+152311:388: Roll[689] was: 9     >7229
+152311:403: Roll[690] was: 6     >7238
+152311:419: Roll[691] was: 13     >7244
+152311:434: Roll[692] was: 10     >7257
+152311:448: Roll[693] was: 16     >7267
+152311:464: Roll[694] was: 3     >7283
+152311:479: Roll[695] was: 20     >7286
+152311:494: Roll[696] was: 17     >7306
+152311:509: Roll[697] was: 13     >7323
+152311:524: Roll[698] was: 10     >7336
+152311:539: Roll[699] was: 7     >7346
+152311:554: Roll[700] was: 3     >7353
+152311:569: Roll[701] was: 20     >7356
+152311:584: Roll[702] was: 17     >7376
+152311:599: Roll[703] was: 14     >7393
+152311:614: Roll[704] was: 10     >7407
+152311:630: Roll[705] was: 18     >7417
+152311:645: Roll[706] was: 14     >7435
+152311:659: Roll[707] was: 1     >7449
+152311:675: Roll[708] was: 8     >7450
+152311:690: Roll[709] was: 4     >7458
+152311:706: Roll[710] was: 12     >7462
+152311:721: Roll[711] was: 8     >7474
+152311:736: Roll[712] was: 5     >7482
+152311:752: Roll[713] was: 12     >7487
+152311:766: Roll[714] was: 19     >7499
+152311:781: Roll[715] was: 15     >7518
+152311:797: Roll[716] was: 2     >7533
+152311:812: Roll[717] was: 19     >7535
+152311:826: Roll[718] was: 5     >7554
+152311:841: Roll[719] was: 2     >7559
+152311:856: Roll[720] was: 19     >7561
+152311:872: Roll[721] was: 6     >7580
+152311:887: Roll[722] was: 3     >7586
+152311:902: Roll[723] was: 20     >7589
+152311:918: Roll[724] was: 7     >7609
+152311:933: Roll[725] was: 3     >7616
+152311:949: Roll[726] was: 11     >7619
+152311:964: Roll[727] was: 7     >7630
+152311:979: Roll[728] was: 4     >7637
+152311:994: Roll[729] was: 1     >7641
+152312:009: Roll[730] was: 9     >7642
+152312:024: Roll[731] was: 6     >7651
+152312:039: Roll[732] was: 3     >7657
+152312:054: Roll[733] was: 19     >7660
+152312:069: Roll[734] was: 16     >7679
+152312:085: Roll[735] was: 3     >7695
+152312:100: Roll[736] was: 20     >7698
+152312:116: Roll[737] was: 7     >7718
+152312:131: Roll[738] was: 4     >7725
+152312:147: Roll[739] was: 11     >7729
+152312:162: Roll[740] was: 8     >7740
+152312:178: Roll[741] was: 15     >7748
+152312:193: Roll[742] was: 12     >7763
+152312:208: Roll[743] was: 8     >7775
+152312:223: Roll[744] was: 5     >7783
+152312:238: Roll[745] was: 2     >7788
+152312:253: Roll[746] was: 18     >7790
+152312:269: Roll[747] was: 6     >7808
+152312:284: Roll[748] was: 2     >7814
+152312:300: Roll[749] was: 10     >7816
+152312:315: Roll[750] was: 6     >7826
+152312:329: Roll[751] was: 13     >7832
+152312:345: Roll[752] was: 20     >7845
+152312:360: Roll[753] was: 16     >7865
+152312:376: Roll[754] was: 4     >7881
+152312:391: Roll[755] was: 20     >7885
+152312:406: Roll[756] was: 17     >7905
+152312:421: Roll[757] was: 14     >7922
+152312:436: Roll[758] was: 11     >7936
+152312:450: Roll[759] was: 17     >7947
+152312:466: Roll[760] was: 4     >7964
+152312:481: Roll[761] was: 1     >7968
+152312:496: Roll[762] was: 17     >7969
+152312:512: Roll[763] was: 5     >7986
+152312:527: Roll[764] was: 1     >7991
+152312:542: Roll[765] was: 18     >7992
+152312:558: Roll[766] was: 5     >8010
+152312:573: Roll[767] was: 2     >8015
+152312:589: Roll[768] was: 9     >8017
+152312:604: Roll[769] was: 6     >8026
+152312:619: Roll[770] was: 3     >8032
+152312:634: Roll[771] was: 19     >8035
+152312:649: Roll[772] was: 16     >8054
+152312:664: Roll[773] was: 13     >8070
+152312:679: Roll[774] was: 10     >8083
+152312:694: Roll[775] was: 6     >8093
+152312:710: Roll[776] was: 13     >8099
+152312:725: Roll[777] was: 10     >8112
+152312:740: Roll[778] was: 7     >8122
+152312:755: Roll[779] was: 4     >8129
+152312:770: Roll[780] was: 20     >8133
+152312:786: Roll[781] was: 8     >8153
+152312:801: Roll[782] was: 4     >8161
+152312:816: Roll[783] was: 1     >8165
+152312:832: Roll[784] was: 8     >8166
+152312:847: Roll[785] was: 5     >8174
+152312:862: Roll[786] was: 2     >8179
+152312:878: Roll[787] was: 9     >8181
+152312:893: Roll[788] was: 6     >8190
+152312:909: Roll[789] was: 13     >8196
+152312:924: Roll[790] was: 9     >8209
+152312:939: Roll[791] was: 6     >8218
+152312:954: Roll[792] was: 3     >8224
+152312:969: Roll[793] was: 20     >8227
+152312:984: Roll[794] was: 16     >8247
+152312:999: Roll[795] was: 13     >8263
+152313:015: Roll[796] was: 12     >8276
+152313:030: Roll[797] was: 8     >8288
+152313:045: Roll[798] was: 5     >8296
+152313:061: Roll[799] was: 12     >8301
+152313:076: Roll[800] was: 9     >8313
+152313:092: Roll[801] was: 16     >8322
+152313:107: Roll[802] was: 13     >8338
+152313:122: Roll[803] was: 10     >8351
+152313:138: Roll[804] was: 17     >8361
+152313:153: Roll[805] was: 14     >8378
+152313:168: Roll[806] was: 10     >8392
+152313:184: Roll[807] was: 18     >8402
+152313:199: Roll[808] was: 14     >8420
+152313:215: Roll[809] was: 1     >8434
+152313:230: Roll[810] was: 18     >8435
+152313:245: Roll[811] was: 15     >8453
+152313:260: Roll[812] was: 12     >8468
+152313:275: Roll[813] was: 8     >8480
+152313:290: Roll[814] was: 5     >8488
+152313:305: Roll[815] was: 2     >8493
+152313:320: Roll[816] was: 19     >8495
+152313:336: Roll[817] was: 6     >8514
+152313:351: Roll[818] was: 2     >8520
+152313:366: Roll[819] was: 19     >8522
+152313:381: Roll[820] was: 16     >8541
+152313:397: Roll[821] was: 3     >8557
+152313:412: Roll[822] was: 20     >8560
+152313:427: Roll[823] was: 17     >8580
+152313:443: Roll[824] was: 4     >8597
+152313:458: Roll[825] was: 20     >8601
+152313:473: Roll[826] was: 17     >8621
+152313:489: Roll[827] was: 4     >8638
+152313:504: Roll[828] was: 1     >8642
+152313:520: Roll[829] was: 8     >8643
+152313:535: Roll[830] was: 5     >8651
+152313:551: Roll[831] was: 12     >8656
+152313:566: Roll[832] was: 9     >8668
+152313:581: Roll[833] was: 6     >8677
+152313:596: Roll[834] was: 2     >8683
+152313:611: Roll[835] was: 19     >8685
+152313:626: Roll[836] was: 16     >8704
+152313:641: Roll[837] was: 13     >8720
+152313:655: Roll[838] was: 19     >8733
+152313:671: Roll[839] was: 6     >8752
+152313:686: Roll[840] was: 3     >8758
+152313:702: Roll[841] was: 10     >8761
+152313:717: Roll[842] was: 7     >8771
+152313:732: Roll[843] was: 3     >8778
+152313:748: Roll[844] was: 11     >8781
+152313:763: Roll[845] was: 7     >8792
+152313:779: Roll[846] was: 14     >8799
+152313:794: Roll[847] was: 11     >8813
+152313:809: Roll[848] was: 8     >8824
+152313:824: Roll[849] was: 5     >8832
+152313:839: Roll[850] was: 1     >8837
+152313:855: Roll[851] was: 8     >8838
+152313:870: Roll[852] was: 5     >8846
+152313:885: Roll[853] was: 2     >8851
+152313:901: Roll[854] was: 9     >8853
+152313:916: Roll[855] was: 6     >8862
+152313:931: Roll[856] was: 3     >8868
+152313:947: Roll[857] was: 10     >8871
+152313:962: Roll[858] was: 6     >8881
+152313:977: Roll[859] was: 3     >8887
+152313:992: Roll[860] was: 20     >8890
+152314:007: Roll[861] was: 8     >8910
+152314:022: Roll[862] was: 5     >8918
+152314:037: Roll[863] was: 2     >8923
+152314:053: Roll[864] was: 9     >8925
+152314:068: Roll[865] was: 6     >8934
+152314:083: Roll[866] was: 2     >8940
+152314:099: Roll[867] was: 9     >8942
+152314:114: Roll[868] was: 6     >8951
+152314:128: Roll[869] was: 12     >8957
+152314:143: Roll[870] was: 9     >8969
+152314:158: Roll[871] was: 6     >8978
+152314:173: Roll[872] was: 3     >8984
+152314:188: Roll[873] was: 19     >8987
+152314:203: Roll[874] was: 16     >9006
+152314:218: Roll[875] was: 13     >9022
+152314:233: Roll[876] was: 10     >9035
+152314:248: Roll[877] was: 6     >9045
+152314:264: Roll[878] was: 13     >9051
+152314:279: Roll[879] was: 10     >9064
+152314:295: Roll[880] was: 17     >9074
+152314:310: Roll[881] was: 14     >9091
+152314:325: Roll[882] was: 11     >9105
+152314:341: Roll[883] was: 18     >9116
+152314:356: Roll[884] was: 15     >9134
+152314:371: Roll[885] was: 11     >9149
+152314:386: Roll[886] was: 8     >9160
+152314:401: Roll[887] was: 5     >9168
+152314:416: Roll[888] was: 2     >9173
+152314:431: Roll[889] was: 18     >9175
+152314:446: Roll[890] was: 15     >9193
+152314:462: Roll[891] was: 2     >9208
+152314:477: Roll[892] was: 19     >9210
+152314:492: Roll[893] was: 16     >9229
+152314:507: Roll[894] was: 12     >9245
+152314:522: Roll[895] was: 9     >9257
+152314:537: Roll[896] was: 6     >9266
+152314:552: Roll[897] was: 3     >9272
+152314:567: Roll[898] was: 19     >9275
+152314:582: Roll[899] was: 16     >9294
+152314:597: Roll[900] was: 13     >9310
+152314:613: Roll[901] was: 20     >9323
+152314:627: Roll[902] was: 6     >9343
+152314:642: Roll[903] was: 3     >9349
+152314:658: Roll[904] was: 10     >9352
+152314:688: Roll[905] was: 4     >9362
+152314:703: Roll[906] was: 20     >9366
+152314:718: Roll[907] was: 17     >9386
+152314:733: Roll[908] was: 14     >9403
+152314:748: Roll[909] was: 11     >9417
+152314:763: Roll[910] was: 7     >9428
+152314:779: Roll[911] was: 14     >9435
+152314:794: Roll[912] was: 11     >9449
+152314:810: Roll[913] was: 18     >9460
+152314:825: Roll[914] was: 15     >9478
+152314:840: Roll[915] was: 12     >9493
+152314:855: Roll[916] was: 8     >9505
+152314:870: Roll[917] was: 5     >9513
+152314:885: Roll[918] was: 2     >9518
+152314:900: Roll[919] was: 19     >9520
+152314:915: Roll[920] was: 15     >9539
+152314:930: Roll[921] was: 12     >9554
+152314:945: Roll[922] was: 9     >9566
+152314:960: Roll[923] was: 6     >9575
+152314:975: Roll[924] was: 2     >9581
+152314:990: Roll[925] was: 19     >9583
+152315:005: Roll[926] was: 7     >9602
+152315:020: Roll[927] was: 4     >9609
+152315:035: Roll[928] was: 1     >9613
+152315:050: Roll[929] was: 17     >9614
+152315:066: Roll[930] was: 5     >9631
+152315:081: Roll[931] was: 1     >9636
+152315:096: Roll[932] was: 18     >9637
+152315:112: Roll[933] was: 5     >9655
+152315:127: Roll[934] was: 2     >9660
+152315:143: Roll[935] was: 9     >9662
+152315:158: Roll[936] was: 6     >9671
+152315:173: Roll[937] was: 3     >9677
+152315:188: Roll[938] was: 19     >9680
+152315:203: Roll[939] was: 16     >9699
+152315:218: Roll[940] was: 13     >9715
+152315:233: Roll[941] was: 10     >9728
+152315:248: Roll[942] was: 6     >9738
+152315:264: Roll[943] was: 13     >9744
+152315:279: Roll[944] was: 10     >9757
+152315:294: Roll[945] was: 7     >9767
+152315:309: Roll[946] was: 4     >9774
+152315:324: Roll[947] was: 20     >9778
+152315:339: Roll[948] was: 17     >9798
+152315:354: Roll[949] was: 14     >9815
+152315:369: Roll[950] was: 11     >9829
+152315:384: Roll[951] was: 7     >9840
+152315:398: Roll[952] was: 14     >9847
+152315:413: Roll[953] was: 10     >9861
+152315:428: Roll[954] was: 7     >9871
+152315:443: Roll[955] was: 4     >9878
+152315:458: Roll[956] was: 20     >9882
+152315:473: Roll[957] was: 17     >9902
+152315:489: Roll[958] was: 4     >9919
+152315:504: Roll[959] was: 1     >9923
+152315:520: Roll[960] was: 8     >9924
+152315:535: Roll[961] was: 5     >9932
+152315:550: Roll[962] was: 2     >9937
+152315:566: Roll[963] was: 9     >9939
+152315:581: Roll[964] was: 6     >9948
+152315:597: Roll[965] was: 13     >9954
+152315:612: Roll[966] was: 10     >9967
+152315:627: Roll[967] was: 6     >9977
+152315:642: Roll[968] was: 3     >9983
+152315:657: Roll[969] was: 20     >9986
+152315:672: Roll[970] was: 16     >10006
+152315:687: Roll[971] was: 13     >10022
+152315:703: Roll[972] was: 20     >10035
+152315:718: Roll[973] was: 17     >10055
+152315:733: Roll[974] was: 14     >10072
+152315:749: Roll[975] was: 1     >10086
+152315:764: Roll[976] was: 18     >10087
+152315:779: Roll[977] was: 14     >10105
+152315:794: Roll[978] was: 11     >10119
+152315:810: Roll[979] was: 18     >10130
+152315:825: Roll[980] was: 15     >10148
+152315:840: Roll[981] was: 12     >10163
+152315:855: Roll[982] was: 8     >10175
+152315:870: Roll[983] was: 5     >10183
+152315:886: Roll[984] was: 12     >10188
+152315:901: Roll[985] was: 9     >10200
+152315:916: Roll[986] was: 6     >10209
+152315:931: Roll[987] was: 3     >10215
+152315:946: Roll[988] was: 19     >10218
+152315:960: Roll[989] was: 6     >10237
+152315:976: Roll[990] was: 13     >10243
+152315:991: Roll[991] was: 9     >10256
+152316:006: Roll[992] was: 18     >10265
+152316:021: Roll[993] was: 14     >10283
+152316:036: Roll[994] was: 11     >10297
+152316:052: Roll[995] was: 18     >10308
+152316:067: Roll[996] was: 15     >10326
+152316:082: Roll[997] was: 12     >10341
+152316:097: Roll[998] was: 9     >10353
+152316:112: Roll[999] was: 5     >10362
+152316:127: Roll[1000] was: 2     >10367
+152316:128: DiceString: 1000d20 >> 10369
+152316:131: You rolled a 10369 [1000d20 >> 9,17,13,1,17,16,13,9,17,3,20,16,13,10,6,14,10,7,14,11,17,14,11,18,15,11,19,15,12,9,5,2,19,6,3,20,7,3,11,7,15,11,8,5,11,8,15,12,8,16,12,9,15,12,19,16,3,20,17,13,10,17,14,1,18,5,2,18,15,12,19,7,14,11,8,15,12,19,5,2,19,6,3,19,7,3,10,7,13,10,7,14,20,17,14,11,7,4,11,8,5,12,9,16,12,9,15,12,9,6,2,19,6,13,9,6,3,10,16,13,20,17,14,1,17,5,1,18,5,2,8,15,12,9,6,2,9,18,14,11,8,5,1,18,15,12,8,5,12,9,16,13,10,17,13,10,7,13,20,17,14,11,7,4,1,8,5,1,18,15,12,8,15,12,9,6,2,19,16,13,9,6,3,19,16,3,20,7,4,1,17,14,11,18,15,12,8,15,2,18,15,12,19,7,4,11,8,14,1,18,15,12,8,15,12,18,6,2,10,6,3,20,7,4,20,17,14,11,7,4,1,7,4,11,8,15,12,8,5,12,9,6,2,19,16,13,9,6,3,10,7,14,20,17,4,1,17,5,1,8,5,2,19,15,12,9,6,2,19,7,4,1,17,14,11,8,15,12,8,5,12,9,6,2,19,16,13,9,6,3,19,7,3,20,17,14,10,7,4,20,17,14,1,18,5,2,18,6,2,10,6,3,10,7,14,11,8,15,11,8,15,12,9,15,12,19,16,3,20,16,3,20,7,4,11,20,16,3,20,7,4,11,8,5,12,9,15,12,8,15,12,9,15,12,19,16,13,9,16,3,19,16,13,10,17,14,1,17,5,1,18,15,12,8,5,2,9,6,13,10,17,13,10,17,14,11,8,4,11,8,15,12,9,16,13,20,17,13,10,7,15,12,19,16,12,20,16,3,20,17,4,1,8,5,1,9,5,2,19,6,3,19,16,13,20,17,14,1,17,5,1,8,15,12,8,15,12,9,6,2,19,16,3,20,16,4,20,8,4,1,8,5,12,9,5,13,9,17,13,20,7,3,11,7,4,1,9,6,3,19,16,13,9,6,3,20,7,4,20,7,4,1,18,14,11,8,5,1,8,5,2,19,5,2,9,6,12,19,16,3,20,16,3,20,17,4,1,8,5,12,9,5,13,9,16,13,10,7,3,20,17,14,1,17,5,1,18,5,2,19,6,3,11,18,15,11,8,15,12,9,16,13,9,6,3,20,16,13,10,17,14,1,18,14,2,18,15,2,19,6,3,20,16,3,19,6,3,20,7,4,1,7,4,11,17,14,1,7,14,11,18,15,12,19,16,12,20,16,13,10,6,3,10,7,4,1,17,15,2,19,6,3,20,7,3,20,17,14,10,7,14,1,17,14,11,7,4,11,8,5,2,9,5,2,19,16,12,9,16,13,10,17,14,1,18,14,11,8,4,12,8,16,12,9,16,13,20,17,4,1,17,5,1,8,5,2,9,6,13,19,16,13,9,8,5,2,9,6,2,9,6,13,10,7,14,11,18,15,1,8,5,11,18,15,12,8,5,2,9,6,13,10,16,3,20,17,13,10,7,3,20,17,14,10,18,14,1,8,4,12,8,5,12,19,15,2,19,5,2,19,6,3,20,7,3,11,7,4,1,9,6,3,19,16,3,20,7,4,11,8,15,12,8,5,2,18,6,2,10,6,13,20,16,4,20,17,14,11,17,4,1,17,5,1,18,5,2,9,6,3,19,16,13,10,6,13,10,7,4,20,8,4,1,8,5,2,9,6,13,9,6,3,20,16,13,12,8,5,12,9,16,13,10,17,14,10,18,14,1,18,15,12,8,5,2,19,6,2,19,16,3,20,17,4,20,17,4,1,8,5,12,9,6,2,19,16,13,19,6,3,10,7,3,11,7,14,11,8,5,1,8,5,2,9,6,3,10,6,3,20,8,5,2,9,6,2,9,6,12,9,6,3,19,16,13,10,6,13,10,17,14,11,18,15,11,8,5,2,18,15,2,19,16,12,9,6,3,19,16,13,20,6,3,10,4,20,17,14,11,7,14,11,18,15,12,8,5,2,19,15,12,9,6,2,19,7,4,1,17,5,1,18,5,2,9,6,3,19,16,13,10,6,13,10,7,4,20,17,14,11,7,14,10,7,4,20,17,4,1,8,5,2,9,6,13,10,6,3,20,16,13,20,17,14,1,18,14,11,18,15,12,8,5,12,9,6,3,19,6,13,9,18,14,11,18,15,12,9,5,2]
+152316:133: runTimer: >> 15,209ms
+152422:471:  Exiting Dice Roll Mode
+152426:394:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+152426:395:  Wrote 1 lines in 0,003ms
