@@ -75,14 +75,23 @@ namespace DiceTowerPractice
                 // Saves the history a datafile
                 try
                 {
+                    // start timer
+                    Stopwatch sw = Stopwatch.StartNew();
+                    sw.Start();
+                    int entryCount = 0;
+
                     using (StreamWriter writer = new StreamWriter(this.dataPath, append: true))
                     {
                         foreach (DiceRollEntry roll in this.rollHistory.ToArray())
                         {
-                            writer.WriteLine($"{roll.inputString}, {roll.result}, '{string.Join(",", roll.resultParts)}'");
+                            // increment our line counter
+                            entryCount++;
+                            // Write each roll request as it's own line
+                            writer.WriteLine($"{roll.inputString},{roll.result},'{string.Join(",", roll.resultParts)}'");
                         }
                     }
                     this.Report($"9: Dice history saved successfully to {Directory.GetCurrentDirectory()}\\{this.dataPath}");
+                    this.Report($"3: Wrote {entryCount} lines in {sw.ElapsedMilliseconds:0,000}ms");
                     return true;
                 }catch (Exception ex)
                 {
@@ -96,11 +105,18 @@ namespace DiceTowerPractice
                 // validate that the input isn't empty
                 if (string.IsNullOrEmpty(commaSeparatedString))
                 {
+                    this.Report("$6: Error ConvertingToIntArray - NullEmpty");
                     return Array.Empty<int>();
                 }
 
+                // clean the inputs
+                commaSeparatedString = commaSeparatedString.Replace('\'',default);
+                commaSeparatedString = commaSeparatedString.Replace('\"',default);
+                commaSeparatedString = commaSeparatedString.Replace(' ', default);
+
                 // split string and build array of matching length
-                string[] stringArray = commaSeparatedString.Split(','); 
+                string[] stringArray = commaSeparatedString.Split(',');
+                Console.WriteLine($"stringArray {stringArray.Length}");
                 int[] intArray = new int[stringArray.Length]; 
 
                 // loop for array and try parse each one
@@ -112,6 +128,7 @@ namespace DiceTowerPractice
                     }
                     else
                     {
+                        this.Report($"2: Failed to parse string2int [{stringArray[i]}] from >> {commaSeparatedString}");
                         // Handle invalid integer conversion if we want to do something here later
                     }
                 }
@@ -139,13 +156,13 @@ namespace DiceTowerPractice
                             // increment our line counter
                             entryCount++;
                             // split the CSV for read in
-                            string[] parts = line.Split(',');
+                            string[] parts = line.Split(new char[] {','}, 3);
                             // Add CSV data back into the List<DiceRollEntry> type
-                            this.rollHistory.Add(new DiceRollEntry { inputString = parts[0], result = Convert.ToInt32(parts[1]), resultParts = this.ConvertToIntArray(parts[2]) });
+                            this.rollHistory.Add(new DiceRollEntry { inputString = parts[0], result = Convert.ToInt32(parts[1]), resultParts = this.ConvertToIntArray(parts[2])});
                         }
                     }
                     this.Report($"9: Dice history loaded successfully from {Directory.GetCurrentDirectory()}\\{this.dataPath}");
-                    this.Report($"3: Reading in {entryCount} lines too {sw.ElapsedMilliseconds}ms");
+                    this.Report($"3: Reading in {entryCount} lines in {sw.ElapsedMilliseconds:0,000}ms");
                     return true;
                 }
                 catch (Exception ex)

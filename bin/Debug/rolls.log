@@ -29,3 +29,402 @@
 002328:261:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
 002328:797:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
 002329:844: Reporting current DiceDATA: 4 entries...
+105715:442: Reporting current DiceDATA: 0 entries...
+105725:674:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+105725:675:  Reading in 1 lines too 2ms
+105802:659:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+105802:662:  Reading in 1 lines in 0,013ms
+110022:285: REPL Complete, thanks for testing!
+112220:621: Roll[1] was: 20     >0
+112220:623: DiceString: d20 >> 20
+112220:626: You rolled a 20 [d20 >> 20]
+112220:627: runTimer: >> 0,026ms
+112222:146: Roll[1] was: 1     >0
+112222:147: DiceString: d20 >> 1
+112222:149: You rolled a 1 [d20 >> 1]
+112222:150: runTimer: >> 0,014ms
+112222:870:  Exiting Dice Roll Mode
+112228:124: Roll[1] was: 11     >0
+112228:125: DiceString: d20 >> 11
+112228:127: You rolled a 11 [d20 >> 11]
+112228:128: runTimer: >> 0,017ms
+112231:314: Roll[1] was: 16     >0
+112231:315: DiceString: d20 >> 16
+112231:317: You rolled a 16 [d20 >> 16]
+112231:319: runTimer: >> 0,015ms
+112232:303: Roll[1] was: 1     >0
+112232:304: DiceString: d20 >> 1
+112232:306: You rolled a 1 [d20 >> 1]
+112232:307: runTimer: >> 0,012ms
+112233:245: Roll[1] was: 15     >0
+112233:246: DiceString: d20 >> 15
+112233:248: You rolled a 15 [d20 >> 15]
+112233:249: runTimer: >> 0,017ms
+112234:229: Roll[1] was: 8     >0
+112234:231: DiceString: d20 >> 8
+112234:233: You rolled a 8 [d20 >> 8]
+112234:234: runTimer: >> 0,018ms
+112235:142: Roll[1] was: 19     >0
+112235:144: DiceString: d20 >> 19
+112235:145: You rolled a 19 [d20 >> 19]
+112235:147: runTimer: >> 0,019ms
+112236:018: Roll[1] was: 3     >0
+112236:020: DiceString: d20 >> 3
+112236:021: You rolled a 3 [d20 >> 3]
+112236:022: runTimer: >> 0,007ms
+112236:882: Roll[1] was: 11     >0
+112236:883: DiceString: d20 >> 11
+112236:885: You rolled a 11 [d20 >> 11]
+112236:886: runTimer: >> 0,007ms
+112237:797:  Exiting Dice Roll Mode
+112239:494: Reporting current DiceDATA: 10 entries...
+112253:968:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+112253:969:  Wrote 10 lines in 0,003ms
+112427:204: REPL Complete, thanks for testing!
+112432:702:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+112432:704:  Reading in 10 lines in 0,011ms
+112502:125:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+112502:126:  Wrote 10 lines in 0,003ms
+112555:443: Reporting current DiceDATA: 10 entries...
+131448:976: Roll[1] was: 9     >0
+131448:984: Roll[2] was: 16     >9
+131448:999: Roll[3] was: 13     >25
+131449:015: Roll[4] was: 12     >38
+131449:031: Roll[5] was: 19     >50
+131449:046: Roll[6] was: 16     >69
+131449:061: Roll[7] was: 12     >85
+131449:077: Roll[8] was: 20     >97
+131449:092: Roll[9] was: 16     >117
+131449:108: Roll[10] was: 3     >133
+131449:109: DiceString: 10d20 >> 136
+131449:112: You rolled a 136 [10d20 >> 9,16,13,12,19,16,12,20,16,3]
+131449:113: runTimer: >> 0,146ms
+131450:464: Roll[1] was: 3     >0
+131450:479: Roll[2] was: 20     >3
+131450:495: Roll[3] was: 7     >23
+131450:510: Roll[4] was: 4     >30
+131450:524: Roll[5] was: 10     >34
+131450:539: Roll[6] was: 7     >44
+131450:554: Roll[7] was: 3     >51
+131450:661: Roll[8] was: 1     >54
+131450:677: Roll[9] was: 9     >55
+131450:692: Roll[10] was: 5     >64
+131450:693: DiceString: 10d20 >> 69
+131450:694: You rolled a 69 [10d20 >> 3,20,7,4,10,7,3,1,9,5]
+131450:696: runTimer: >> 0,235ms
+131451:662: Roll[1] was: 12     >0
+131451:678: Roll[2] was: 19     >12
+131451:693: Roll[3] was: 16     >31
+131451:708: Roll[4] was: 13     >47
+131451:723: Roll[5] was: 9     >60
+131451:738: Roll[6] was: 6     >69
+131451:754: Roll[7] was: 13     >75
+131451:769: Roll[8] was: 10     >88
+131451:784: Roll[9] was: 7     >98
+131451:799: Roll[10] was: 3     >105
+131451:801: DiceString: 10d20 >> 108
+131451:802: You rolled a 108 [10d20 >> 12,19,16,13,9,6,13,10,7,3]
+131451:803: runTimer: >> 0,142ms
+131455:231: Roll[1] was: 9     >0
+131455:247: Roll[2] was: 16     >9
+131455:261: Roll[3] was: 2     >25
+131455:276: Roll[4] was: 19     >27
+131455:291: Roll[5] was: 16     >46
+131455:307: Roll[6] was: 3     >62
+131455:322: Roll[7] was: 19     >65
+131455:338: Roll[8] was: 7     >84
+131455:353: Roll[9] was: 3     >91
+131455:369: Roll[10] was: 11     >94
+131455:370: DiceString: 10d20 >> 105
+131455:371: You rolled a 105 [10d20 >> 9,16,2,19,16,3,19,7,3,11]
+131455:372: runTimer: >> 0,152ms
+131458:131: Roll[1] was: 4     >0
+131458:145: Roll[2] was: 10     >4
+131458:161: Roll[3] was: 17     >14
+131458:175: Roll[4] was: 4     >31
+131458:190: Roll[5] was: 20     >35
+131458:205: Roll[6] was: 17     >55
+131458:221: Roll[7] was: 4     >72
+131458:236: Roll[8] was: 1     >76
+131458:251: Roll[9] was: 18     >77
+131458:267: Roll[10] was: 5     >95
+131458:269: DiceString: 10d20 >> 100
+131458:269: You rolled a 100 [10d20 >> 4,10,17,4,20,17,4,1,18,5]
+131458:271: runTimer: >> 0,146ms
+131459:076: Roll[1] was: 9     >0
+131459:092: Roll[2] was: 16     >9
+131459:107: Roll[3] was: 13     >25
+131459:122: Roll[4] was: 10     >38
+131459:137: Roll[5] was: 6     >48
+131459:153: Roll[6] was: 14     >54
+131459:169: Roll[7] was: 1     >68
+131459:183: Roll[8] was: 7     >69
+131459:199: Roll[9] was: 14     >76
+131459:213: Roll[10] was: 1     >90
+131459:214: DiceString: 10d20 >> 91
+131459:216: You rolled a 91 [10d20 >> 9,16,13,10,6,14,1,7,14,1]
+131459:218: runTimer: >> 0,149ms
+131459:881: Roll[1] was: 20     >0
+131459:897: Roll[2] was: 7     >20
+131459:912: Roll[3] was: 4     >27
+131459:928: Roll[4] was: 11     >31
+131459:943: Roll[5] was: 8     >42
+131459:958: Roll[6] was: 5     >50
+131459:973: Roll[7] was: 1     >55
+131459:988: Roll[8] was: 18     >56
+131500:003: Roll[9] was: 6     >74
+131500:018: Roll[10] was: 3     >80
+131500:020: DiceString: 10d20 >> 83
+131500:022: You rolled a 83 [10d20 >> 20,7,4,11,8,5,1,18,6,3]
+131500:022: runTimer: >> 0,154ms
+131500:614: Roll[1] was: 10     >0
+131500:629: Roll[2] was: 7     >10
+131500:645: Roll[3] was: 14     >17
+131500:660: Roll[4] was: 11     >31
+131500:676: Roll[5] was: 18     >42
+131500:692: Roll[6] was: 5     >60
+131500:708: Roll[7] was: 13     >65
+131500:723: Roll[8] was: 9     >78
+131500:738: Roll[9] was: 6     >87
+131500:754: Roll[10] was: 13     >93
+131500:755: DiceString: 10d20 >> 106
+131500:756: You rolled a 106 [10d20 >> 10,7,14,11,18,5,13,9,6,13]
+131500:757: runTimer: >> 0,144ms
+131501:396: Roll[1] was: 13     >0
+131501:411: Roll[2] was: 9     >13
+131501:426: Roll[3] was: 6     >22
+131501:442: Roll[4] was: 13     >28
+131501:457: Roll[5] was: 10     >41
+131501:565: Roll[6] was: 8     >51
+131501:580: Roll[7] was: 15     >59
+131501:595: Roll[8] was: 12     >74
+131501:611: Roll[9] was: 19     >86
+131501:626: Roll[10] was: 16     >105
+131501:628: DiceString: 10d20 >> 121
+131501:629: You rolled a 121 [10d20 >> 13,9,6,13,10,8,15,12,19,16]
+131501:631: runTimer: >> 0,242ms
+131502:388: Roll[1] was: 9     >0
+131502:403: Roll[2] was: 6     >9
+131502:419: Roll[3] was: 13     >15
+131502:434: Roll[4] was: 10     >28
+131502:449: Roll[5] was: 6     >38
+131502:465: Roll[6] was: 14     >44
+131502:481: Roll[7] was: 1     >58
+131502:496: Roll[8] was: 17     >59
+131502:510: Roll[9] was: 4     >76
+131502:526: Roll[10] was: 11     >80
+131502:527: DiceString: 10d20 >> 91
+131502:529: You rolled a 91 [10d20 >> 9,6,13,10,6,14,1,17,4,11]
+131502:529: runTimer: >> 0,149ms
+131502:922:  Exiting Dice Roll Mode
+131505:115: Reporting current DiceDATA: 10 entries...
+131523:469:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+131523:470:  Wrote 10 lines in 0,003ms
+131906:537:  Failed to parse string2int [ '9]
+131906:539:  Failed to parse string2int [ '3]
+131906:540:  Failed to parse string2int [ '12]
+131906:542:  Failed to parse string2int [ '9]
+131906:544:  Failed to parse string2int [ '4]
+131906:545:  Failed to parse string2int [ '9]
+131906:546:  Failed to parse string2int [ '20]
+131906:548:  Failed to parse string2int [ '10]
+131906:548:  Failed to parse string2int [ '13]
+131906:550:  Failed to parse string2int [ '9]
+131906:551:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+131906:552:  Reading in 10 lines in 0,024ms
+131915:462: Reporting current DiceDATA: 10 entries...
+132336:908:  Failed to parse string2int [ '9] from >>  '9
+132336:911:  Failed to parse string2int [ '3] from >>  '3
+132336:912:  Failed to parse string2int [ '12] from >>  '12
+132336:914:  Failed to parse string2int [ '9] from >>  '9
+132336:915:  Failed to parse string2int [ '4] from >>  '4
+132336:916:  Failed to parse string2int [ '9] from >>  '9
+132336:918:  Failed to parse string2int [ '20] from >>  '20
+132336:919:  Failed to parse string2int [ '10] from >>  '10
+132336:920:  Failed to parse string2int [ '13] from >>  '13
+132336:921:  Failed to parse string2int [ '9] from >>  '9
+132336:922:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+132336:923:  Reading in 10 lines in 0,024ms
+132453:996:  Failed to parse string2int [ '9] from >>  '9,16,13,12,19,16,12,20,16,3'
+132453:999:  Failed to parse string2int [3'] from >>  '9,16,13,12,19,16,12,20,16,3'
+132454:001:  Failed to parse string2int [ '3] from >>  '3,20,7,4,10,7,3,1,9,5'
+132454:002:  Failed to parse string2int [5'] from >>  '3,20,7,4,10,7,3,1,9,5'
+132454:004:  Failed to parse string2int [ '12] from >>  '12,19,16,13,9,6,13,10,7,3'
+132454:005:  Failed to parse string2int [3'] from >>  '12,19,16,13,9,6,13,10,7,3'
+132454:006:  Failed to parse string2int [ '9] from >>  '9,16,2,19,16,3,19,7,3,11'
+132454:007:  Failed to parse string2int [11'] from >>  '9,16,2,19,16,3,19,7,3,11'
+132454:009:  Failed to parse string2int [ '4] from >>  '4,10,17,4,20,17,4,1,18,5'
+132454:009:  Failed to parse string2int [5'] from >>  '4,10,17,4,20,17,4,1,18,5'
+132454:011:  Failed to parse string2int [ '9] from >>  '9,16,13,10,6,14,1,7,14,1'
+132454:012:  Failed to parse string2int [1'] from >>  '9,16,13,10,6,14,1,7,14,1'
+132454:014:  Failed to parse string2int [ '20] from >>  '20,7,4,11,8,5,1,18,6,3'
+132454:015:  Failed to parse string2int [3'] from >>  '20,7,4,11,8,5,1,18,6,3'
+132454:016:  Failed to parse string2int [ '10] from >>  '10,7,14,11,18,5,13,9,6,13'
+132454:018:  Failed to parse string2int [13'] from >>  '10,7,14,11,18,5,13,9,6,13'
+132454:019:  Failed to parse string2int [ '13] from >>  '13,9,6,13,10,8,15,12,19,16'
+132454:020:  Failed to parse string2int [16'] from >>  '13,9,6,13,10,8,15,12,19,16'
+132454:021:  Failed to parse string2int [ '9] from >>  '9,6,13,10,6,14,1,17,4,11'
+132454:022:  Failed to parse string2int [11'] from >>  '9,6,13,10,6,14,1,17,4,11'
+132454:024:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+132454:025:  Reading in 10 lines in 0,038ms
+132715:217:  Failed to parse string2int [  9] from >>   9,16,13,12,19,16,12,20,16,3 
+132715:220:  Failed to parse string2int [  3] from >>   3,20,7,4,10,7,3,1,9,5 
+132715:222:  Failed to parse string2int [  12] from >>   12,19,16,13,9,6,13,10,7,3 
+132715:223:  Failed to parse string2int [  9] from >>   9,16,2,19,16,3,19,7,3,11 
+132715:225:  Failed to parse string2int [  4] from >>   4,10,17,4,20,17,4,1,18,5 
+132715:226:  Failed to parse string2int [  9] from >>   9,16,13,10,6,14,1,7,14,1 
+132715:227:  Failed to parse string2int [  20] from >>   20,7,4,11,8,5,1,18,6,3 
+132715:229:  Failed to parse string2int [  10] from >>   10,7,14,11,18,5,13,9,6,13 
+132715:230:  Failed to parse string2int [  13] from >>   13,9,6,13,10,8,15,12,19,16 
+132715:231:  Failed to parse string2int [  9] from >>   9,6,13,10,6,14,1,17,4,11 
+132715:232:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+132715:234:  Reading in 10 lines in 0,026ms
+132730:726: Reporting current DiceDATA: 10 entries...
+132815:159:  Failed to parse string2int [  9] from >>   9,16,13,12,19,16,12,20,16,3 
+132815:163:  Failed to parse string2int [  3] from >>   3,20,7,4,10,7,3,1,9,5 
+132815:164:  Failed to parse string2int [  12] from >>   12,19,16,13,9,6,13,10,7,3 
+132815:165:  Failed to parse string2int [  9] from >>   9,16,2,19,16,3,19,7,3,11 
+132815:167:  Failed to parse string2int [  4] from >>   4,10,17,4,20,17,4,1,18,5 
+132815:168:  Failed to parse string2int [  9] from >>   9,16,13,10,6,14,1,7,14,1 
+132815:169:  Failed to parse string2int [  20] from >>   20,7,4,11,8,5,1,18,6,3 
+132815:171:  Failed to parse string2int [  10] from >>   10,7,14,11,18,5,13,9,6,13 
+132815:172:  Failed to parse string2int [  13] from >>   13,9,6,13,10,8,15,12,19,16 
+132815:173:  Failed to parse string2int [  9] from >>   9,6,13,10,6,14,1,17,4,11 
+132815:174:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+132815:176:  Reading in 10 lines in 0,026ms
+132839:902: Reporting current DiceDATA: 10 entries...
+132954:194: Roll[1] was: 18     >0
+132954:201: Roll[2] was: 15     >18
+132954:216: Roll[3] was: 12     >33
+132954:232: Roll[4] was: 19     >45
+132954:247: Roll[5] was: 16     >64
+132954:262: Roll[6] was: 13     >80
+132954:277: Roll[7] was: 9     >93
+132954:293: Roll[8] was: 16     >102
+132954:308: Roll[9] was: 13     >118
+132954:323: Roll[10] was: 10     >131
+132954:362: DiceString: 10d20 >> 141
+132954:364: You rolled a 141 [10d20 >> 18,15,12,19,16,13,9,16,13,10]
+132954:365: runTimer: >> 0,190ms
+132956:284: Roll[1] was: 2     >0
+132956:298: Roll[2] was: 9     >2
+132956:314: Roll[3] was: 16     >11
+132956:328: Roll[4] was: 2     >27
+132956:344: Roll[5] was: 9     >29
+132956:359: Roll[6] was: 6     >38
+132956:374: Roll[7] was: 3     >44
+132956:389: Roll[8] was: 19     >47
+132956:404: Roll[9] was: 16     >66
+132956:419: Roll[10] was: 13     >82
+132956:421: DiceString: 10d20 >> 95
+132956:422: You rolled a 95 [10d20 >> 2,9,16,2,9,6,3,19,16,13]
+132956:424: runTimer: >> 0,146ms
+132957:261: Roll[1] was: 2     >0
+132957:276: Roll[2] was: 19     >2
+132957:291: Roll[3] was: 16     >21
+132957:306: Roll[4] was: 12     >37
+132957:321: Roll[5] was: 9     >49
+132957:336: Roll[6] was: 6     >58
+132957:351: Roll[7] was: 2     >64
+132957:367: Roll[8] was: 10     >66
+132957:382: Roll[9] was: 6     >76
+132957:398: Roll[10] was: 14     >82
+132957:399: DiceString: 10d20 >> 96
+132957:401: You rolled a 96 [10d20 >> 2,19,16,12,9,6,2,10,6,14]
+132957:402: runTimer: >> 0,149ms
+132958:171: Roll[1] was: 2     >0
+132958:186: Roll[2] was: 18     >2
+132958:201: Roll[3] was: 15     >20
+132958:217: Roll[4] was: 2     >35
+132958:233: Roll[5] was: 10     >37
+132958:248: Roll[6] was: 6     >47
+132958:263: Roll[7] was: 3     >53
+132958:279: Roll[8] was: 10     >56
+132958:294: Roll[9] was: 7     >66
+132958:310: Roll[10] was: 14     >73
+132958:311: DiceString: 10d20 >> 87
+132958:312: You rolled a 87 [10d20 >> 2,18,15,2,10,6,3,10,7,14]
+132958:314: runTimer: >> 0,157ms
+132959:048: Roll[1] was: 17     >0
+132959:063: Roll[2] was: 13     >17
+132959:079: Roll[3] was: 20     >30
+132959:094: Roll[4] was: 17     >50
+132959:109: Roll[5] was: 14     >67
+132959:125: Roll[6] was: 1     >81
+132959:140: Roll[7] was: 18     >82
+132959:156: Roll[8] was: 5     >100
+132959:171: Roll[9] was: 2     >105
+132959:187: Roll[10] was: 9     >107
+132959:188: DiceString: 10d20 >> 116
+132959:190: You rolled a 116 [10d20 >> 17,13,20,17,14,1,18,5,2,9]
+132959:191: runTimer: >> 0,146ms
+132959:937: Roll[1] was: 5     >0
+132959:952: Roll[2] was: 2     >5
+132959:967: Roll[3] was: 19     >7
+132959:982: Roll[4] was: 15     >26
+132959:998: Roll[5] was: 3     >41
+133000:013: Roll[6] was: 11     >44
+133000:029: Roll[7] was: 18     >55
+133000:043: Roll[8] was: 4     >73
+133000:059: Roll[9] was: 11     >77
+133000:074: Roll[10] was: 8     >88
+133000:075: DiceString: 10d20 >> 96
+133000:077: You rolled a 96 [10d20 >> 5,2,19,15,3,11,18,4,11,8]
+133000:079: runTimer: >> 0,145ms
+133000:808: Roll[1] was: 17     >0
+133000:823: Roll[2] was: 14     >17
+133000:838: Roll[3] was: 11     >31
+133000:853: Roll[4] was: 8     >42
+133000:868: Roll[5] was: 4     >50
+133000:883: Roll[6] was: 1     >54
+133000:898: Roll[7] was: 18     >55
+133000:913: Roll[8] was: 15     >73
+133000:929: Roll[9] was: 2     >88
+133000:944: Roll[10] was: 18     >90
+133000:946: DiceString: 10d20 >> 108
+133000:948: You rolled a 108 [10d20 >> 17,14,11,8,4,1,18,15,2,18]
+133000:949: runTimer: >> 0,144ms
+133001:681: Roll[1] was: 10     >0
+133001:696: Roll[2] was: 7     >10
+133001:711: Roll[3] was: 4     >17
+133001:726: Roll[4] was: 1     >21
+133001:741: Roll[5] was: 17     >22
+133001:757: Roll[6] was: 5     >39
+133001:773: Roll[7] was: 12     >44
+133001:788: Roll[8] was: 8     >56
+133001:803: Roll[9] was: 5     >64
+133001:818: Roll[10] was: 2     >69
+133001:819: DiceString: 10d20 >> 71
+133001:822: You rolled a 71 [10d20 >> 10,7,4,1,17,5,12,8,5,2]
+133001:823: runTimer: >> 0,146ms
+133002:489: Roll[1] was: 4     >0
+133002:504: Roll[2] was: 1     >4
+133002:519: Roll[3] was: 18     >5
+133002:535: Roll[4] was: 5     >23
+133002:550: Roll[5] was: 2     >28
+133002:565: Roll[6] was: 18     >30
+133002:581: Roll[7] was: 6     >48
+133002:596: Roll[8] was: 2     >54
+133002:611: Roll[9] was: 19     >56
+133002:626: Roll[10] was: 16     >75
+133002:627: DiceString: 10d20 >> 91
+133002:629: You rolled a 91 [10d20 >> 4,1,18,5,2,18,6,2,19,16]
+133002:630: runTimer: >> 0,153ms
+133003:496: Roll[1] was: 17     >0
+133003:512: Roll[2] was: 5     >17
+133003:527: Roll[3] was: 1     >22
+133003:542: Roll[4] was: 18     >23
+133003:557: Roll[5] was: 15     >41
+133003:572: Roll[6] was: 12     >56
+133003:588: Roll[7] was: 19     >68
+133003:603: Roll[8] was: 15     >87
+133003:618: Roll[9] was: 12     >102
+133003:633: Roll[10] was: 9     >114
+133003:634: DiceString: 10d20 >> 123
+133003:636: You rolled a 123 [10d20 >> 17,5,1,18,15,12,19,15,12,9]
+133003:638: runTimer: >> 0,144ms
+133004:348:  Exiting Dice Roll Mode
+133005:517: Reporting current DiceDATA: 10 entries...
+133017:405:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+133017:407:  Wrote 10 lines in 0,003ms
+133110:642: REPL Complete, thanks for testing!
