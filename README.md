@@ -35,7 +35,7 @@ for testing C# structure storage speeds and Random's seed options
 
 ### Sprint 7
 - [ ] Compare collections types
-- - [ ] Construct timers for each step in the process
+- - [x] Construct timers for each step in the process
 - [ ] SQL bridge interface
 - - [ ] Build into an interface
 - - [ ] Create class to house it
@@ -52,5 +52,27 @@ Wrote 10 lines in 0,003ms
 Reading in 10 lines in 0,011ms
 
 ### 10x 10d20 List<DiceRollEntry>
+runTimer: >> 146ms-255ms
 Wrote 10 lines in 0,003ms
-Reading in 10 lines in 0,011ms
+Wrote 10 lines in 0,004ms
+Reading in 10 lines in 0,026ms
+Reading in 10 lines in 0,017ms
+Reading in 10 lines in 0,016ms
+
+### 100d20 List<DiceRollEntry>
+runTimer: >> 1,564ms
+Wrote 1 lines in 0,002ms
+Reading in 1 lines in 0,003ms
+Reading in 1 lines in 0,003ms
+Reading in 1 lines in 0,013ms
+
+### 10x 100d20 List<DiceRollEntry>
+runTimer: >> 1,525ms-1,508ms
+Wrote 10 lines in 0,003ms (3x)
+Reading in 10 lines in 0,017ms
+Reading in 10 lines in 0,018ms
+Reading in 10 lines in 0,107ms
+
+### 1000d20 List<DiceRollEntry>
+runTimer: >> 15,398ms  (with display)
+runTimer: >> 15,209ms  (without display)
