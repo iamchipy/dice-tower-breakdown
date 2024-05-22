@@ -31,12 +31,14 @@ for testing C# structure storage speeds and Random's seed options
 ### Sprint 6
 - [x] Create display feature
 - [x] Create output/save feature
-- [ ] Create input/load feature
+- [x] Create input/load feature
+
+### Sprint 7
 - [ ] Compare collections types
 - [ ] SQL bridge interface
 - - [ ] Build into an interface
 - - [ ] Create class to house it
 
-### Sprint 7
+### Sprint 8
 - [ ] Add custom errors for dice exceptions
 - [ ] Add edge case validations for RegEx

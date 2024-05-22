@@ -72,9 +72,9 @@ namespace DiceTowerPractice
 
             public bool Save()
             {
+                // Saves the history a datafile
                 try
                 {
-
                     using (StreamWriter writer = new StreamWriter(this.dataPath, append: true))
                     {
                         foreach (DiceRollEntry roll in this.rollHistory.ToArray())
@@ -91,10 +91,56 @@ namespace DiceTowerPractice
                 }
             }
 
+            internal int[] ConvertToIntArray(string commaSeparatedString)
+            {
+                // validate that the input isn't empty
+                if (string.IsNullOrEmpty(commaSeparatedString))
+                {
+                    return Array.Empty<int>();
+                }
+
+                // split string and build array of matching length
+                string[] stringArray = commaSeparatedString.Split(','); 
+                int[] intArray = new int[stringArray.Length]; 
+
+                // loop for array and try parse each one
+                for (int i = 0; i < stringArray.Length; i++)
+                {
+                    if (int.TryParse(stringArray[i], out int num))
+                    {
+                        intArray[i] = num;
+                    }
+                    else
+                    {
+                        // Handle invalid integer conversion if we want to do something here later
+                    }
+                }
+
+                return intArray;
+            }
+
             public bool Load()
             {
-                // TODO build load function
-                return true;
+                // Loads the history from datafile
+                try
+                {
+                    using (StreamReader reader = new StreamReader(this.dataPath))
+                    {
+                        string line;
+                        while ((line = reader.ReadLine()) != null)
+                        {
+                            string[] parts = line.Split(',');
+                            this.rollHistory.Add(new DiceRollEntry { inputString = parts[0], result = Convert.ToInt32(parts[1]), resultParts = this.ConvertToIntArray(parts[2]) });
+                        }
+                    }
+                    this.Report($"9: Dice history loaded successfully from {Directory.GetCurrentDirectory()}\\{this.dataPath}");
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    this.Report($"ERROR SAVING: {ex.Message}");
+                    return false;
+                }
             }
 
             public void Display()
