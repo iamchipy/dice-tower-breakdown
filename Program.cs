@@ -91,8 +91,9 @@ namespace DiceTowerPractice
                 }
             }
 
-            public static bool Load()
+            public bool Load()
             {
+                // TODO build load function
                 return true;
             }
 
@@ -193,7 +194,7 @@ namespace DiceTowerPractice
                 diceIndividualRolls.AddRange(b);
 
                 // display progress for reporting
-                log.Report($"6:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
+                log.Report($"4:DiceString: {individualDiceRolls[i]} >> {diceRollResult}");
             }
 
             // drop the List<T> into an array as we are done with dynamics here
@@ -330,6 +331,7 @@ namespace DiceTowerPractice
                         log.Save();
                         break;
                     case 3:
+                        log.Load();
                         break;
                     case 4:
                         log.Display();

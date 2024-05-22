@@ -1,0 +1,12 @@
+235538:497: Roll[1] was: 4     >0
+235538:504: Roll[2] was: 1     >4
+235538:505: DiceString: 2d20 >> 5
+235538:507: You rolled a 5 [2d20 >> 4,1]
+235538:508: runTimer: >> 0,032ms
+235702:893: Roll[1] was: 4     >0
+235702:900: Roll[2] was: 46     >4
+235702:901: DiceString: 2d50 >> 50
+235702:903: You rolled a 50 [2d50 >> 4,46]
+235702:904: runTimer: >> 0,022ms
+235748:967:  Exiting Dice Roll Mode
+235749:519: Reporting current DiceDATA: 1 entries...
