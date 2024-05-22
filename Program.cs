@@ -110,18 +110,19 @@ namespace DiceTowerPractice
                 }
 
                 // clean the inputs
-                commaSeparatedString = commaSeparatedString.Replace('\'',default);
-                commaSeparatedString = commaSeparatedString.Replace('\"',default);
-                commaSeparatedString = commaSeparatedString.Replace(' ', default);
+                commaSeparatedString = commaSeparatedString.Replace("\'", "");
+                commaSeparatedString = commaSeparatedString.Replace("\"", "");
+                commaSeparatedString = commaSeparatedString.Replace(" ",  "");
 
                 // split string and build array of matching length
                 string[] stringArray = commaSeparatedString.Split(',');
-                Console.WriteLine($"stringArray {stringArray.Length}");
+                this.Report($"2:stringArray {stringArray.Length}");
                 int[] intArray = new int[stringArray.Length]; 
 
                 // loop for array and try parse each one
                 for (int i = 0; i < stringArray.Length; i++)
                 {
+                    
                     if (int.TryParse(stringArray[i], out int num))
                     {
                         intArray[i] = num;
