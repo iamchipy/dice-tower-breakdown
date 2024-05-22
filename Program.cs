@@ -61,7 +61,7 @@ namespace DiceTowerPractice
                     // Save string to the log file
                     try
                     {
-                        using (StreamWriter writer = new StreamWriter(this.dataPath, append: true)) writer.WriteLine(stringToLog);
+                        using (StreamWriter writer = new StreamWriter(this.logPath, append: true)) writer.WriteLine(stringToLog);
                     } // Report to user if there is some issue
                     catch (Exception ex)
                     {
@@ -79,7 +79,7 @@ namespace DiceTowerPractice
                     {
                         foreach (DiceRollEntry roll in this.rollHistory.ToArray())
                         {
-                            writer.WriteLine($"Roll: {roll.inputString} \t=> {roll.result} \t[{string.Join(",", roll.resultParts)}]");
+                            writer.WriteLine($"{roll.inputString}, {roll.result}, '{string.Join(",", roll.resultParts)}'");
                         }
                     }
                     this.Report($"9: Dice history saved successfully to {Directory.GetCurrentDirectory()}\\{this.dataPath}");
