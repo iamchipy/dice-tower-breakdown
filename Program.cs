@@ -323,7 +323,7 @@ namespace DiceTowerPractice
             string diceRequestString;
 
             // Rename console window for QoL
-            Console.Title = "Dice Tower v1";
+            Console.Title = "Dice Tower v1.7";
 
             // Create a running log of each roll
             List<DiceRollEntry> diceRollLog = new List<DiceRollEntry>();
