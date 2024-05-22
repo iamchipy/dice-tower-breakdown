@@ -10,3 +10,16 @@
 235702:904: runTimer: >> 0,022ms
 235748:967:  Exiting Dice Roll Mode
 235749:519: Reporting current DiceDATA: 1 entries...
+001541:246:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+001545:460: Reporting current DiceDATA: 0 entries...
+001549:700: Roll[1] was: 10     >0
+001549:715: Roll[2] was: 6     >10
+001549:716: DiceString: 2d22 >> 16
+001549:718: You rolled a 16 [2d22 >> 10,6]
+001549:720: runTimer: >> 0,031ms
+001550:732:  Exiting Dice Roll Mode
+001553:085:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+001555:372: Reporting current DiceDATA: 1 entries...
+001558:244: REPL Complete, thanks for testing!
+001604:406:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+001606:444: Reporting current DiceDATA: 1 entries...
