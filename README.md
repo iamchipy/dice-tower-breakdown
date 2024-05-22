@@ -30,7 +30,7 @@ for testing C# structure storage speeds and Random's seed options
 
 ### Sprint 6
 - [x] Create display feature
-- [ ] Create output/save feature
+- [x] Create output/save feature
 - [ ] Create input/load feature
 - [ ] Compare collections types
 - [ ] SQL bridge interface
