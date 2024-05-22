@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Common;
+using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;  //use to validate dice format
+using System.Text.RegularExpressions;
 using System.Threading;
-using System.Threading.Tasks;
-using System.Diagnostics;  //stopwatch
 
-namespace ConsoleApp1
+
+namespace DiceTowerPractice
 {
-    class Log
+    public static class Log
     {
+
         // Manage the reporting and ConsoleWriting
         // Accepts 
         //  String - value to log
@@ -40,11 +39,21 @@ namespace ConsoleApp1
                 Console.WriteLine($"{ts}:NoThreshold!! {reportStrings[1]}");
             }
         }
+
+        public static bool Save()
+        {
+            // save
+            return true;
+        }
+
+        public static bool Load()
+        {
+            return true;
+        }
     }
 
-    class mainProg
+    internal class Program
     {
-
         // logging with Stack for speed instead of heap
         struct DiceRollEntry
         {
@@ -67,7 +76,7 @@ namespace ConsoleApp1
             // Sleep here to allow the next dice roll to have sufficient time to use "DateTime.Now.Millisecond" as a seed
             Thread.Sleep(1);  // TODO suspect more than 1 MS sleep time due to being based on thread speed
             Random rng = new Random(DateTime.Now.Millisecond);
-            return rng.Next(1, sides+1);
+            return rng.Next(1, sides + 1);
         }
 
         // Roll for dice format
@@ -78,12 +87,12 @@ namespace ConsoleApp1
             int runningTotal = 0, numberOfSides, numberOfDice;
 
             // Check for "d" in string as we expect dice-format
-            int indexOfDelimiter = diceFormatString.ToLower().IndexOf('d'); 
+            int indexOfDelimiter = diceFormatString.ToLower().IndexOf('d');
             // Handle case of missing 'd' element in string
-            if (indexOfDelimiter < 0) 
+            if (indexOfDelimiter < 0)
             {
                 numberOfSides = Convert.ToInt32(diceFormatString);
-                return (numberOfSides, new int[] { numberOfSides});
+                return (numberOfSides, new int[] { numberOfSides });
             }
             else
             { // if it's not missing continue as before
@@ -102,13 +111,13 @@ namespace ConsoleApp1
 
             // Create array to log each roll now that we know the number of rolls/dice
             int[] rolls = new int[numberOfDice];
-            
+
             // now we call roll for each dice that needs rolled
             for (int i = 0; i < numberOfDice; i++)
             {
                 // TODO build in logging Sprint 3
                 int roll = diceRollD(numberOfSides);
-                Log.Report("4:Roll[" +(i+1)+"] was: " + roll + "     >"+ runningTotal);
+                Log.Report("4:Roll[" + (i + 1) + "] was: " + roll + "     >" + runningTotal);
                 runningTotal += roll;
                 rolls[i] = roll;
             }
@@ -122,7 +131,7 @@ namespace ConsoleApp1
         //  Int - total result for requested role
         //  Int[] - array to represent the individual rolls that were created
         //  String - copy of the initial input value for later cross checking
-        static public (int, int[], string) decodeDiceString(string userInputString = "d20", bool showYourWork=false)
+        static public (int, int[], string) decodeDiceString(string userInputString = "d20", bool showYourWork = false)
         {
             // Using a List<T> here to test it's performance as well as keeping the code simple
             List<int> diceIndividualRolls = new List<int>();
@@ -132,10 +141,10 @@ namespace ConsoleApp1
             var individualDiceRolls = userInputString.ToLower().Split('+');
 
             // Loop for each entry in the input string
-            for (int i = 0;i< individualDiceRolls.Length; i++)
+            for (int i = 0; i < individualDiceRolls.Length; i++)
             {
                 // add the results and log
-                var (a,b) = diceRollString(individualDiceRolls[i]);
+                var (a, b) = diceRollString(individualDiceRolls[i]);
                 diceRollResult += a;
                 diceIndividualRolls.AddRange(b);
 
@@ -149,14 +158,14 @@ namespace ConsoleApp1
             // Be default we just return the value of the requested string
             return (diceRollResult, diceIndividualRollsCast, userInputString);
         }
-        
+
         // wrapper to read console input and try int32 convert
         // returns -1 if fails or int value
         static public int ReadIntInput()
         {
             string inputString = Console.ReadLine();
             int parsedInt = -1;
-            if(int.TryParse(inputString, out parsedInt))
+            if (int.TryParse(inputString, out parsedInt))
             {
                 return parsedInt;
             }
@@ -172,9 +181,10 @@ namespace ConsoleApp1
             string usersRollRequest = Console.ReadLine().ToLower();
 
             // Check escape/cancel route
-            if (string.IsNullOrEmpty(usersRollRequest)) {
+            if (string.IsNullOrEmpty(usersRollRequest))
+            {
                 Log.Report("8: Exiting Dice Roll Mode");
-                return usersRollRequest; 
+                return usersRollRequest;
             }
 
             // Validate input from user
@@ -211,11 +221,11 @@ namespace ConsoleApp1
 
             return (0 <= userChoice && userChoice <= 3);
         }
-
         static void Main(string[] args)
         {
             int currentAction = -1;
             string diceRequestString;
+
             // Rename console window for QoL
             Console.Title = "Dice Tower v1";
 
@@ -225,12 +235,12 @@ namespace ConsoleApp1
             do
             {
                 // Get user input
-                if(!REPLPrompt(out currentAction))
+                if (!REPLPrompt(out currentAction))
                 {
                     Log.Report("9: Invalid choice! (please try again)");
                     continue;
                 }
-   
+
 
                 // select action
                 switch (currentAction)
@@ -263,7 +273,7 @@ namespace ConsoleApp1
                             Log.Report($"9:You rolled a {a} [{c} >> {string.Join(",", b)}]");
                             Log.Report($"5:runTimer: >> {runTimer.ElapsedMilliseconds:0,000}ms");
                             Log.Report($"9:LogLength {diceRollLog.Count}");
-                            
+
                         } while (true);
                         // reset
                         currentAction = -1;
