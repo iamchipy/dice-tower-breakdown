@@ -10,7 +10,16 @@ namespace DiceTowerPractice
 {
     public class Program
     {
-        public class Log
+        // For testing storing on Stack for speed instead of Heap
+        public struct DiceRollEntry
+        {
+            public string inputString;
+            public int[] resultParts;
+            public int result;
+        }
+
+        // Logging tool that assists with keeping track of rolls and outputing th data
+        public class LoggingTool
         {
             public int logThreshold = 10;  // The threshold for something to be logged
             public int reportThreshold = 5;  // The threshold for something to be reported to use
@@ -66,14 +75,6 @@ namespace DiceTowerPractice
             }
         }
 
-        // logging with Stack for speed instead of heap
-        public struct DiceRollEntry
-        {
-            public string inputString;
-            public int[] resultParts;
-            public int result;
-        }
-
         // Roll a single dice
         // Accepts int for number of dice sides
         // Returns int result
@@ -94,7 +95,7 @@ namespace DiceTowerPractice
         // Roll for dice format
         // Accepts input string in dice format #d##
         // Returns int value of roll 
-        static public (int, int[]) diceRollString(Log log, string diceFormatString = "2d20")
+        static public (int, int[]) diceRollString(LoggingTool log, string diceFormatString = "2d20")
         {
             int runningTotal = 0, numberOfSides, numberOfDice;
 
@@ -143,7 +144,7 @@ namespace DiceTowerPractice
         //  Int - total result for requested role
         //  Int[] - array to represent the individual rolls that were created
         //  String - copy of the initial input value for later cross checking
-        static public (int, int[], string) decodeDiceString(Log log, string userInputString = "d20", bool showYourWork = false)
+        static public (int, int[], string) decodeDiceString(LoggingTool log, string userInputString = "d20", bool showYourWork = false)
         {
             // Using a List<T> here to test it's performance as well as keeping the code simple
             List<int> diceIndividualRolls = new List<int>();
@@ -186,7 +187,7 @@ namespace DiceTowerPractice
 
         // Prmpts user for a dice format string
         // returns String validated to be diceFormat or "invalid"
-        static string GetDiceInput(Log log)
+        static string GetDiceInput(LoggingTool log)
         {
             // Get user's input string
             Console.Write("Dice Roll Input String (blank to exit): ");
@@ -239,7 +240,7 @@ namespace DiceTowerPractice
 
         static void Main(string[] args)
         {
-            var log = new Log();
+            var log = new LoggingTool();
             int currentAction = -1;
             string diceRequestString;
 
