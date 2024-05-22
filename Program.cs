@@ -17,9 +17,11 @@ namespace DiceTowerPractice
         //  String - fully qualified path or simply file name 
         //  Int - level to be currently logging
         //  Int - level to be currently reporting
-        public static void Report(string reportString, string logPath = "rolls.log", int logThreshold = 10, int reportThreshold = 5)
+        public static void Report(string reportString, string logPath = "rolls.log")
         {
             // base variables
+            int logThreshold = 10;
+            int reportThreshold = 5;
             int instanceLevel = 10;
             DateTime timeStamp = DateTime.Now;
             string ts = DateTime.Now.ToString("HHmmss:fff");
@@ -40,22 +42,30 @@ namespace DiceTowerPractice
             }
         }
 
-        public static bool Save()
+        public static bool Save(List<Program.DiceRollEntry> data)
         {
             // save
             return true;
         }
 
-        public static bool Load()
+        public static bool Load(List<Program.DiceRollEntry> data)
         {
             return true;
         }
+
+        public static void Display(List<Program.DiceRollEntry> data){
+            Report($"9:Reporting current DiceDATA: {data.Count} entries...");
+            for (int i = 0; i < data.Count; i++)
+            {
+                Console.WriteLine($"Roll: {data[i].inputString} \t=> {data[i].result} \t[{string.Join(",", data[i].resultParts) }]");
+            }
+        }
     }
 
-    internal class Program
+    public class Program
     {
         // logging with Stack for speed instead of heap
-        struct DiceRollEntry
+        public struct DiceRollEntry
         {
             public string inputString;
             public int[] resultParts;
@@ -214,13 +224,17 @@ namespace DiceTowerPractice
             Console.WriteLine("1 - Roll Dice");
             Console.WriteLine("2 - Save History");
             Console.WriteLine("3 - Load History");
+            Console.WriteLine("4 - Display History");
             Console.WriteLine("0 - Exit");
-            Console.Write("Select action[0-3]: ");
+            Console.Write("Select action[0-4]: ");
             // Capture user input
             userChoice = ReadIntInput();
 
-            return (0 <= userChoice && userChoice <= 3);
+            return (0 <= userChoice && userChoice <= 4);
         }
+
+
+
         static void Main(string[] args)
         {
             int currentAction = -1;
@@ -277,6 +291,13 @@ namespace DiceTowerPractice
                         } while (true);
                         // reset
                         currentAction = -1;
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        Log.Display(diceRollLog);
                         break;
 
                     default:
