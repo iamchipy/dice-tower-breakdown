@@ -34,11 +34,9 @@ for testing C# structure storage speeds and Random's seed options
 - [x] Create input/load feature
 
 ### Sprint 7
-- [ ] Compare collections types
+- [x] Compare collections types
 - - [x] Construct timers for each step in the process
-- [ ] SQL bridge interface
-- - [ ] Build into an interface
-- - [ ] Create class to house it
+- [x] SQL bridge interface
 
 ### Sprint 8
 - [ ] Add custom errors for dice exceptions
