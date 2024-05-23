@@ -344,6 +344,24 @@ namespace DiceTowerPractice
                     return false;
                 }
             }
+
+            public int ChangeReportLevel(int newValue = -1)
+            {
+                // If we are not given a desired verbosity level we'll make sure to prompt the user
+                if (newValue < 0)
+                {
+                    do
+                    {
+                        Report($"9: Please input new value of ReportLevel: [1-9]");
+                        newValue = ReadIntInput();
+
+                    } while (0 > newValue || newValue >= 10);
+                }
+
+                // now we set the new value and return what it is
+                this.reportThreshold = newValue;
+                return newValue;
+            }
         }
 
 
@@ -495,19 +513,23 @@ namespace DiceTowerPractice
             userChoice = -1;
 
             // Display to the user the options
-            Console.WriteLine($"REPL menu [verbosity:{log.reportThreshold}]");
+            Console.WriteLine($"---------------------------------");
+            Console.WriteLine($"REPL MENU [verbosity:{log.reportThreshold}]");
+            Console.WriteLine($"---------------------------------");
             Console.WriteLine("1 - Roll Dice");
             Console.WriteLine("2 - Save History");
             Console.WriteLine("3 - Load History");
             Console.WriteLine("4 - Display History");
             Console.WriteLine("5 - SaveToServer History");
             Console.WriteLine("6 - LoadFromServer History");
+            Console.WriteLine("7 - Edit Verbosity");
             Console.WriteLine("0 - Exit");
-            Console.Write("Select action[0-6]: ");
+            Console.WriteLine($"---------------------------------");
+            Console.Write("Select action[0-7]: ");
             // Capture user input
             userChoice = ReadIntInput();
 
-            return (0 <= userChoice && userChoice <= 6);
+            return (0 <= userChoice && userChoice <= 7);
         }
 
 
@@ -519,7 +541,7 @@ namespace DiceTowerPractice
             string diceRequestString;
 
             // Rename console window for QoL
-            Console.Title = "Dice Tower v1.7";
+            Console.Title = "Dice Tower v1.8";
 
             // Create a running log of each roll
             List<DiceRollEntry> diceRollLog = new List<DiceRollEntry>();
@@ -583,6 +605,9 @@ namespace DiceTowerPractice
                         break;
                     case 6:
                         log.LoadFromServer();
+                        break;
+                    case 7:
+                        log.ChangeReportLevel();
                         break;
 
                     default:

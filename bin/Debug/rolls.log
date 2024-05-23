@@ -3850,3 +3850,65 @@
 122248:257:  ConvertToIntArray converting 10 items
 122248:258:  Dice history loaded successfully from RemoveServer
 122248:260:  Reading in 10 lines in 0,451ms
+123235:060:  Invalid choice! (please try again)
+123255:508:  Please input new value of ReportLevel: [1-9]
+123430:147:  Please input new value of ReportLevel: [1-9]
+123453:004:  Please input new value of ReportLevel: [1-9]
+123454:555:  Please input new value of ReportLevel: [1-9]
+123456:069:  Please input new value of ReportLevel: [1-9]
+123456:747:  Please input new value of ReportLevel: [1-9]
+123522:002:  Please input new value of ReportLevel: [1-9]
+123522:548:  Please input new value of ReportLevel: [1-9]
+123523:035:  Please input new value of ReportLevel: [1-9]
+123523:435:  Please input new value of ReportLevel: [1-9]
+123526:939:  Please input new value of ReportLevel: [1-9]
+123537:477:  Fetching full table from SQL ...
+123538:000:  Reading in data ...
+123538:002:  LINE: 10d20,137,13,9,17,13,10,17,14,11,18,15
+123538:004:  ConvertToIntArray converting 10 items
+123538:006:  LINE: 10d20,93,3,10,7,14,11,8,15,12,8,5
+123538:008:  ConvertToIntArray converting 10 items
+123538:009:  LINE: 10d20,107,2,19,6,2,19,6,3,20,17,13
+123538:010:  ConvertToIntArray converting 10 items
+123538:012:  LINE: 10d20,135,2,8,15,12,19,16,13,13,20,17
+123538:013:  ConvertToIntArray converting 10 items
+123538:014:  LINE: 10d20,100,5,2,19,6,3,19,6,3,20,17
+123538:016:  ConvertToIntArray converting 10 items
+123538:017:  LINE: 10d20,88,5,2,9,6,2,19,6,3,20,16
+123538:019:  ConvertToIntArray converting 10 items
+123538:021:  LINE: 10d20,110,18,5,2,9,15,3,19,16,3,20
+123538:022:  ConvertToIntArray converting 10 items
+123538:024:  LINE: 10d20,70,3,10,7,4,1,17,4,1,18,5
+123538:025:  ConvertToIntArray converting 10 items
+123538:026:  LINE: 10d20,120,14,1,18,15,2,18,15,2,19,16
+123538:028:  ConvertToIntArray converting 10 items
+123538:029:  LINE: 10d20,121,13,10,17,14,1,18,14,1,18,15
+123538:030:  ConvertToIntArray converting 10 items
+123538:032:  Dice history loaded successfully from RemoveServer
+123538:033:  Reading in 10 lines in 0,556ms
+123701:337: Reporting current DiceDATA: 0 entries...
+123705:250:  Fetching full table from SQL ...
+123705:775:  Reading in data ...
+123705:777:  LINE: 10d20,137,13,9,17,13,10,17,14,11,18,15
+123705:779:  ConvertToIntArray converting 10 items
+123705:781:  LINE: 10d20,93,3,10,7,14,11,8,15,12,8,5
+123705:782:  ConvertToIntArray converting 10 items
+123705:783:  LINE: 10d20,107,2,19,6,2,19,6,3,20,17,13
+123705:785:  ConvertToIntArray converting 10 items
+123705:786:  LINE: 10d20,135,2,8,15,12,19,16,13,13,20,17
+123705:788:  ConvertToIntArray converting 10 items
+123705:790:  LINE: 10d20,100,5,2,19,6,3,19,6,3,20,17
+123705:791:  ConvertToIntArray converting 10 items
+123705:792:  LINE: 10d20,88,5,2,9,6,2,19,6,3,20,16
+123705:794:  ConvertToIntArray converting 10 items
+123705:795:  LINE: 10d20,110,18,5,2,9,15,3,19,16,3,20
+123705:796:  ConvertToIntArray converting 10 items
+123705:798:  LINE: 10d20,70,3,10,7,4,1,17,4,1,18,5
+123705:799:  ConvertToIntArray converting 10 items
+123705:800:  LINE: 10d20,120,14,1,18,15,2,18,15,2,19,16
+123705:802:  ConvertToIntArray converting 10 items
+123705:803:  LINE: 10d20,121,13,10,17,14,1,18,14,1,18,15
+123705:805:  ConvertToIntArray converting 10 items
+123705:806:  Dice history loaded successfully from RemoveServer
+123705:808:  Reading in 10 lines in 0,557ms
+123709:025: Reporting current DiceDATA: 10 entries...
