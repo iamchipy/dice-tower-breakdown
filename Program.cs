@@ -119,7 +119,7 @@ namespace DiceTowerPractice
                 // validate that the input isn't empty
                 if (string.IsNullOrEmpty(commaSeparatedString))
                 {
-                    this.Report("$6: Error ConvertingToIntArray - NullEmpty");
+                    this.Report("8: Error ConvertingToIntArray - NullEmpty");
                     return Array.Empty<int>();
                 }
 
@@ -130,7 +130,7 @@ namespace DiceTowerPractice
 
                 // split string and build array of matching length
                 string[] stringArray = commaSeparatedString.Split(',');
-                this.Report($"2:stringArray {stringArray.Length}");
+                this.Report($"2: ConvertToIntArray converting {stringArray.Length} items");
                 int[] intArray = new int[stringArray.Length]; 
 
                 // loop for array and try parse each one
@@ -143,7 +143,7 @@ namespace DiceTowerPractice
                     }
                     else
                     {
-                        this.Report($"2: Failed to parse string2int [{stringArray[i]}] from >> {commaSeparatedString}");
+                        this.Report($"4: Failed to parse string2int [{stringArray[i]}] from >> {commaSeparatedString}");
                         // Handle invalid integer conversion if we want to do something here later
                     }
                 }
@@ -196,46 +196,59 @@ namespace DiceTowerPractice
                 }
             }
 
-            internal bool ConnectAndExecuteQuery(string queryString, bool expectResponse = true)
+            internal string ConnectAndExecuteQuery(string queryString, bool expectResponse = true)
             {
-                // open a mew Microsoft.Data.SQLClient.SqlConnection object for use
-                using (SqlConnection connection = new SqlConnection(this._connectionString))
-                {
-                    // init the connection
-                    connection.Open();
+                string responseString = "";
 
-                    // instantiate a command object and pass the opened connection with a string/query 
-                    using (SqlCommand command = new SqlCommand(queryString, connection))
+                try
+                {
+
+                    // open a mew Microsoft.Data.SQLClient.SqlConnection object for use
+                    using (SqlConnection connection = new SqlConnection(this._connectionString))
                     {
-                        if (expectResponse)
+                        // init the connection
+                        connection.Open();
+
+                        // instantiate a command object and pass the opened connection with a string/query 
+                        using (SqlCommand command = new SqlCommand(queryString, connection))
                         {
-                            // open a response reader to confirm
-                            using (SqlDataReader reader = command.ExecuteReader())
+                            if (expectResponse)
                             {
-                                // Check if we have a row to read here
-                                if (reader.HasRows)
+                                // open a response reader to confirm
+                                using (SqlDataReader reader = command.ExecuteReader())
                                 {
-                                    // loop while we have something to read
-                                    while (reader.Read())
+                                    // Check if we have a row to read here
+                                    if (reader.HasRows)
                                     {
-                                        // Process each row of data here
-                                        // Access data using reader.GetString(0), reader.GetInt32(1), etc. (based on column data types)
-                                        Console.WriteLine($"Data: {reader.GetString(0)}"); // Example: Print first column
+                                        // loop while we have something to read
+                                        while (reader.Read())
+                                        {
+                                            
+                                            // Process each row of data here
+                                            // Access data using reader.GetString(0), reader.GetInt32(1), etc. (based on column data types)
+                                            responseString += $"{reader.GetString(1)},{Convert.ToInt32(reader.GetInt32(2))},{reader.GetString(3)}\n";  // TODO change output of function to handle columns as an option
+                                        }
+
+                                        // trim the last return back off the string
+                                        responseString = responseString.Substring(0, responseString.Length - 1);
                                     }
-                                }
-                                else
-                                {
-                                    Console.WriteLine("No data found.");
+                                    else
+                                    {
+                                        Console.WriteLine("No data found.");
+                                    }
                                 }
                             }
                         }
                     }
 
-                    // if we make it this far we assume success
-                    Console.WriteLine("SQLcmd done?");
-                    return true;
+                    return responseString;
                 }
-                //return false; 
+                catch (Exception ex) 
+                {
+                    Report($"9:Error: {queryString}");
+                    Report($"9:Error with SQL Command above: {ex.Message}");
+                    return string.Empty;
+                }
             }
 
             public bool SaveToServer()
@@ -256,6 +269,8 @@ namespace DiceTowerPractice
                 string stringToAddToTable = "INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) " +
                     $"VALUES ";
 
+                // update user screen to help with feeling responsive
+                this.Report($"3: Building SQL string ...");
 
                 // build all-in-one SQL command to save data with
                 try
@@ -293,7 +308,41 @@ namespace DiceTowerPractice
 
             public bool LoadFromServer()
             {
-                return false;
+                // Loads the history from removeServer
+                try
+                {
+                    // start timer
+                    Stopwatch sw = Stopwatch.StartNew();
+                    sw.Start();
+                    int entryCount = 0;
+
+                    // SQL query to fetch entire table
+                    this.Report($"3: Fetching full table from SQL ...");
+                    string response = ConnectAndExecuteQuery(queryString: "SELECT* FROM dbo.RollResults;");
+                    this.Report($"3: Reading in data ...");
+
+                    // loop for entire response
+                    foreach (string line in response.Split('\n'))
+                    {
+                        Report($"3: LINE: {line}");
+                        // increment our line counter
+                        entryCount++;
+                        // split the CSV for read in
+                        string[] column = line.Split(new char[] { ',' }, 3);
+                        // Add CSV data back into the List<DiceRollEntry> type
+                        this.rollHistory.Add(new DiceRollEntry { inputString = column[0], result = Convert.ToInt32(column[1]), resultParts = this.ConvertToIntArray(column[2]) });
+
+                    }
+
+                    this.Report($"9: Dice history loaded successfully from RemoveServer");
+                    this.Report($"3: Reading in {entryCount} lines in {sw.ElapsedMilliseconds:0,000}ms");
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    this.Report($"ERROR LoadingRemoveServer: {ex.Message}");
+                    return false;
+                }
             }
         }
 
@@ -440,13 +489,13 @@ namespace DiceTowerPractice
         // Prompts user to select from a list of modes/functions for REPL loop
         // Accepts Int var to store user's choice
         // Returns Bool on success/valid option
-        static bool REPLPrompt(out int userChoice)
+        static bool REPLPrompt(out int userChoice, LoggingTool log)
         {
             // set default per requirement of using "out" type
             userChoice = -1;
 
             // Display to the user the options
-            Console.WriteLine();
+            Console.WriteLine($"REPL menu [verbosity:{log.reportThreshold}]");
             Console.WriteLine("1 - Roll Dice");
             Console.WriteLine("2 - Save History");
             Console.WriteLine("3 - Load History");
@@ -454,7 +503,7 @@ namespace DiceTowerPractice
             Console.WriteLine("5 - SaveToServer History");
             Console.WriteLine("6 - LoadFromServer History");
             Console.WriteLine("0 - Exit");
-            Console.Write("Select action[0-4]: ");
+            Console.Write("Select action[0-6]: ");
             // Capture user input
             userChoice = ReadIntInput();
 
@@ -478,7 +527,7 @@ namespace DiceTowerPractice
             do
             {
                 // Get user input
-                if (!REPLPrompt(out currentAction))
+                if (!REPLPrompt(out currentAction, log))
                 {
                     log.Report("9: Invalid choice! (please try again)");
                     continue;
@@ -531,6 +580,9 @@ namespace DiceTowerPractice
                         break;
                     case 5:
                         log.SaveToServer();
+                        break;
+                    case 6:
+                        log.LoadFromServer();
                         break;
 
                     default:
