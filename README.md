@@ -2,6 +2,18 @@
 This is a dice rolling tool to created large tables of data 
 for testing C# structure storage speeds and Random's seed options
 
+## Features
+- REPL menu to help navigate a CLI/ConsoleApp:
+- ![image](https://github.com/iamchipy/dice-tower-breakdown/assets/1663877/16f743d1-bcfb-416e-8773-412af4def3a7)
+- Primary function (rolling any number of dice in FVTT format [2d20+5d5+d3+1]):
+- ![image](https://github.com/iamchipy/dice-tower-breakdown/assets/1663877/1ae07133-4291-4f8b-8709-d1cccefc7070)
+- Display History of dice strings that were completed:
+- ![image](https://github.com/iamchipy/dice-tower-breakdown/assets/1663877/ce7cdf6d-6cee-4c5f-a35a-3f43b6f42efb)
+- Also includes ability to save and load dice rolled history both to local file or remove SQL server (currenly Azure SQL)
+
+
+
+
 # Roadmap 
 ### Sprint 1
 - [x] Create roadmap
