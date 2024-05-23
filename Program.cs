@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.IO;
 
+
 namespace DiceTowerPractice
 {
     public class Program
@@ -18,8 +19,16 @@ namespace DiceTowerPractice
             public int result;
         }
 
+        // basic load/save features I want for storing/fetch data from remote servers SQL etc
+        public interface IRemoteLogging
+        {
+            // really just doing this to practice as in this case we aren't likely to change interfaces
+            bool saveToServer();
+            bool loadFromServer();
+        }
+
         // Logging tool that assists with keeping track of rolls and outputing th data
-        public class LoggingTool
+        public class LoggingTool : IRemoteLogging
         {
             public int logThreshold = 1;  // The threshold for something to be logged
             public int reportThreshold = 1;  // The threshold for something to be reported to use
@@ -180,6 +189,16 @@ namespace DiceTowerPractice
                 {
                     Console.WriteLine($"Roll: {this.rollHistory[i].inputString} \t=> {this.rollHistory[i].result} \t[{string.Join(",", this.rollHistory[i].resultParts)}]");
                 }
+            }
+
+            public bool saveToServer()
+            {
+                return false;
+            }
+
+            public bool loadFromServer()
+            {
+                return false;
             }
         }
 
