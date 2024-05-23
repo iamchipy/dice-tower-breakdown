@@ -38,6 +38,7 @@ namespace DiceTowerPractice
 
             // SQL connection setting
             // https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal
+            // intentionally left this here to test GitGuardian            
             readonly private string _connectionString = "Server=tcp:adftestingsql.database.windows.net,1433;Initial Catalog=ADFtestingSQL;Persist Security Info=False;User ID=adftestingsqlADMIN;Password=6IiW+x'?hb%T=KqbaU'-;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=10;";
 
 
