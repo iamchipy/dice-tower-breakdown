@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.IO;
-
+using Microsoft.Data.SqlClient;
 
 namespace DiceTowerPractice
 {
@@ -23,8 +23,8 @@ namespace DiceTowerPractice
         public interface IRemoteLogging
         {
             // really just doing this to practice as in this case we aren't likely to change interfaces
-            bool saveToServer();
-            bool loadFromServer();
+            bool SaveToServer();
+            bool LoadFromServer();
         }
 
         // Logging tool that assists with keeping track of rolls and outputing th data
@@ -35,6 +35,11 @@ namespace DiceTowerPractice
             public string dataPath = "rolls.csv"; // Export/Import filename assuming working dir
             public string logPath = "rolls.log"; // Logging filename assuming working dir
             public List<DiceRollEntry> rollHistory = new List<DiceRollEntry>();  // Create a running log of each roll
+
+            // SQL connection setting
+            // https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal
+            readonly private string _connectionString = "Server=tcp:adftestingsql.database.windows.net,1433;Initial Catalog=ADFtestingSQL;Persist Security Info=False;User ID=adftestingsqlADMIN;Password=6IiW+x'?hb%T=KqbaU'-;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=10;";
+
 
             // Manage the reporting and ConsoleWriting
             // Accepts 
@@ -191,16 +196,107 @@ namespace DiceTowerPractice
                 }
             }
 
-            public bool saveToServer()
+            internal bool ConnectAndExecuteQuery(string queryString, bool expectResponse = true)
             {
-                return false;
+                // open a mew Microsoft.Data.SQLClient.SqlConnection object for use
+                using (SqlConnection connection = new SqlConnection(this._connectionString))
+                {
+                    // init the connection
+                    connection.Open();
+
+                    // instantiate a command object and pass the opened connection with a string/query 
+                    using (SqlCommand command = new SqlCommand(queryString, connection))
+                    {
+                        if (expectResponse)
+                        {
+                            // open a response reader to confirm
+                            using (SqlDataReader reader = command.ExecuteReader())
+                            {
+                                // Check if we have a row to read here
+                                if (reader.HasRows)
+                                {
+                                    // loop while we have something to read
+                                    while (reader.Read())
+                                    {
+                                        // Process each row of data here
+                                        // Access data using reader.GetString(0), reader.GetInt32(1), etc. (based on column data types)
+                                        Console.WriteLine($"Data: {reader.GetString(0)}"); // Example: Print first column
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No data found.");
+                                }
+                            }
+                        }
+                    }
+
+                    // if we make it this far we assume success
+                    Console.WriteLine("SQLcmd done?");
+                    return true;
+                }
+                //return false; 
             }
 
-            public bool loadFromServer()
+            public bool SaveToServer()
+            {
+                // SQL query to build table if it doesn't exist
+                string stringToBuildTable = "IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'RollResults')" +
+                    "BEGIN " +
+                        "CREATE TABLE dbo.RollResults (" +
+                        "ID INT PRIMARY KEY IDENTITY(1, 1)," + // Auto-incrementing primary key
+                        "RollString VARCHAR(255) NOT NULL," + // String to represent the roll\r\n  
+                        "RollResult INT NOT NULL," + //Integer result of the roll
+                        "RollResultParts VARCHAR(MAX)" +  //String to store comma-separated roll parts (alternative to array)
+                    ");" +
+                    "END;";
+                ConnectAndExecuteQuery(stringToBuildTable);
+
+                // SQL query to add an entry into the table
+                string stringToAddToTable = "INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) " +
+                    $"VALUES ";
+
+
+                // build all-in-one SQL command to save data with
+                try
+                {
+                    // start timer
+                    Stopwatch sw = Stopwatch.StartNew();
+                    sw.Start();
+                    int entryCount = 0;
+
+                    foreach (DiceRollEntry roll in this.rollHistory.ToArray())
+                    {
+                        // increment our line counter
+                        entryCount++;
+                        // Write each roll request as it's own line to our string
+                        // we add values in here FORMATTED:  VALUES ('2d6', 8, '4,4'), (a,b,c);    etc
+                        stringToAddToTable += $"('{roll.inputString}',{roll.result},'{string.Join(",", roll.resultParts)}'), ";
+                    }
+                    // simply trim the last "," replacing it with terminal ";" 
+                    stringToAddToTable = stringToAddToTable.Substring(0, stringToAddToTable.Length-2) + ";";
+
+                    this.Report($"2: STRING: {stringToAddToTable}");
+                    this.Report($"3: Submitting SQL save string...");
+                    ConnectAndExecuteQuery(stringToAddToTable);
+
+                    this.Report($"9: Dice history saved successfully to RemoteServer");
+                    this.Report($"3: Wrote {entryCount} lines in {sw.ElapsedMilliseconds:0,000}ms");
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    this.Report($"9: ERROR SAVING2Server: {ex.Message}");
+                    return false;
+                }
+            }
+
+            public bool LoadFromServer()
             {
                 return false;
             }
         }
+
 
         // Roll a single dice
         // Accepts int for number of dice sides
@@ -355,12 +451,14 @@ namespace DiceTowerPractice
             Console.WriteLine("2 - Save History");
             Console.WriteLine("3 - Load History");
             Console.WriteLine("4 - Display History");
+            Console.WriteLine("5 - SaveToServer History");
+            Console.WriteLine("6 - LoadFromServer History");
             Console.WriteLine("0 - Exit");
             Console.Write("Select action[0-4]: ");
             // Capture user input
             userChoice = ReadIntInput();
 
-            return (0 <= userChoice && userChoice <= 4);
+            return (0 <= userChoice && userChoice <= 6);
         }
 
 
@@ -430,6 +528,9 @@ namespace DiceTowerPractice
                         break;
                     case 4:
                         log.Display();
+                        break;
+                    case 5:
+                        log.SaveToServer();
                         break;
 
                     default:
