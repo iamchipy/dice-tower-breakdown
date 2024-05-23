@@ -3479,3 +3479,70 @@
 152422:471:  Exiting Dice Roll Mode
 152426:394:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
 152426:395:  Wrote 1 lines in 0,003ms
+205914:428: Reporting current DiceDATA: 0 entries...
+213508:028: REPL Complete, thanks for testing!
+214644:456: Reporting current DiceDATA: 0 entries...
+214647:553:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+214647:555:  Reading in 0 lines in 0,002ms
+214649:657: Reporting current DiceDATA: 0 entries...
+214657:102: Roll[1] was: 1     >0
+214657:117: Roll[2] was: 18     >1
+214657:133: Roll[3] was: 5     >19
+214657:148: Roll[4] was: 1     >24
+214657:163: Roll[5] was: 18     >25
+214657:179: Roll[6] was: 5     >43
+214657:194: Roll[7] was: 2     >48
+214657:210: Roll[8] was: 9     >50
+214657:225: Roll[9] was: 6     >59
+214657:240: Roll[10] was: 3     >65
+214657:242: DiceString: 10d20 >> 68
+214657:244: You rolled a 68 [10d20 >> 1,18,5,1,18,5,2,9,6,3]
+214657:246: runTimer: >> 0,146ms
+214700:017:  Exiting Dice Roll Mode
+214705:486:  Submitting SQL save string...
+214705:519:NoThreshold!!  Incorrect syntax near ','.
+214927:148: Reporting current DiceDATA: 0 entries...
+214934:419: Roll[1] was: 13     >0
+214934:435: Roll[2] was: 20     >13
+214934:450: Roll[3] was: 17     >33
+214934:465: Roll[4] was: 14     >50
+214934:480: Roll[5] was: 10     >64
+214934:495: Roll[6] was: 7     >74
+214934:510: Roll[7] was: 4     >81
+214934:526: Roll[8] was: 11     >85
+214934:541: Roll[9] was: 8     >96
+214934:556: Roll[10] was: 4     >104
+214934:558: DiceString: 10d20 >> 108
+214934:561: You rolled a 108 [10d20 >> 13,20,17,14,10,7,4,11,8,4]
+214934:562: runTimer: >> 0,144ms
+214936:694:  Exiting Dice Roll Mode
+214939:471:  Dice history saved successfully to C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+214939:473:  Wrote 1 lines in 0,002ms
+214945:022:  STRING: INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) VALUES ('10d20',108,'13,20,17,14,10,7,4,11,8,4'), 
+214945:023:  Submitting SQL save string...
+214945:056:  ERROR SAVING2Server: Incorrect syntax near ','.
+215209:794: stringArray 10
+215209:797:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+215209:798:  Reading in 1 lines in 0,010ms
+215214:318:  STRING: INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) VALUES ('10d20',108,'13,20,17,14,10,7,4,11,8,4'),;
+215214:320:  Submitting SQL save string...
+215214:351:  ERROR SAVING2Server: Incorrect syntax near ';'.
+215240:397: stringArray 10
+215240:400:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+215240:402:  Reading in 1 lines in 0,013ms
+215244:069:  STRING: INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) VALUES ('10d20',108,'13,20,17,14,10,7,4,11,8,4');
+215244:071:  Submitting SQL save string...
+215244:148:  Dice history saved successfully to RemoteServer
+215244:150:  Wrote 1 lines in 0,082ms
+215342:785: stringArray 10
+215342:787:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+215342:789:  Reading in 1 lines in 0,010ms
+215343:380: stringArray 10
+215343:382:  Dice history loaded successfully from C:\Dropbox\_SCRIPTS\dice-tower-breakdown\bin\Debug\rolls.csv
+215343:383:  Reading in 1 lines in 0,003ms
+215345:498: Reporting current DiceDATA: 2 entries...
+215347:772:  STRING: INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) VALUES ('10d20',108,'13,20,17,14,10,7,4,11,8,4'), ('10d20',108,'13,20,17,14,10,7,4,11,8,4');
+215347:774:  Submitting SQL save string...
+215347:839:  Dice history saved successfully to RemoteServer
+215347:874:  Wrote 2 lines in 0,101ms
+215400:130: REPL Complete, thanks for testing!
