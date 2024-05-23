@@ -3546,3 +3546,307 @@
 215347:839:  Dice history saved successfully to RemoteServer
 215347:874:  Wrote 2 lines in 0,101ms
 215400:130: REPL Complete, thanks for testing!
+115020:900:  Fetching full table from SQL ...
+115042:220: Error: SELECT* FROM dbo.RollResults;
+115042:222: Error with SQL Command above: Database 'ADFtestingSQL' on server 'adftestingsql.database.windows.net' is not currently available.  Please retry the connection later.  If the problem persists, contact customer support, and provide them the session tracing ID of '{BD2B9FFB-BF17-4DCB-BBF5-78C88ED0EB59}'.
+115042:224:  Reading in data ...
+115042:225:  Dice history loaded successfully from RemoveServer
+115042:227:  Reading in 0 lines in 21,332ms
+115146:412:  Fetching full table from SQL ...
+115146:744: Error: SELECT* FROM dbo.RollResults;
+115146:746: Error with SQL Command above: Unable to cast object of type 'System.Int32' to type 'System.String'.
+115146:748:  Reading in data ...
+115146:749:  Dice history loaded successfully from RemoveServer
+115146:751:  Reading in 0 lines in 0,339ms
+115342:035:  Fetching full table from SQL ...
+115342:577: Error: SELECT* FROM dbo.RollResults;
+115342:580: Error with SQL Command above: Unable to cast object of type 'System.Int32' to type 'System.String'.
+115342:581:  Reading in data ...
+115342:583:  Dice history loaded successfully from RemoveServer
+115342:585:  Reading in 0 lines in 0,558ms
+120017:411:  Fetching full table from SQL ...
+120017:953: Error: SELECT* FROM dbo.RollResults;
+120017:956: Error with SQL Command above: Specified cast is not valid.
+120017:957:  Reading in data ...
+120017:959:  Dice history loaded successfully from RemoveServer
+120017:961:  Reading in 0 lines in 0,556ms
+120056:874:  Fetching full table from SQL ...
+120057:397: Error: SELECT* FROM dbo.RollResults;
+120057:399: Error with SQL Command above: Specified cast is not valid.
+120057:401:  Reading in data ...
+120057:402:  Dice history loaded successfully from RemoveServer
+120057:403:  Reading in 0 lines in 0,534ms
+120652:802:  Fetching full table from SQL ...
+120653:414:  Reading in data ...
+120653:416:  LINE: 8,2d65,4,4108,10d20,13,20,17,14,10,7,4,11,8,4108,10d20,13,20,17,14,10,7,4,11,8,4108,10d20,13,20,17,14,10,7,4,11,8,4
+120653:421:NoThreshold!!  Input string was not in a correct format.
+120820:094:  Invalid choice! (please try again)
+120824:565:  Fetching full table from SQL ...
+120825:187:  Reading in data ...
+120825:189:  LINE: 8,2d65,4,4
+108,10d20,13,20,17,14,10,7,4,11,8,4
+108,10d20,13,20,17,14,10,7,4,11,8,4
+108,10d20,13,20,17,14,10,7,4,11,8,4
+
+120825:194:NoThreshold!!  Input string was not in a correct format.
+121043:545:  Fetching full table from SQL ...
+121044:783:  Reading in data ...
+121044:825:  LINE: 2d65,8,4,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+
+121044:827: stringArray 35
+121044:828:  Failed to parse string2int [4
+10d20] from >> 4,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+
+121044:830:  Failed to parse string2int [4
+10d20] from >> 4,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+
+121044:831:  Failed to parse string2int [4
+10d20] from >> 4,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+10d20,108,13,20,17,14,10,7,4,11,8,4
+
+121044:833:  Dice history loaded successfully from RemoveServer
+121044:835:  Reading in 1 lines in 1,295ms
+121317:736:  Fetching full table from SQL ...
+121318:229:  Reading in data ...
+121318:231:  LINE: 2d65,8,4,4
+121318:233: stringArray 2
+121318:235:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+121318:236: stringArray 10
+121318:237:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+121318:239: stringArray 10
+121318:240:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+121318:241: stringArray 10
+121318:243:  LINE: 
+121318:245:NoThreshold!!  Index was outside the bounds of the array.
+121502:279: Reporting current DiceDATA: 4 entries...
+122038:048:  Fetching full table from SQL ...
+122038:598:  Reading in data ...
+122038:600:  LINE: 2d65,8,4,4
+122038:601: ConvertToIntArray converting 2 items
+122038:604:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122038:605: ConvertToIntArray converting 10 items
+122038:606:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122038:608: ConvertToIntArray converting 10 items
+122038:609:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122038:610: ConvertToIntArray converting 10 items
+122038:612:  Dice history loaded successfully from RemoveServer
+122038:613:  Reading in 4 lines in 0,570ms
+122115:336:  Fetching full table from SQL ...
+122115:877:  Reading in data ...
+122115:879:  LINE: 2d65,8,4,4
+122115:881:  ConvertToIntArray converting 2 items
+122115:883:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122115:885:  ConvertToIntArray converting 10 items
+122115:886:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122115:888:  ConvertToIntArray converting 10 items
+122115:889:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122115:891:  ConvertToIntArray converting 10 items
+122115:892:  Dice history loaded successfully from RemoveServer
+122115:894:  Reading in 4 lines in 0,564ms
+122118:665: Reporting current DiceDATA: 4 entries...
+122149:084: Roll[1] was: 13     >0
+122149:099: Roll[2] was: 9     >13
+122149:115: Roll[3] was: 17     >22
+122149:130: Roll[4] was: 13     >39
+122149:145: Roll[5] was: 10     >52
+122149:161: Roll[6] was: 17     >62
+122149:176: Roll[7] was: 14     >79
+122149:191: Roll[8] was: 11     >93
+122149:207: Roll[9] was: 18     >104
+122149:222: Roll[10] was: 15     >122
+122149:224: DiceString: 10d20 >> 137
+122149:226: You rolled a 137 [10d20 >> 13,9,17,13,10,17,14,11,18,15]
+122149:227: runTimer: >> 0,153ms
+122151:219: Roll[1] was: 3     >0
+122151:235: Roll[2] was: 10     >3
+122151:250: Roll[3] was: 7     >13
+122151:266: Roll[4] was: 14     >20
+122151:281: Roll[5] was: 11     >34
+122151:296: Roll[6] was: 8     >45
+122151:312: Roll[7] was: 15     >53
+122151:327: Roll[8] was: 12     >68
+122151:342: Roll[9] was: 8     >80
+122151:357: Roll[10] was: 5     >88
+122151:359: DiceString: 10d20 >> 93
+122151:361: You rolled a 93 [10d20 >> 3,10,7,14,11,8,15,12,8,5]
+122151:362: runTimer: >> 0,153ms
+122152:305: Roll[1] was: 2     >0
+122152:320: Roll[2] was: 19     >2
+122152:336: Roll[3] was: 6     >21
+122152:351: Roll[4] was: 2     >27
+122152:366: Roll[5] was: 19     >29
+122152:382: Roll[6] was: 6     >48
+122152:397: Roll[7] was: 3     >54
+122152:412: Roll[8] was: 20     >57
+122152:427: Roll[9] was: 17     >77
+122152:442: Roll[10] was: 13     >94
+122152:444: DiceString: 10d20 >> 107
+122152:445: You rolled a 107 [10d20 >> 2,19,6,2,19,6,3,20,17,13]
+122152:447: runTimer: >> 0,149ms
+122153:372: Roll[1] was: 2     >0
+122153:386: Roll[2] was: 8     >2
+122153:402: Roll[3] was: 15     >10
+122153:417: Roll[4] was: 12     >25
+122153:433: Roll[5] was: 19     >37
+122153:448: Roll[6] was: 16     >56
+122153:463: Roll[7] was: 13     >72
+122153:509: Roll[8] was: 13     >85
+122153:525: Roll[9] was: 20     >98
+122153:540: Roll[10] was: 17     >118
+122153:542: DiceString: 10d20 >> 135
+122153:543: You rolled a 135 [10d20 >> 2,8,15,12,19,16,13,13,20,17]
+122153:545: runTimer: >> 0,175ms
+122154:424: Roll[1] was: 5     >0
+122154:439: Roll[2] was: 2     >5
+122154:454: Roll[3] was: 19     >7
+122154:470: Roll[4] was: 6     >26
+122154:485: Roll[5] was: 3     >32
+122154:500: Roll[6] was: 19     >35
+122154:516: Roll[7] was: 6     >54
+122154:531: Roll[8] was: 3     >60
+122154:546: Roll[9] was: 20     >63
+122154:561: Roll[10] was: 17     >83
+122154:562: DiceString: 10d20 >> 100
+122154:564: You rolled a 100 [10d20 >> 5,2,19,6,3,19,6,3,20,17]
+122154:566: runTimer: >> 0,148ms
+122155:535: Roll[1] was: 5     >0
+122155:550: Roll[2] was: 2     >5
+122155:566: Roll[3] was: 9     >7
+122155:581: Roll[4] was: 6     >16
+122155:596: Roll[5] was: 2     >22
+122155:611: Roll[6] was: 19     >24
+122155:627: Roll[7] was: 6     >43
+122155:642: Roll[8] was: 3     >49
+122155:657: Roll[9] was: 20     >52
+122155:672: Roll[10] was: 16     >72
+122155:674: DiceString: 10d20 >> 88
+122155:676: You rolled a 88 [10d20 >> 5,2,9,6,2,19,6,3,20,16]
+122155:677: runTimer: >> 0,148ms
+122156:542: Roll[1] was: 18     >0
+122156:558: Roll[2] was: 5     >18
+122156:573: Roll[3] was: 2     >23
+122156:589: Roll[4] was: 9     >25
+122156:603: Roll[5] was: 15     >34
+122156:619: Roll[6] was: 3     >49
+122156:634: Roll[7] was: 19     >52
+122156:649: Roll[8] was: 16     >71
+122156:665: Roll[9] was: 3     >87
+122156:680: Roll[10] was: 20     >90
+122156:682: DiceString: 10d20 >> 110
+122156:683: You rolled a 110 [10d20 >> 18,5,2,9,15,3,19,16,3,20]
+122156:685: runTimer: >> 0,155ms
+122157:531: Roll[1] was: 3     >0
+122157:547: Roll[2] was: 10     >3
+122157:562: Roll[3] was: 7     >13
+122157:577: Roll[4] was: 4     >20
+122157:592: Roll[5] was: 1     >24
+122157:607: Roll[6] was: 17     >25
+122157:623: Roll[7] was: 4     >42
+122157:638: Roll[8] was: 1     >46
+122157:654: Roll[9] was: 18     >47
+122157:669: Roll[10] was: 5     >65
+122157:671: DiceString: 10d20 >> 70
+122157:672: You rolled a 70 [10d20 >> 3,10,7,4,1,17,4,1,18,5]
+122157:674: runTimer: >> 0,152ms
+122158:555: Roll[1] was: 14     >0
+122158:571: Roll[2] was: 1     >14
+122158:586: Roll[3] was: 18     >15
+122158:601: Roll[4] was: 15     >33
+122158:617: Roll[5] was: 2     >48
+122158:632: Roll[6] was: 18     >50
+122158:647: Roll[7] was: 15     >68
+122158:663: Roll[8] was: 2     >83
+122158:678: Roll[9] was: 19     >85
+122158:693: Roll[10] was: 16     >104
+122158:695: DiceString: 10d20 >> 120
+122158:696: You rolled a 120 [10d20 >> 14,1,18,15,2,18,15,2,19,16]
+122158:697: runTimer: >> 0,152ms
+122159:486: Roll[1] was: 13     >0
+122159:501: Roll[2] was: 10     >13
+122159:517: Roll[3] was: 17     >23
+122159:532: Roll[4] was: 14     >40
+122159:548: Roll[5] was: 1     >54
+122159:563: Roll[6] was: 18     >55
+122159:578: Roll[7] was: 14     >73
+122159:594: Roll[8] was: 1     >87
+122159:609: Roll[9] was: 18     >88
+122159:624: Roll[10] was: 15     >106
+122159:626: DiceString: 10d20 >> 121
+122159:628: You rolled a 121 [10d20 >> 13,10,17,14,1,18,14,1,18,15]
+122159:629: runTimer: >> 0,148ms
+122200:016:  Exiting Dice Roll Mode
+122201:727: Reporting current DiceDATA: 14 entries...
+122211:524:  Building SQL string ...
+122211:526:  STRING: INSERT INTO dbo.RollResults (RollString, RollResult, RollResultParts) VALUES ('2d65',8,'4,4'), ('10d20',108,'13,20,17,14,10,7,4,11,8,4'), ('10d20',108,'13,20,17,14,10,7,4,11,8,4'), ('10d20',108,'13,20,17,14,10,7,4,11,8,4'), ('10d20',137,'13,9,17,13,10,17,14,11,18,15'), ('10d20',93,'3,10,7,14,11,8,15,12,8,5'), ('10d20',107,'2,19,6,2,19,6,3,20,17,13'), ('10d20',135,'2,8,15,12,19,16,13,13,20,17'), ('10d20',100,'5,2,19,6,3,19,6,3,20,17'), ('10d20',88,'5,2,9,6,2,19,6,3,20,16'), ('10d20',110,'18,5,2,9,15,3,19,16,3,20'), ('10d20',70,'3,10,7,4,1,17,4,1,18,5'), ('10d20',120,'14,1,18,15,2,18,15,2,19,16'), ('10d20',121,'13,10,17,14,1,18,14,1,18,15');
+122211:527:  Submitting SQL save string...
+122211:562:  Dice history saved successfully to RemoteServer
+122211:564:  Wrote 14 lines in 0,038ms
+122228:287: REPL Complete, thanks for testing!
+122234:910:  Fetching full table from SQL ...
+122235:409:  Reading in data ...
+122235:411:  LINE: 2d65,8,4,4
+122235:414:  ConvertToIntArray converting 2 items
+122235:415:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122235:417:  ConvertToIntArray converting 10 items
+122235:418:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122235:419:  ConvertToIntArray converting 10 items
+122235:421:  LINE: 10d20,108,13,20,17,14,10,7,4,11,8,4
+122235:422:  ConvertToIntArray converting 10 items
+122235:424:  LINE: 10d20,137,13,9,17,13,10,17,14,11,18,15
+122235:425:  ConvertToIntArray converting 10 items
+122235:426:  LINE: 10d20,93,3,10,7,14,11,8,15,12,8,5
+122235:428:  ConvertToIntArray converting 10 items
+122235:429:  LINE: 10d20,107,2,19,6,2,19,6,3,20,17,13
+122235:431:  ConvertToIntArray converting 10 items
+122235:432:  LINE: 10d20,135,2,8,15,12,19,16,13,13,20,17
+122235:434:  ConvertToIntArray converting 10 items
+122235:435:  LINE: 10d20,100,5,2,19,6,3,19,6,3,20,17
+122235:437:  ConvertToIntArray converting 10 items
+122235:438:  LINE: 10d20,88,5,2,9,6,2,19,6,3,20,16
+122235:439:  ConvertToIntArray converting 10 items
+122235:441:  LINE: 10d20,110,18,5,2,9,15,3,19,16,3,20
+122235:442:  ConvertToIntArray converting 10 items
+122235:444:  LINE: 10d20,70,3,10,7,4,1,17,4,1,18,5
+122235:445:  ConvertToIntArray converting 10 items
+122235:446:  LINE: 10d20,120,14,1,18,15,2,18,15,2,19,16
+122235:448:  ConvertToIntArray converting 10 items
+122235:449:  LINE: 10d20,121,13,10,17,14,1,18,14,1,18,15
+122235:451:  ConvertToIntArray converting 10 items
+122235:452:  Dice history loaded successfully from RemoveServer
+122235:453:  Reading in 14 lines in 0,549ms
+122236:999: Reporting current DiceDATA: 14 entries...
+122247:814:  Fetching full table from SQL ...
+122248:229:  Reading in data ...
+122248:231:  LINE: 10d20,137,13,9,17,13,10,17,14,11,18,15
+122248:232:  ConvertToIntArray converting 10 items
+122248:234:  LINE: 10d20,93,3,10,7,14,11,8,15,12,8,5
+122248:235:  ConvertToIntArray converting 10 items
+122248:236:  LINE: 10d20,107,2,19,6,2,19,6,3,20,17,13
+122248:238:  ConvertToIntArray converting 10 items
+122248:239:  LINE: 10d20,135,2,8,15,12,19,16,13,13,20,17
+122248:240:  ConvertToIntArray converting 10 items
+122248:242:  LINE: 10d20,100,5,2,19,6,3,19,6,3,20,17
+122248:244:  ConvertToIntArray converting 10 items
+122248:245:  LINE: 10d20,88,5,2,9,6,2,19,6,3,20,16
+122248:246:  ConvertToIntArray converting 10 items
+122248:248:  LINE: 10d20,110,18,5,2,9,15,3,19,16,3,20
+122248:249:  ConvertToIntArray converting 10 items
+122248:250:  LINE: 10d20,70,3,10,7,4,1,17,4,1,18,5
+122248:252:  ConvertToIntArray converting 10 items
+122248:253:  LINE: 10d20,120,14,1,18,15,2,18,15,2,19,16
+122248:254:  ConvertToIntArray converting 10 items
+122248:256:  LINE: 10d20,121,13,10,17,14,1,18,14,1,18,15
+122248:257:  ConvertToIntArray converting 10 items
+122248:258:  Dice history loaded successfully from RemoveServer
+122248:260:  Reading in 10 lines in 0,451ms
