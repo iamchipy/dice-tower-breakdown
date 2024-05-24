@@ -12,8 +12,6 @@ for testing C# structure storage speeds and Random's seed options
 - Also includes ability to save and load dice rolled history both to local file or remove SQL server (currenly Azure SQL)
 
 
-
-
 # Roadmap 
 ### Sprint 1
 - [x] Create roadmap

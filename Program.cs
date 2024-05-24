@@ -11,6 +11,8 @@ namespace DiceTowerPractice
 {
     public class Program
     {
+        const int LogLevel = 1, ReportLevel = 1;
+
         // For testing storing on Stack for speed instead of Heap
         public struct DiceRollEntry
         {
@@ -30,17 +32,28 @@ namespace DiceTowerPractice
         // Logging tool that assists with keeping track of rolls and outputing th data
         public class LoggingTool : IRemoteLogging
         {
-            public int logThreshold = 1;  // The threshold for something to be logged
-            public int reportThreshold = 1;  // The threshold for something to be reported to use
+            public int logThreshold;  // The threshold for something to be logged
+            public int reportThreshold;  // The threshold for something to be reported to use
             public string dataPath = "rolls.csv"; // Export/Import filename assuming working dir
             public string logPath = "rolls.log"; // Logging filename assuming working dir
             public List<DiceRollEntry> rollHistory = new List<DiceRollEntry>();  // Create a running log of each roll
 
             // SQL connection setting
             // https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal
-            // intentionally left this here to test GitGuardian            
+            // intentionally left this here to test GitGuardian   (simple temporary SQL user Auth)         
             readonly private string _connectionString = "Server=tcp:adftestingsql.database.windows.net,1433;Initial Catalog=ADFtestingSQL;Persist Security Info=False;User ID=adftestingsqlADMIN;Password=6IiW+x'?hb%T=KqbaU'-;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=10;";
 
+            // constructor to allow easy building of multiple Logging objects 
+            public LoggingTool(int logThreshold=5, 
+                               int reportThreshold=5,
+                               string dataPath = "rolls.csv",
+                               string logPath = "rolls.log")
+            {
+                this.reportThreshold = reportThreshold;
+                this.logThreshold = logThreshold;
+                this.dataPath = dataPath;
+                this.logPath = logPath;
+            }
 
             // Manage the reporting and ConsoleWriting
             // Accepts 
@@ -537,7 +550,7 @@ namespace DiceTowerPractice
 
         static void Main(string[] args)
         {
-            var log = new LoggingTool();
+            var log = new LoggingTool(logThreshold: LogLevel, reportThreshold:ReportLevel);
             int currentAction = -1;
             string diceRequestString;
 

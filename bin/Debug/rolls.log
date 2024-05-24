@@ -3912,3 +3912,9 @@
 123705:806:  Dice history loaded successfully from RemoveServer
 123705:808:  Reading in 10 lines in 0,557ms
 123709:025: Reporting current DiceDATA: 10 entries...
+203933:715:  Exiting Dice Roll Mode
+203936:118: Roll[1] was: 9     >0
+203936:133: Roll[2] was: 5     >9
+203936:135: DiceString: 2d22 >> 14
+203936:139: You rolled a 14 [2d22 >> 9,5]
+203936:141: runTimer: >> 0,031ms
