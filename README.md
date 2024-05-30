@@ -4,11 +4,11 @@ for testing C# structure storage speeds and Random's seed options
 
 ## Features
 - REPL menu to help navigate a CLI/ConsoleApp:
-- ![image](https://github.com/iamchipy/dice-tower-breakdown/img/1.png)
+- ![image](https://github.com/iamchipy/dice-tower-breakdown/blob/main/img/1.png)
 - Primary function (rolling any number of dice in FVTT format [2d20+5d5+d3+1]):
-- ![image](https://github.com/iamchipy/dice-tower-breakdown/img/2.png)
+- ![image](https://github.com/iamchipy/dice-tower-breakdown/blob/main/img/2.png)
 - Display History of dice strings that were completed:
-- ![image](https://github.com/iamchipy/dice-tower-breakdown/img/3.pngb)
+- ![image](https://github.com/iamchipy/dice-tower-breakdown/blob/main/img/3.pngb)
 - Also includes ability to save and load dice rolled history both to local file or remove SQL server (currenly Azure SQL)
 
 
